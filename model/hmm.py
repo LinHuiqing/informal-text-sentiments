@@ -1,4 +1,5 @@
 import pprint
+import math
 
 pp = pprint.PrettyPrinter()
 class HMM():
@@ -52,7 +53,10 @@ class HMM():
 
         self.k = 0.5
 
-        self.predictions = []
+        self.predictions = None
+
+        self.emission_probabilities = {}
+        self.transition_probabilities = {}
     
     def _count_all(self):
         """ Count everything required, including: emissions, transitions and 
@@ -78,6 +82,7 @@ class HMM():
                     self.count_transitions[store_state][y] = self.count_transitions[store_state].get(y, 0) + 1
                 else:
                     self.count_transitions["START"][y] = self.count_transitions["START"].get(y, 0) + 1
+                    self.count_states["START"] = self.count_states.get("START", 0) + 1
                 self.count_states[y] = self.count_states.get(y, 0) + 1
                 store_state = y
             self.count_transitions[store_state]["STOP"] = self.count_transitions[store_state].get("STOP", 0) + 1
@@ -105,13 +110,24 @@ class HMM():
             Returns:
                 Float of emission probability.
         """
-        if self.count_emissions.get(x) != None:
-            return self.count_emissions.get(x, {}).get(y, 0) / (self.count_states[y] + self.k)
+        if self.count_emissions.get(x) == None:
+            x = "#UNK#"
+        
+        self.emission_probabilities[x] = self.emission_probabilities.get(x, {})
+        if self.emission_probabilities[x].get(y) != None:
+            return self.emission_probabilities[x][y]
+        
+        if x == "#UNK#":
+            self.emission_probabilities[x] = self.emission_probabilities.get(x, {})
+            self.emission_probabilities[x][y] = self.k / (self.count_states.get(y, 0) + self.k)
         else:
-            return self.k / (self.count_states.get(y, 0) + self.k)
+            self.emission_probabilities[x] = self.emission_probabilities.get(x, {})
+            self.emission_probabilities[x][y] = self.count_emissions.get(x, {}).get(y, 0) / (self.count_states[y] + self.k)
 
-    def _get_argmax_y(self, probs_dict):
-        """ Get argmax y; y with highest probability.
+        return self.emission_probabilities[x][y]
+
+    def _get_argmax_y_part2(self, x):
+        """ Get argmax y; y with highest probability. (Part 2: only emission probabilities)
 
             Args:
                 probs_dict: dict of all probabilities given states.
@@ -119,7 +135,11 @@ class HMM():
             Returns:
                 Str of y with the highest probability.
         """
-        return max(probs_dict, key=probs_dict.get)
+        probabilities = {}
+        for state in self.possible_states:
+            probabilities[state] = self._calculate_emission_prob_with_unk(x, state)
+        return max(probabilities, key=probabilities.get)
+    
 
     def _calculate_transition_prob(self, cur_y, next_y):
         """ Calculate the transition probabilities.
@@ -131,7 +151,10 @@ class HMM():
             Returns:
                 Float of transition probability to move from cur_y to next_y.
         """
-        return self.count_transitions[cur_y][next_y] / self.count_states[cur_y]
+        self.transition_probabilities[cur_y] = self.transition_probabilities.get(cur_y, {})
+        if self.transition_probabilities[cur_y].get(next_y) == None:
+            self.transition_probabilities[cur_y][next_y] = self.count_transitions[cur_y].get(next_y, 0) / self.count_states[cur_y]
+        return self.transition_probabilities[cur_y][next_y]
 
     def train(self, train_data):
         """ Train model.
@@ -172,11 +195,90 @@ class HMM():
         for eg in data:
             eg_pred = []
             for observation in eg:
-                probabilities = {}
-                for state in self.possible_states:
-                    probabilities[state] = self._calculate_emission_prob_with_unk(observation, state)
-                state = self._get_argmax_y(probabilities)
+                state = self._get_argmax_y_part2(observation)
                 eg_pred.append([observation, state])
+            self.predictions.append(eg_pred)
+        return self
+
+    def _viterbi_algo(self, example):
+        """ Implementation of viterbi algorithm.
+
+            Args:
+                example: List of strings for words in example.
+            
+            Returns:
+                List of predictions for example.
+        """
+        # Base Case
+        pi = {
+            0: {
+                "START": 1,
+            }
+        }
+        k = 1
+
+        # Move forward recursively
+        for observation in example:
+            pi[k] = {}
+            for v in self.possible_states:
+                probabilities = {}
+                for u in pi[k-1].keys():
+                    trans_prob = self._calculate_transition_prob(u, v)
+                    em_prob = self._calculate_emission_prob_with_unk(observation, v)
+                    if trans_prob > 0 and em_prob > 0:
+                        probabilities[u] = pi[k-1][u] \
+                            + math.log(trans_prob) \
+                            + math.log(em_prob)
+                    else:
+                        probabilities[u] = float("-inf")
+                max_val = max(probabilities.values())
+                pi[k][v] = max_val
+            k += 1
+        
+        # Transition to STOP
+        probabilities = {}
+        for u in pi[k-1].keys():
+            trans_prob = self._calculate_transition_prob(u, "STOP")
+            if trans_prob > 0:
+                probabilities[u] = pi[k-1][u] \
+                    + math.log(trans_prob)
+        
+        # Best y_n
+        y_n = max(probabilities, key=probabilities.get)
+        state_pred_r = [y_n]
+
+        # Backtrack
+        for n in reversed(range(1, k)):
+            probabilities = {}
+            for v in pi[n-1].keys():
+                trans_prob = self._calculate_transition_prob(v, state_pred_r[-1])
+                if trans_prob > 0:
+                    probabilities[v] = pi[n-1][v] + math.log(trans_prob)
+            state_pred_r.append(max(probabilities, key=probabilities.get))
+
+        # Prepare output
+        prediction = []
+        for idx, observation in enumerate(example):
+            prediction.append([observation, state_pred_r[k-idx-2]])
+        
+        return prediction
+
+    def predict(self, data):
+        """ Predict states for part 3. 
+
+            Args:
+                data: list of parsed dev data of the following form:
+                    [
+                        [ "This", "is", "an", "example" ],
+                        ...
+                    ]
+            
+            Returns:
+                self.
+        """
+        self.predictions = []
+        for eg in data:
+            eg_pred = self._viterbi_algo(eg)
             self.predictions.append(eg_pred)
         return self
     
