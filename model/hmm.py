@@ -298,6 +298,6 @@ class HMM():
             output += "\n"
         output += "\n"
 
-        with open(filename, "w") as f:
+        with open(filename, "w", encoding="utf8") as f:
             f.write(output)
         return self
