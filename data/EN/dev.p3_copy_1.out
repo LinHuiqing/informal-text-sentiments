@@ -122,7 +122,7 @@ scores O
 dead O
 and O
 injured O
-. B-NP
+. O
 
 This B-NP
 year I-NP
@@ -154,7 +154,7 @@ n't O
 have O
 delivery O
 problems O
-. B-NP
+. O
 
 Mr. B-NP
 Juliano I-NP
@@ -545,7 +545,7 @@ of O
 futures-related O
 program O
 buying O
-. B-NP
+. O
 
 There B-NP
 is B-VP
@@ -1096,7 +1096,7 @@ Food O
 Safety O
 Inspection O
 Service O
-. B-NP
+. O
 
 Fanuc B-INTJ
 gained B-VP
@@ -1143,7 +1143,7 @@ account O
 reported O
 for O
 August O
-. B-NP
+. O
 
 Fox B-NP
 said B-VP
@@ -1283,7 +1283,7 @@ Drexel O
 Burnham O
 Lambert O
 Inc O
-. B-NP
+. O
 
 Executives B-NP
 at B-PP
@@ -1436,7 +1436,7 @@ of O
 this O
 engine O
 maker O
-. B-NP
+. O
 
 HLR B-LST
 : O
@@ -1564,7 +1564,7 @@ about O
 its O
 long-term O
 prospects O
-. B-NP
+. O
 
 Latest B-NP
 approvals I-NP
@@ -1910,7 +1910,7 @@ that O
 occurred O
 previously O
 . O
-'' B-NP
+'' O
 
 And O
 they B-NP
@@ -2078,7 +2078,7 @@ haughty O
 as O
 he O
 suggested O
-. B-NP
+. O
 
 This B-NP
 magazine I-NP
@@ -2267,7 +2267,7 @@ Act O
 of O
 1989 O
 . O
-'' B-NP
+'' O
 
 Digital B-NP
 's B-NP
@@ -2751,7 +2751,7 @@ a O
 second-story O
 motel O
 room O
-. B-NP
+. O
 
 The B-NP
 best I-NP
@@ -3244,7 +3244,7 @@ spokesman O
 for O
 Mr. O
 Agnos O
-. B-NP
+. O
 
 Pharmaceuticals B-NP
 made B-VP
@@ -3270,7 +3270,7 @@ and O
 heavy O
 duty O
 trucks O
-. B-NP
+. O
 
 The B-NP
 day I-NP
@@ -4087,7 +4087,7 @@ quarter O
 or O
 second O
 half O
-. B-NP
+. O
 
 The B-NP
 latest I-NP
@@ -4239,7 +4239,7 @@ up O
 in O
 price O
 . O
-'' B-NP
+'' O
 
 `` O
 It B-NP
@@ -4648,7 +4648,7 @@ all O
 that O
 much O
 . O
-'' B-NP
+'' O
 
 The B-NP
 crowd I-NP
@@ -4728,7 +4728,7 @@ Life O
 Assurance O
 Society O
 PLC O
-. B-NP
+. O
 
 At B-PP
 the B-NP
@@ -5032,7 +5032,7 @@ with O
 the O
 peace O
 process O
-. B-NP
+. O
 
 June B-NP
 1 I-NP
@@ -5488,7 +5488,7 @@ himself O
 a O
 financial O
 planner O
-. B-NP
+. O
 
 Prompted B-ADVP
 by B-PP
@@ -5536,7 +5536,7 @@ as O
 an O
 emergency O
 headquarters O
-. B-NP
+. O
 
 But O
 despite B-PP
@@ -5674,7 +5674,7 @@ than B-PP
 `` O
 With B-SBAR
 pleasure O
-. B-NP
+. O
 
 But O
 lawyers B-NP
@@ -5759,7 +5759,7 @@ neck I-NP
 with B-PP
 archrival O
 Folgers O
-. B-NP
+. O
 
 World-wide B-NP
 sales I-NP
@@ -6168,7 +6168,7 @@ dividend O
 '' O
 he O
 added O
-. B-NP
+. O
 
 The B-NP
 British I-NP
@@ -6574,7 +6574,7 @@ agency O
 individual O
 assistance O
 division O
-. B-NP
+. O
 
 Revenue B-NP
 was B-VP
@@ -7001,7 +7001,7 @@ assets O
 at O
 43 O
 cents O
-. B-NP
+. O
 
 Though B-SBAR
 Democrats B-NP
@@ -7050,7 +7050,7 @@ and O
 founder O
 of O
 Pinpoint O
-. B-NP
+. O
 
 Merger B-INTJ
 Fallout I-INTJ
@@ -7105,7 +7105,7 @@ with B-PP
 emotional O
 first-hand O
 reports O
-. B-NP
+. O
 
 The B-NP
 move I-NP
@@ -7203,7 +7203,7 @@ of O
 the O
 market O
 share O
-. B-NP
+. O
 
 A B-NP
 one-time I-NP
@@ -7434,7 +7434,7 @@ issues O
 to O
 existing O
 holders O
-. B-NP
+. O
 
 Ciba-Geigy B-NP
 and O
@@ -7651,7 +7651,7 @@ to O
 increase O
 that O
 . O
-'' B-NP
+'' O
 
 In B-PP
 1984 B-NP
@@ -7718,7 +7718,7 @@ corporate O
 transport O
 officials O
 said O
-. B-NP
+. O
 
 There B-NP
 is B-VP
@@ -7951,7 +7951,7 @@ fetuses O
 weeks O
 and O
 older O
-. B-NP
+. O
 
 West B-NP
 German I-NP
@@ -8075,7 +8075,7 @@ to O
 the O
 SEC O
 post O
-. B-NP
+. O
 
 To B-VP
 make I-VP
@@ -8123,7 +8123,7 @@ editor O
 of O
 Bicycling O
 magazine O
-. B-NP
+. O
 
 The B-NP
 exhibition I-NP
@@ -8548,7 +8548,7 @@ even B-SBAR
 a B-NP
 blind B-ADJP
 skier O
-. B-NP
+. O
 
 `` O
 Every B-NP
@@ -9049,7 +9049,7 @@ years O
 to O
 defer O
 tax O
-. B-NP
+. O
 
 He B-NP
 said B-VP
@@ -9249,7 +9249,7 @@ them B-NP
 assess O
 structural O
 damage O
-. B-NP
+. O
 
 He B-NP
 added B-VP
@@ -9673,7 +9673,7 @@ the O
 company O
 's O
 operations O
-. B-NP
+. O
 
 Public B-NP
 protests B-VP
@@ -10561,7 +10561,7 @@ the O
 unit O
 's O
 tumble O
-. B-NP
+. O
 
 `` O
 We B-NP
@@ -12888,7 +12888,7 @@ reason O
 for O
 banning O
 cars O
-. B-NP
+. O
 
 `` O
 Even B-SBAR
@@ -12918,7 +12918,7 @@ granted O
 the O
 report O
 says O
-. B-NP
+. O
 
 These B-NP
 guarantee I-NP
@@ -13580,7 +13580,7 @@ was O
 done O
 by O
 computer O
-. B-NP
+. O
 
 However B-ADVP
 , O
@@ -13619,7 +13619,7 @@ fact I-ADVP
 decelerated I-ADVP
 since B-SBAR
 spring O
-. B-NP
+. O
 
 `` O
 Demand B-NP
@@ -13701,7 +13701,7 @@ to O
 managing O
 the O
 economy O
-. B-NP
+. O
 
 After B-PP
 last B-NP
@@ -13809,7 +13809,7 @@ aid O
 to O
 political O
 parties O
-. B-NP
+. O
 
 The B-NP
 Packwood I-NP
@@ -14015,7 +14015,7 @@ and O
 futures O
 were O
 introduced O
-. B-NP
+. O
 
 Mr. B-NP
 Byrum I-NP
@@ -14042,7 +14042,7 @@ comparison O
 '' O
 he O
 said O
-. B-NP
+. O
 
 Sales B-NP
 rose B-VP
@@ -14230,7 +14230,7 @@ would O
 hesitate O
 doing O
 it O
-. B-NP
+. O
 
 When B-ADVP
 the B-NP
@@ -14469,7 +14469,7 @@ unprecedented O
 famine O
 by O
 1980 O
-. B-NP
+. O
 
 The B-NP
 chairman I-NP
@@ -15380,7 +15380,7 @@ laws O
 to O
 close O
 them O
-. B-NP
+. O
 
 However B-ADVP
 , O
@@ -15639,7 +15639,7 @@ their O
 PCs O
 more O
 aggressively O
-. B-NP
+. O
 
 In B-PP
 the B-NP
@@ -16055,7 +16055,7 @@ their B-NP
 advance I-NP
 weaken O
 yesterday O
-. B-NP
+. O
 
 Shearson B-NP
 is B-VP
@@ -16604,7 +16604,7 @@ by O
 average O
 Indian O
 voters O
-. B-NP
+. O
 
 It B-NP
 was B-VP
@@ -16730,7 +16730,7 @@ an O
 anti-abortion O
 constitutional O
 amendment O
-. B-NP
+. O
 
 The B-NP
 latest I-NP
@@ -16794,7 +16794,7 @@ of O
 0.7 O
 % O
 increases O
-. B-NP
+. O
 
 But O
 through B-PP
@@ -16838,7 +16838,7 @@ outlying O
 San O
 Francisco O
 areas O
-. B-NP
+. O
 
 Philip B-NP
 Morris I-NP
@@ -16905,7 +16905,7 @@ to O
 months O
 in O
 prison O
-. B-NP
+. O
 
 Declining B-NP
 issues I-NP
@@ -16916,7 +16916,7 @@ advancers B-NP
 with B-PP
 172 O
 unchanged O
-. B-NP
+. O
 
 In B-PP
 the B-NP
@@ -17117,7 +17117,7 @@ the O
 Red O
 Cross O
 said O
-. B-NP
+. O
 
 In B-PP
 any B-NP
@@ -17351,7 +17351,7 @@ have I-VP
 to I-VP
 be I-VP
 revamped O
-. B-NP
+. O
 
 Such B-NP
 an B-NP
@@ -17456,7 +17456,7 @@ cups O
 and O
 saucers O
 afterwards O
-. B-NP
+. O
 
 The B-NP
 company I-NP
@@ -17674,7 +17674,7 @@ is O
 for O
 his O
 books O
-. B-NP
+. O
 
 This B-NP
 is B-VP
@@ -17817,7 +17817,7 @@ quadrupled O
 in O
 five O
 years O
-. B-NP
+. O
 
 The B-NP
 companies I-NP
@@ -18127,7 +18127,7 @@ part O
 of O
 the O
 package O
-. B-NP
+. O
 
 Prices B-NP
 of B-PP
@@ -18208,7 +18208,7 @@ Budget O
 Reform O
 '' O
 Act O
-. B-NP
+. O
 
 They B-NP
 're B-VP
@@ -18216,7 +18216,7 @@ just B-ADJP
 as I-ADJP
 confused O
 . O
-'' B-NP
+'' O
 
 At B-PP
 the B-NP
@@ -18251,7 +18251,7 @@ ratings O
 from O
 credit O
 agencies O
-. B-NP
+. O
 
 Currently B-ADVP
 , O
@@ -18334,7 +18334,7 @@ its B-NP
 shocking B-ADJP
 190.58-point O
 plunge O
-. B-NP
+. O
 
 `` O
 Banks B-NP
@@ -18415,7 +18415,7 @@ the O
 growing O
 security O
 industry O
-. B-NP
+. O
 
 But O
 many B-NP
@@ -18730,7 +18730,7 @@ installed O
 earlier O
 this O
 year O
-. B-NP
+. O
 
 Union B-NP
 Pacific I-NP
@@ -18827,7 +18827,7 @@ workers O
 a O
 la O
 Gorbachev O
-. B-NP
+. O
 
 FEDERAL B-NP
 HOME I-NP
@@ -19148,7 +19148,7 @@ from O
 phonebook O
 Yellow O
 Pages O
-. B-NP
+. O
 
 First B-LST
 , O
@@ -19159,7 +19159,7 @@ the B-NP
 government I-NP
 is B-VP
 anomalous O
-. B-NP
+. O
 
 However B-ADVP
 , O
@@ -19224,7 +19224,7 @@ the O
 Olivetti O
 spokesman O
 said O
-. B-NP
+. O
 
 The B-NP
 1986 I-NP
@@ -19293,7 +19293,7 @@ Texans O
 and O
 castigating O
 outsiders O
-. B-NP
+. O
 
 In B-PP
 February B-NP
@@ -19336,7 +19336,7 @@ million O
 above O
 market O
 price O
-. B-NP
+. O
 
 A B-NP
 couple I-NP
@@ -20004,7 +20004,7 @@ Jeff O
 C. O
 Dodd O
 ... O
-. B-NP
+. O
 
 She B-NP
 says B-VP
@@ -20093,7 +20093,7 @@ their O
 international O
 competitive O
 advantage O
-. B-NP
+. O
 
 Seymour B-NP
 Schreibman I-NP
@@ -20422,7 +20422,7 @@ to O
 veto O
 this O
 bill O
-. B-NP
+. O
 
 The B-NP
 heart I-NP
@@ -20650,7 +20650,7 @@ a O
 company O
 safety O
 director O
-. B-NP
+. O
 
 Investors B-NP
 who B-NP
@@ -21055,7 +21055,7 @@ of O
 the O
 computer O
 business O
-. B-NP
+. O
 
 The B-NP
 effete B-UCP
@@ -21243,7 +21243,7 @@ and O
 active O
 management O
 services O
-. B-NP
+. O
 
 Capitalism B-INTJ
 may B-VP
@@ -21295,7 +21295,7 @@ that O
 history O
 is O
 over O
-. B-NP
+. O
 
 Both B-NP
 accounts B-VP
@@ -21357,7 +21357,7 @@ in O
 its O
 16-story O
 headquarters O
-. B-NP
+. O
 
 J.C. B-SBAR
 Penney B-NP
@@ -21413,7 +21413,7 @@ lifestyle O
 the O
 ad O
 reads O
-. B-NP
+. O
 
 One B-NP
 top I-NP
@@ -21909,7 +21909,7 @@ aligned O
 with O
 demand O
 . O
-'' B-NP
+'' O
 
 He B-NP
 said B-VP
@@ -21923,7 +21923,7 @@ associated O
 with O
 early O
 AIDS O
-. B-NP
+. O
 
 In B-PP
 composite B-NP
@@ -22973,7 +22973,7 @@ have I-VP
 inundated I-VP
 eastern O
 Turkey O
-. B-NP
+. O
 
 A&W B-NP
 Brands I-NP
@@ -23061,7 +23061,7 @@ so B-ADJP
 without B-PP
 taxpayer O
 support O
-. B-NP
+. O
 
 Twelve B-NP
 hundred I-NP
@@ -23510,7 +23510,7 @@ father I-NP
 outlawed O
 in O
 1960 O
-. B-NP
+. O
 
 Combustion B-NP
 Engineering I-NP
@@ -23721,7 +23721,7 @@ run I-VP
 into B-PP
 unexpected O
 difficulties O
-. B-NP
+. O
 
 If B-SBAR
 you B-NP
@@ -24155,7 +24155,7 @@ run O
 in O
 their O
 publications O
-. B-NP
+. O
 
 In B-PP
 addition B-NP
@@ -24471,7 +24471,7 @@ federal O
 assistance O
 to O
 arrive O
-. B-NP
+. O
 
 Your B-NP
 Oct. I-NP
@@ -24524,7 +24524,7 @@ coup O
 on O
 Oct. O
 3 O
-. B-NP
+. O
 
 Mr. B-NP
 Bakes I-NP
@@ -24708,7 +24708,7 @@ used O
 in O
 missile-guidance O
 systems O
-. B-NP
+. O
 
 October B-NP
 is B-VP
@@ -24841,7 +24841,7 @@ to I-VP
 brave O
 the O
 storm O
-. B-NP
+. O
 
 Mr. B-NP
 Daly I-NP
@@ -25296,7 +25296,7 @@ Buffalo O
 , O
 N.Y O
 ... O
-. B-NP
+. O
 
 AMR B-NP
 has B-VP
@@ -25446,7 +25446,7 @@ chief O
 of O
 the O
 military O
-. B-NP
+. O
 
 By B-PP
 buying B-NP
@@ -25845,7 +25845,7 @@ share O
 a O
 year O
 ago O
-. B-NP
+. O
 
 The B-NP
 percent I-NP
@@ -26095,7 +26095,7 @@ fell O
 to O
 184 O
 1\/2 O
-. B-NP
+. O
 
 DFC B-NP
 asked B-VP
@@ -26392,7 +26392,7 @@ Panamanian O
 on O
 drug O
 charges O
-. B-NP
+. O
 
 Advancers B-ADVP
 on B-PP
@@ -26405,7 +26405,7 @@ by B-PP
 822 O
 to O
 668 O
-. B-NP
+. O
 
 `` O
 But O
@@ -26967,7 +26967,7 @@ Economy O
 in O
 Palo O
 Alto O
-. B-NP
+. O
 
 Confidence B-ADVP
 in B-PP

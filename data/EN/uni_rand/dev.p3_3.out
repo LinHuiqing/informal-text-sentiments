@@ -36,8 +36,8 @@ Kagan I-NP
 Associates I-NP
 , O
 a B-NP
-Carmel B-UCP
-, I-UCP
+Carmel I-NP
+, O
 Calif. B-NP
 , O
 research B-NP
@@ -336,8 +336,8 @@ Co I-NP
 . O
 
 John B-NP
-Uphoff B-UCP
-, I-UCP
+Uphoff I-NP
+, O
 an B-NP
 analyst I-NP
 with B-PP
@@ -381,8 +381,8 @@ James I-NP
 Associates I-NP
 in B-PP
 St. B-NP
-Petersburg B-UCP
-, I-UCP
+Petersburg I-NP
+, O
 Fla. B-NP
 , O
 lowered B-VP
@@ -2229,8 +2229,8 @@ transition I-NP
 says B-VP
 Mary B-NP
 Kay B-NP
-Poppenberg B-UCP
-, I-UCP
+Poppenberg I-NP
+, O
 the B-NP
 organization I-NP
 's B-NP
@@ -3552,8 +3552,8 @@ stock I-NP
 speculators I-NP
 wanted B-VP
 his B-NP
-scalp B-UCP
-, I-UCP
+scalp I-NP
+, O
 Messrs. B-NP
 Wolf I-NP
 and I-NP
@@ -4420,8 +4420,8 @@ a B-NP
 microscope B-UCP
 and I-UCP
 a B-NP
-subpoena B-UCP
-, I-UCP
+subpoena I-NP
+, O
 it B-NP
 's B-VP
 often I-VP
@@ -4693,8 +4693,8 @@ Holdings I-NP
 PLC I-NP
 , O
 a B-NP
-British-based B-UCP
-, I-UCP
+British-based I-NP
+, O
 South B-NP
 African-controlled I-NP
 financial I-NP
@@ -5275,9 +5275,9 @@ one B-NP
 at B-PP
 1.5 B-NP
 is B-VP
-50 B-ADJP
-% I-ADJP
-more I-ADJP
+50 B-NP
+% I-NP
+more B-ADJP
 volatile I-ADJP
 , O
 and O
@@ -5428,8 +5428,8 @@ In B-PP
 consenting I-PP
 to B-PP
 the B-NP
-injunctions B-UCP
-, I-UCP
+injunctions I-NP
+, O
 none B-NP
 of B-PP
 the B-NP
@@ -5889,8 +5889,8 @@ separately B-ADVP
 . O
 
 Robert B-NP
-Delaney B-UCP
-, I-UCP
+Delaney I-NP
+, O
 a B-NP
 consultant I-NP
 at B-PP
@@ -8431,8 +8431,8 @@ long I-NP
 history I-NP
 of B-PP
 conspirators I-PP
-and O
-pirates B-INTJ
+and I-PP
+pirates I-PP
 . O
 
 The B-NP
@@ -9369,8 +9369,8 @@ Saturday B-NP
 , O
 in B-PP
 New B-NP
-Canaan B-UCP
-, I-UCP
+Canaan I-NP
+, O
 Conn B-NP
 . O
 
@@ -10581,8 +10581,8 @@ advertising I-NP
 '' O
 said B-VP
 John B-NP
-Morton B-UCP
-, I-UCP
+Morton I-NP
+, O
 an B-NP
 analyst I-NP
 for B-PP
@@ -11059,8 +11059,8 @@ Washington B-NP
 `` O
 I B-NP
 'm B-VP
-not B-CONJP
-obligated I-CONJP
+not I-VP
+obligated B-PRT
 to B-PP
 sit B-VP
 down B-ADVP
@@ -11094,8 +11094,8 @@ a B-NP
 statement I-NP
 , O
 Alex B-NP
-Kroll B-UCP
-, I-UCP
+Kroll I-NP
+, O
 Young B-NP
 & I-NP
 Rubicam I-NP
@@ -11177,8 +11177,8 @@ mergers B-NP
 adviser I-NP
 in B-PP
 La B-NP
-Jolla B-UCP
-, I-UCP
+Jolla I-NP
+, O
 Calif. B-NP
 , O
 who B-NP
@@ -11228,8 +11228,8 @@ financing I-NP
 According B-PP
 to B-PP
 Gen. B-NP
-Sundarji B-UCP
-, I-UCP
+Sundarji I-NP
+, O
 that B-NP
 would B-VP
 have I-VP
@@ -11907,8 +11907,8 @@ York I-NP
 . O
 
 Howard B-NP
-Bailit B-UCP
-, I-UCP
+Bailit I-NP
+, O
 a B-NP
 panel I-NP
 member I-NP
@@ -12055,8 +12055,8 @@ bar I-NP
 '' O
 says B-VP
 Don B-NP
-Borgeson B-UCP
-, I-UCP
+Borgeson I-NP
+, O
 executive B-NP
 director I-NP
 of B-PP
@@ -13610,10 +13610,10 @@ He B-NP
 argued B-VP
 that B-SBAR
 both B-NP
-CPI B-UCP
-and I-UCP
-PPI B-NP
-have B-VP
+CPI I-NP
+and O
+PPI B-VP
+have I-VP
 in B-ADVP
 fact I-ADVP
 decelerated I-ADVP
@@ -16498,10 +16498,10 @@ license I-NP
 . O
 
 Red B-NP
-tractors B-UCP
-gingerly I-UCP
-picked I-UCP
-at B-NP
+tractors B-CONJP
+gingerly I-CONJP
+picked I-CONJP
+at B-PP
 the B-NP
 rubble I-NP
 while B-SBAR
@@ -19093,8 +19093,8 @@ Havel O
 reportedly B-ADVP
 escaped B-VP
 the B-NP
-crackdown B-UCP
-, I-UCP
+crackdown I-NP
+, O
 the B-NP
 fourth I-NP
 against B-PP
@@ -19804,8 +19804,8 @@ IRS I-NP
 , O
 says B-VP
 Jerry B-NP
-Lackey B-UCP
-, I-UCP
+Lackey I-NP
+, O
 who B-NP
 manages B-VP
 the B-NP
@@ -21033,7 +21033,7 @@ parts I-NP
 are B-VP
 getting I-VP
 ever I-VP
-smaller B-ADJP
+smaller B-NP
 , O
 Mr. B-NP
 Johnson I-NP
@@ -21172,8 +21172,8 @@ Exchange I-NP
 
 But O
 its B-NP
-auditor B-UCP
-, I-UCP
+auditor I-NP
+, O
 Ernst B-NP
 & I-NP
 Young I-NP
@@ -22862,8 +22862,8 @@ the B-NP
 signature I-NP
 of B-PP
 his B-NP
-adversary B-UCP
-, I-UCP
+adversary I-NP
+, O
 Panamanian B-NP
 leader I-NP
 Manuel I-NP
@@ -24669,8 +24669,8 @@ $ B-NP
 3 I-NP
 to B-PP
 $ B-NP
-43.75 B-UCP
-, I-UCP
+43.75 I-NP
+, O
 both B-NP
 reported B-VP
 strong B-NP
@@ -25662,9 +25662,9 @@ addition I-NP
 '' O
 says B-VP
 William B-NP
-Vizas B-UCP
-, I-UCP
-owner B-NP
+Vizas I-NP
+, I-NP
+owner I-NP
 of B-PP
 Bill B-NP
 's B-NP
@@ -25922,8 +25922,8 @@ the B-NP
 help I-NP
 of B-PP
 his B-NP
-patron B-UCP
-, I-UCP
+patron I-NP
+, O
 Mr. B-NP
 Honecker I-NP
 , O
@@ -26426,8 +26426,8 @@ future I-NP
 
 At B-PP
 current B-NP
-allocations B-UCP
-, I-UCP
+allocations I-NP
+, O
 that B-NP
 means B-VP
 EPA B-ADJP
@@ -26619,9 +26619,9 @@ life-threatening I-ADJP
 '' O
 said B-VP
 Dr. B-NP
-Frank B-NP
-Provato B-UCP
-, I-UCP
+Frank I-NP
+Provato I-NP
+, O
 GTE B-NP
 's B-VP
 medical B-NP
@@ -26746,9 +26746,9 @@ more B-ADJP
 effective I-ADJP
 at B-PP
 preventing B-VP
-other B-NP
-districts\/states B-UCP
-and I-UCP
+other B-ADJP
+districts\/states I-ADJP
+and O
 their B-NP
 legislators I-NP
 from B-PP
