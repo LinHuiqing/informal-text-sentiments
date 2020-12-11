@@ -22606,11 +22606,11 @@ said B-VP
 It B-NP
 's B-NP
 time I-NP
-to B-VP
-stop I-VP
-bickering B-PRT
-and O
-work B-VP
+to B-PP
+stop B-NP
+bickering B-UCP
+and I-UCP
+work B-NP
 together B-ADVP
 to B-VP
 develop I-VP

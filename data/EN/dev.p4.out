@@ -1,7 +1,7 @@
 HBO B-NP
 has B-VP
 close I-VP
-to B-PP
+to I-VP
 24 B-NP
 million I-NP
 subscribers I-NP
@@ -53,7 +53,7 @@ stock I-NP
 market I-NP
 's B-NP
 roller-coaster I-NP
-ride I-NP
+ride B-VP
 . O
 
 This B-NP
@@ -62,8 +62,8 @@ seem I-VP
 to I-VP
 be I-VP
 a B-NP
-preposterous B-UCP
-and I-UCP
+preposterous I-NP
+and O
 utterly B-NP
 futile I-NP
 effort I-NP
@@ -90,7 +90,7 @@ despite B-PP
 a B-NP
 29 I-NP
 % I-NP
-revenue I-NP
+revenue B-NP
 gain I-NP
 . O
 
@@ -99,13 +99,13 @@ Californians B-NP
 meanwhile B-ADVP
 , O
 tried B-VP
-to I-VP
+to B-VP
 cope I-VP
 with B-PP
 still-limited B-NP
 services I-NP
 , O
-blocked B-VP
+blocked O
 roadways O
 and O
 water O
@@ -122,7 +122,7 @@ scores O
 dead O
 and O
 injured O
-. B-NP
+. O
 
 This B-NP
 year I-NP
@@ -132,13 +132,13 @@ number I-NP
 of B-PP
 retail B-NP
 leveraged I-NP
-buyouts B-VP
-have I-VP
+buyouts I-NP
+have B-VP
 failed I-VP
 , O
-causing B-VP
-jitters B-NP
-among B-PP
+causing O
+jitters O
+among O
 suppliers O
 , O
 and O
@@ -154,18 +154,18 @@ n't O
 have O
 delivery O
 problems O
-. B-NP
+. O
 
 Mr. B-NP
 Juliano I-NP
 thinks B-VP
-so B-ADJP
+so O
 . O
 
 Assistant B-NP
 U.S. I-NP
 Attorney I-NP
-Terry I-NP
+Terry B-NP
 Hart I-NP
 of B-PP
 Dallas B-NP
@@ -196,7 +196,7 @@ Co. I-NP
 said B-VP
 it B-NP
 will B-VP
-redeem I-VP
+redeem B-SBAR
 all B-NP
 3,950 I-NP
 shares I-NP
@@ -223,7 +223,7 @@ investment I-NP
 , O
 that B-SBAR
 's B-NP
-a B-NP
+a I-NP
 difference I-NP
 of B-PP
 only B-NP
@@ -244,7 +244,7 @@ existed B-VP
 , O
 the B-NP
 suit I-NP
-alleged I-NP
+alleged B-VP
 . O
 
 But O
@@ -252,7 +252,7 @@ for B-PP
 individuals B-NP
 who B-NP
 buy B-VP
-much I-VP
+much B-ADVP
 smaller B-NP
 amounts I-NP
 and I-NP
@@ -277,7 +277,7 @@ meaningless B-ADJP
 The B-NP
 authorities I-NP
 have B-VP
-steered I-VP
+steered B-SBAR
 foreign B-NP
 reporters I-NP
 to B-PP
@@ -314,16 +314,16 @@ activity I-NP
 keeps B-VP
 a B-NP
 lid I-NP
-on I-NP
-commission I-NP
-costs I-NP
+on B-PP
+commission O
+costs B-NP
 . O
 
 Mr. B-NP
 Pinola I-NP
 is B-VP
 president B-NP
-and O
+and I-NP
 chief B-NP
 operating I-NP
 officer I-NP
@@ -336,8 +336,8 @@ Co I-NP
 . O
 
 John B-NP
-Uphoff B-UCP
-, I-UCP
+Uphoff I-NP
+, O
 an B-NP
 analyst I-NP
 with B-PP
@@ -395,7 +395,7 @@ the B-NP
 company I-NP
 , O
 according B-PP
-to B-PP
+to B-VP
 Dow B-NP
 Jones I-NP
 Professional I-NP
@@ -411,8 +411,8 @@ franchises I-INTJ
 , O
 entertainment B-NP
 properties I-NP
-and O
-small B-NP
+and I-NP
+small I-NP
 cable-television I-NP
 systems I-NP
 . O
@@ -438,7 +438,7 @@ and O
 it B-NP
 has B-VP
 spent I-VP
-almost B-ADVP
+almost I-VP
 $ B-NP
 1 I-NP
 billion I-NP
@@ -452,8 +452,8 @@ He B-NP
 also B-ADVP
 says B-VP
 CompuServe B-NP
-'s B-NP
-earnings I-NP
+'s B-VP
+earnings B-NP
 continue B-VP
 to I-VP
 grow I-VP
@@ -481,8 +481,8 @@ IBM B-NP
 
 The B-NP
 Treasury I-NP
-plans B-VP
-to I-VP
+plans I-NP
+to B-VP
 raise I-VP
 $ B-NP
 1.55 I-NP
@@ -513,8 +513,8 @@ bills I-NP
 . O
 
 Stocks B-NP
-retreated B-VP
-to I-VP
+retreated O
+to O
 session O
 lows O
 just O
@@ -545,7 +545,7 @@ of O
 futures-related O
 program O
 buying O
-. B-NP
+. O
 
 There B-NP
 is B-VP
@@ -562,7 +562,7 @@ the B-NP
 most-jingoistic I-NP
 advertising I-NP
 comes B-VP
-courtesy B-PRT
+courtesy I-VP
 of B-PP
 -- O
 you B-NP
@@ -580,7 +580,7 @@ clears B-VP
 corporate B-NP
 plans B-VP
 to I-VP
-donate B-PRT
+donate B-ADJP
 to B-PP
 an B-NP
 employee I-NP
@@ -629,7 +629,7 @@ change I-NP
 in B-PP
 1990 B-NP
 , O
-thanks B-ADVP
+thanks B-INTJ
 to B-PP
 1986 B-NP
 's B-NP
@@ -654,7 +654,7 @@ but O
 he B-NP
 already B-ADVP
 was B-VP
-snoring B-ADJP
+snoring B-PRT
 . O
 
 Although B-SBAR
@@ -697,7 +697,7 @@ resignation I-NP
 at B-PP
 a B-NP
 separate I-NP
-meeting I-NP
+meeting B-VP
 late B-NP
 Tuesday I-NP
 . O
@@ -711,9 +711,9 @@ received B-VP
 federal B-NP
 approval I-NP
 of B-PP
-Procardia I-PP
-XL I-PP
-, O
+Procardia B-NP
+XL B-UCP
+, I-UCP
 a B-NP
 calcium I-NP
 channel I-NP
@@ -754,7 +754,7 @@ he B-NP
 said B-VP
 , O
 adding B-VP
-that B-NP
+that B-SBAR
 coming B-VP
 up B-PRT
 with B-PP
@@ -783,7 +783,7 @@ of B-PP
 fraudulent B-NP
 telemarketing I-NP
 operations I-NP
-mingle I-NP
+mingle B-VP
 with B-PP
 the B-NP
 many I-NP
@@ -808,13 +808,13 @@ coupon-equivalent I-NP
 yield I-NP
 is B-VP
 based I-VP
-on B-PP
+on B-PRT
 a B-NP
 365-day I-NP
 year I-NP
 . O
 
-Neither B-NP
+Neither O
 was B-VP
 among B-PP
 the B-NP
@@ -857,8 +857,8 @@ Roebuck I-NP
 Co. I-NP
 , O
 declined B-VP
-to I-VP
-comment I-VP
+to B-PP
+comment B-NP
 . O
 
 `` O
@@ -881,12 +881,12 @@ have I-VP
 to I-VP
 take I-VP
 into B-PP
-account B-NP
+account B-VP
 . O
 '' O
 
 Also B-ADVP
-, O
+, B-PP
 profit B-NP
 rose B-VP
 19 B-NP
@@ -903,8 +903,8 @@ commission I-NP
 members I-NP
 opposed B-VP
 the B-NP
-matching I-NP
-plans I-NP
+matching B-VP
+plans B-NP
 . O
 
 An B-NP
@@ -917,8 +917,8 @@ manufacturers I-NP
 ' O
 to B-VP
 include I-VP
-advanced I-VP
-graphics B-NP
+advanced B-NP
+graphics I-NP
 capabilities I-NP
 as B-PP
 standard B-NP
@@ -950,7 +950,7 @@ that B-SBAR
 might B-VP
 be I-VP
 applied I-VP
-to B-PP
+to I-VP
 planners B-NP
 , O
 Mr. B-NP
@@ -962,7 +962,7 @@ excluded I-VP
 . O
 
 Mr. B-NP
-Peake I-NP
+Peake O
 is B-VP
 chairman B-NP
 of B-PP
@@ -980,7 +980,7 @@ CALL B-NP
 MONEY I-NP
 : O
 9 B-NP
-3\/4 I-NP
+3\/4 B-NP
 % I-NP
 to B-PP
 10 B-NP
@@ -1001,8 +1001,8 @@ as I-CONJP
 profit-driven I-CONJP
 market B-NP
 makers I-NP
-and O
-institutional B-NP
+and I-NP
+institutional I-NP
 investors I-NP
 who B-NP
 had B-VP
@@ -1021,8 +1021,8 @@ correction I-NP
 The B-NP
 thing I-NP
 is B-VP
-so B-ADJP
-fluid I-ADJP
+so B-ADVP
+fluid I-ADVP
 right B-ADVP
 now I-ADVP
 that B-SBAR
@@ -1058,8 +1058,8 @@ case I-NP
 That B-NP
 rose B-VP
 to I-VP
-nearly B-NP
-18 I-NP
+nearly I-VP
+18 B-NP
 % I-NP
 during B-PP
 the B-NP
@@ -1075,8 +1075,8 @@ since B-SBAR
 
 Mr. B-NP
 Maynard I-NP
-initially B-ADVP
-won B-VP
+initially B-VP
+won I-VP
 approval B-NP
 for B-PP
 his B-NP
@@ -1084,9 +1084,9 @@ machine I-NP
 to B-VP
 be I-VP
 used I-VP
-at B-PP
-egg-processing B-NP
-facilities I-NP
+at B-ADVP
+egg-processing O
+facilities O
 regulated O
 by O
 the O
@@ -1096,16 +1096,16 @@ Food O
 Safety O
 Inspection O
 Service O
-. B-NP
+. O
 
 Fanuc B-INTJ
 gained B-VP
 100 B-NP
 to B-VP
-7,580 B-ADJP
+7,580 B-PRT
 . O
 
-Forecasts B-ADVP
+Forecasts B-INTJ
 for B-PP
 the B-NP
 trade I-NP
@@ -1143,13 +1143,13 @@ account O
 reported O
 for O
 August O
-. B-NP
+. O
 
 Fox B-NP
 said B-VP
 it B-NP
-plans B-VP
-to I-VP
+plans I-NP
+to B-VP
 offer I-VP
 its B-NP
 stations I-NP
@@ -1170,7 +1170,7 @@ year I-NP
 . O
 
 The B-NP
-most-strident B-PP
+most-strident B-VP
 anti-outsider B-NP
 sentiment I-NP
 among B-PP
@@ -1209,8 +1209,8 @@ campaign I-NP
 . O
 
 So-called B-NP
-living-benefits I-NP
-provisions I-NP
+living-benefits B-PP
+provisions B-NP
 also B-ADVP
 merit B-NP
 a B-NP
@@ -1231,8 +1231,8 @@ heavy I-NP
 water I-NP
 and O
 then B-ADVP
-at B-PP
-totally B-ADJP
+at B-VP
+totally I-VP
 unpredictable B-NP
 times I-NP
 , O
@@ -1260,11 +1260,11 @@ and O
 other B-NP
 modern I-NP
 trading I-NP
-methods I-NP
+methods O
 `` O
 tend B-VP
-to I-VP
-promote B-VP
+to O
+promote O
 dramatic O
 shifts O
 in O
@@ -1283,7 +1283,7 @@ Drexel O
 Burnham O
 Lambert O
 Inc O
-. B-NP
+. O
 
 Executives B-NP
 at B-PP
@@ -1304,7 +1304,7 @@ years B-NP
 , O
 have B-VP
 acknowledged B-VP
-that B-NP
+that B-SBAR
 in B-PP
 the B-NP
 past I-NP
@@ -1325,8 +1325,8 @@ Schumacher I-NP
 executive B-NP
 vice I-NP
 president I-NP
-and O
-general B-NP
+and I-NP
+general I-NP
 manager I-NP
 of B-PP
 the B-NP
@@ -1365,7 +1365,7 @@ for B-PP
 example B-NP
 , O
 are B-VP
-protesting I-VP
+protesting B-SBAR
 an B-NP
 omission I-NP
 in B-PP
@@ -1403,10 +1403,10 @@ think I-VP
 it B-NP
 will B-VP
 be I-VP
-ugly B-PRT
+ugly B-ADVP
 . O
 
-Sheldon O
+Sheldon B-VP
 B. O
 Lubar O
 , O
@@ -1436,9 +1436,9 @@ of O
 this O
 engine O
 maker O
-. B-NP
+. O
 
-HLR B-LST
+HLR B-ADVP
 : O
 
 And O
@@ -1451,9 +1451,9 @@ the B-NP
 stock I-NP
 market I-NP
 remains B-VP
-somewhat B-ADVP
-lighter I-ADVP
-than I-ADVP
+somewhat B-ADJP
+lighter I-ADJP
+than B-PP
 usual B-ADJP
 . O
 
@@ -1482,7 +1482,7 @@ hurting B-VP
 your B-NP
 life I-NP
 style I-NP
-one I-NP
+one B-NP
 bit I-NP
 ! O
 
@@ -1506,7 +1506,7 @@ Hugo I-NP
 , O
 '' O
 according B-PP
-to B-PP
+to B-VP
 Moody B-NP
 's B-VP
 . O
@@ -1516,7 +1516,7 @@ Carlucci I-NP
 III I-NP
 was B-VP
 named I-VP
-to B-PP
+to I-VP
 this B-NP
 telecommunications I-NP
 company I-NP
@@ -1541,11 +1541,11 @@ Most B-NP
 banking I-NP
 issues I-NP
 retreated B-VP
-after B-PP
-a B-NP
-sector I-NP
-downgrade I-NP
-by B-PP
+after B-ADJP
+a O
+sector O
+downgrade O
+by O
 Warburg O
 Securities O
 , O
@@ -1564,7 +1564,7 @@ about O
 its O
 long-term O
 prospects O
-. B-NP
+. O
 
 Latest B-NP
 approvals I-NP
@@ -1575,15 +1575,15 @@ Atlantic I-NP
 New B-NP
 Jersey I-NP
 Bell I-NP
-and O
-General B-NP
+and I-NP
+General I-NP
 Dynamics I-NP
 . O
 
 How B-ADVP
 should B-VP
 a B-NP
-reasonable I-NP
+reasonable B-NP
 member I-NP
 of B-PP
 the B-NP
@@ -1629,7 +1629,7 @@ Gibson B-NP
 , I-NP
 Dunn I-NP
 & I-NP
-Crutcher I-NP
+Crutcher B-ADVP
 in B-PP
 its B-NP
 New I-NP
@@ -1640,7 +1640,7 @@ office I-NP
 `` O
 Sell B-NP
 stocks I-NP
-that B-SBAR
+that O
 are B-VP
 n't I-VP
 doing I-VP
@@ -1698,8 +1698,8 @@ say I-VP
 We B-NP
 will B-VP
 be I-VP
-responding B-CONJP
-comprehensively I-CONJP
+responding B-ADJP
+comprehensively I-ADJP
 in B-PP
 several B-NP
 forums I-NP
@@ -1739,7 +1739,7 @@ company I-NP
 stock I-NP
 , O
 which B-NP
-stagnated I-NP
+stagnated B-VP
 at B-PP
 $ B-NP
 4.75 I-NP
@@ -1758,7 +1758,7 @@ the B-NP
 quake I-NP
 to B-VP
 have I-VP
-much B-ADJP
+much B-NP
 of B-PP
 an B-NP
 effect I-NP
@@ -1787,7 +1787,7 @@ slower I-ADJP
 than B-PP
 the B-NP
 monthly I-NP
-rises B-VP
+rises I-NP
 earlier B-ADVP
 in B-PP
 the B-NP
@@ -1796,9 +1796,9 @@ year I-NP
 
 There B-NP
 was B-VP
-no B-NP
-cost I-NP
-estimate I-NP
+no I-VP
+cost I-VP
+estimate I-VP
 for B-PP
 the B-NP
 second I-NP
@@ -1808,7 +1808,7 @@ phase I-NP
 Some B-NP
 couples B-VP
 continue I-VP
-to I-VP
+to B-VP
 try I-VP
 . O
 
@@ -1825,7 +1825,7 @@ of B-PP
 strong B-NP
 third-quarter I-NP
 earnings I-NP
-reports I-NP
+reports B-VP
 . O
 
 Bay B-NP
@@ -1852,8 +1852,8 @@ agreement I-NP
 with B-PP
 its B-NP
 lenders I-NP
-to B-PP
-relieve I-PP
+to B-VP
+relieve I-VP
 its B-NP
 debt I-NP
 burden I-NP
@@ -1867,7 +1867,7 @@ to B-PP
 . O
 
 His B-NP
-recommendation I-NP
+recommendation O
 was B-VP
 rejected I-VP
 by B-PP
@@ -1879,7 +1879,7 @@ government I-NP
 The B-NP
 programs I-NP
 have B-VP
-arthritis B-ADJP
+arthritis B-INTJ
 , O
 '' O
 says B-VP
@@ -1894,9 +1894,9 @@ from B-PP
 Illinois B-NP
 . O
 
-You B-NP
-'ll B-VP
-see I-VP
+You B-VP
+'ll O
+see O
 carriers O
 try O
 to O
@@ -1910,7 +1910,7 @@ that O
 occurred O
 previously O
 . O
-'' B-NP
+'' O
 
 And O
 they B-NP
@@ -1922,7 +1922,7 @@ $ B-NP
 million I-NP
 in B-PP
 prepaid-tuition B-NP
-plans I-NP
+plans B-VP
 , O
 offered B-VP
 in B-PP
@@ -1944,8 +1944,8 @@ held I-VP
 % I-NP
 of B-PP
 WCRS B-NP
-'s B-NP
-ad I-NP
+'s B-VP
+ad B-NP
 unit I-NP
 , O
 will B-VP
@@ -1974,10 +1974,10 @@ benchmark I-NP
 30-year I-NP
 bond I-NP
 fell B-VP
-more B-NP
-than I-NP
-1\/2 I-NP
-point I-NP
+more B-ADJP
+than I-ADJP
+1\/2 I-ADJP
+point I-ADJP
 , O
 or O
 over B-PP
@@ -2011,14 +2011,14 @@ intensity I-NP
 stops I-NP
 and I-NP
 starts I-NP
-with B-PP
+with B-SBAR
 the B-NP
 music I-NP
 . O
 
 The B-NP
-results B-VP
-compare I-VP
+results I-NP
+compare B-VP
 with B-PP
 a B-NP
 year-earlier I-NP
@@ -2057,11 +2057,11 @@ billion I-NP
 from B-PP
 $ B-NP
 1.23 I-NP
-billion I-NP
+billion O
 . O
 
-Charleston B-NP
-is B-VP
+Charleston B-VP
+is O
 historic O
 and O
 aristocratic O
@@ -2078,7 +2078,7 @@ haughty O
 as O
 he O
 suggested O
-. B-NP
+. O
 
 This B-NP
 magazine I-NP
@@ -2089,8 +2089,8 @@ said B-VP
 three B-NP
 men I-NP
 were B-VP
-elected I-VP
-directors B-NP
+elected B-NP
+directors I-NP
 , O
 increasing B-VP
 the B-NP
@@ -2111,7 +2111,7 @@ world I-NP
 's B-VP
 loudest I-VP
 recorded I-VP
-belch B-PRT
+belch B-ADVP
 . O
 
 The B-NP
@@ -2135,7 +2135,7 @@ did B-VP
 n't I-VP
 break I-VP
 out B-PRT
-results B-NP
+results B-VP
 for B-PP
 the B-NP
 businesses I-NP
@@ -2152,8 +2152,8 @@ has B-VP
 been I-VP
 doing I-VP
 an B-NP
-excellent I-NP
-job I-NP
+excellent B-PP
+job B-NP
 . O
 
 Two B-NP
@@ -2171,7 +2171,7 @@ by B-PP
 raising B-VP
 the B-NP
 price I-NP
-tags I-NP
+tags B-ADVP
 of B-PP
 such B-NP
 deals I-NP
@@ -2194,7 +2194,7 @@ to B-VP
 recognize I-VP
 the B-NP
 problems I-NP
-so O
+so B-SBAR
 they B-NP
 can B-VP
 do I-VP
@@ -2209,8 +2209,8 @@ said B-VP
 
 A B-NP
 year I-NP
-earlier B-ADVP
-sales B-NP
+earlier B-NP
+sales I-NP
 totaled B-VP
 7.567 B-NP
 billion I-NP
@@ -2233,8 +2233,8 @@ Poppenberg B-UCP
 , I-UCP
 the B-NP
 organization I-NP
-'s B-NP
-president I-NP
+'s B-VP
+president B-NP
 . O
 
 The B-NP
@@ -2242,10 +2242,10 @@ National I-NP
 Taxpayers I-NP
 Union I-NP
 would B-VP
-like B-PP
+like B-SBAR
 Congress B-NP
-to B-VP
-add I-VP
+to O
+add O
 800,000 O
 acres O
 to O
@@ -2267,7 +2267,7 @@ Act O
 of O
 1989 O
 . O
-'' B-NP
+'' O
 
 Digital B-NP
 's B-NP
@@ -2279,7 +2279,7 @@ true I-NP
 mainframe-class I-NP
 machine I-NP
 before B-PP
-now B-ADVP
+now B-NP
 may B-VP
 have I-VP
 cost I-VP
@@ -2303,8 +2303,8 @@ says B-VP
 . O
 
 It B-NP
-is B-VP
-n't I-VP
+is O
+n't O
 . O
 
 Detroit B-NP
@@ -2312,7 +2312,7 @@ Edison I-NP
 , O
 the B-NP
 plan I-NP
-pioneer I-NP
+pioneer B-ADVP
 , O
 generated B-VP
 $ B-NP
@@ -2337,8 +2337,8 @@ the B-NP
 car I-NP
 , O
 Wacoal B-NP
-plans B-VP
-to I-VP
+plans I-NP
+to B-VP
 launch I-VP
 a B-NP
 series I-NP
@@ -2361,7 +2361,7 @@ wrote B-VP
 : O
 `` O
 Who B-NP
-did B-VP
+did O
 the B-NP
 research I-NP
 for B-PP
@@ -2394,7 +2394,7 @@ contract I-NP
 valued B-VP
 at B-PP
 about B-NP
-$ I-NP
+$ B-NP
 170 I-NP
 million I-NP
 to B-VP
@@ -2416,7 +2416,7 @@ warrior I-NP
 '' O
 who B-NP
 felt B-VP
-rankled B-PRT
+rankled I-VP
 by B-PP
 West B-NP
 Germany I-NP
@@ -2452,7 +2452,7 @@ provision I-NP
 would B-VP
 yield I-VP
 $ B-NP
-17 I-NP
+17 B-NP
 million I-NP
 the B-NP
 first I-NP
@@ -2496,9 +2496,9 @@ its B-NP
 plants I-NP
 and O
 a B-NP
-work B-VP
-force I-VP
-cut I-VP
+work I-NP
+force I-NP
+cut I-NP
 of B-PP
 about B-NP
 1,500 I-NP
@@ -2517,8 +2517,8 @@ some B-NP
 profit-taking B-NP
 after B-PP
 gains B-NP
-since B-SBAR
-mid-week B-LST
+since B-ADVP
+mid-week I-ADVP
 . O
 
 GM B-NP
@@ -2543,7 +2543,7 @@ scheduled I-VP
 to I-VP
 reopen I-VP
 Monday B-NP
-but O
+but I-NP
 now B-ADVP
 will B-VP
 not I-VP
@@ -2582,7 +2582,7 @@ their B-NP
 business I-NP
 will B-VP
 be I-VP
-totally B-ADJP
+totally I-VP
 and O
 permanently B-ADJP
 destroyed B-VP
@@ -2592,7 +2592,7 @@ destroyed B-VP
 Construction B-NP
 of B-PP
 the B-NP
-34-floor I-NP
+34-floor B-NP
 building I-NP
 will B-VP
 begin I-VP
@@ -2619,7 +2619,7 @@ banks B-NP
 would B-VP
 normally I-VP
 have I-VP
-loaned B-PRT
+loaned I-VP
 65 B-NP
 % I-NP
 of B-PP
@@ -2647,7 +2647,7 @@ the B-NP
 numerous B-NP
 developing-country I-NP
 governments I-NP
-that B-SBAR
+that O
 have B-VP
 inflated I-VP
 , I-VP
@@ -2668,7 +2668,7 @@ said B-VP
 the B-NP
 reduction I-NP
 reflects B-VP
-impaired I-VP
+impaired B-PRT
 business B-NP
 prospects I-NP
 and O
@@ -2696,7 +2696,7 @@ went B-VP
 public B-ADJP
 in B-PP
 May B-NP
-, O
+, I-NP
 intends B-VP
 to I-VP
 pay I-VP
@@ -2721,8 +2721,8 @@ year I-NP
 , O
 the B-NP
 prisons I-NP
-' B-NP
-sales I-NP
+' O
+sales B-NP
 to B-PP
 the B-NP
 Pentagon I-NP
@@ -2732,8 +2732,8 @@ $ B-NP
 million I-NP
 . O
 
-Then B-ADVP
-I B-NP
+Then B-VP
+I O
 remembered O
 the O
 quake O
@@ -2751,11 +2751,11 @@ a O
 second-story O
 motel O
 room O
-. B-NP
+. O
 
 The B-NP
 best I-NP
-course I-NP
+course B-NP
 for B-PP
 individual B-NP
 investors I-NP
@@ -2795,12 +2795,12 @@ double-bladed B-UCP
 ax I-UCP
 and I-UCP
 a B-NP
-buzz I-NP
+buzz B-ADVP
 saw B-VP
 . O
 '' O
 
-Skoal B-LST
+Skoal B-ADVP
 Daze O
 
 Soviet B-NP
@@ -2812,7 +2812,7 @@ a B-NP
 major I-NP
 U.S. I-NP
 trade I-NP
-exhibition I-NP
+exhibition B-VP
 in B-PP
 Moscow B-NP
 and I-NP
@@ -2854,7 +2854,7 @@ net I-NP
 plunged B-VP
 51 B-NP
 % I-NP
-to B-PP
+to B-VP
 $ B-NP
 9.9 I-NP
 million I-NP
@@ -2884,7 +2884,7 @@ earlier B-ADVP
 Several B-NP
 factors I-NP
 apparently B-ADVP
-spared I-ADVP
+spared B-PP
 the B-NP
 Valley I-NP
 -- O
@@ -2922,7 +2922,7 @@ love I-VP
 them B-NP
 because B-PP
 they B-NP
-shift I-NP
+shift B-VP
 smoothly B-ADVP
 in B-PP
 traffic B-NP
@@ -2948,7 +2948,7 @@ bikes I-NP
 
 It B-NP
 arrived B-VP
-just I-VP
+just B-ADJP
 as B-PP
 the B-NP
 regulator I-NP
@@ -2976,12 +2976,12 @@ billion I-NP
 of B-PP
 30-year B-NP
 bonds I-NP
-Wednesday I-NP
+Wednesday B-NP
 . O
 
 Robert B-NP
 H. I-NP
-Carlson I-NP
+Carlson B-ADVP
 , O
 previous B-NP
 president I-NP
@@ -3011,7 +3011,7 @@ additional I-NP
 299,000 I-NP
 shares I-NP
 are B-VP
-authorized B-PRT
+authorized I-VP
 for B-PP
 repurchase B-NP
 under B-PP
@@ -3030,8 +3030,8 @@ hurt B-VP
 by B-PP
 declining B-NP
 sales I-NP
-and O
-falling B-NP
+and I-NP
+falling I-NP
 chemical I-NP
 prices I-NP
 , O
@@ -3087,7 +3087,7 @@ Service I-NP
 's B-VP
 air-interdiction B-NP
 program I-NP
-nearly O
+nearly B-VP
 a B-NP
 third I-NP
 . O
@@ -3109,9 +3109,9 @@ the B-NP
 Transportation I-NP
 Department I-NP
 power I-NP
-to B-VP
-block I-VP
-airline B-NP
+to B-PP
+block B-NP
+airline I-NP
 leveraged I-NP
 buy-outs I-NP
 , O
@@ -3128,8 +3128,8 @@ administration I-NP
 
 Polls B-NP
 are B-VP
-no B-ADJP
-substitute I-ADJP
+no B-NP
+substitute I-NP
 for B-PP
 principle B-NP
 , O
@@ -3148,7 +3148,7 @@ York I-NP
 , O
 a B-NP
 spokesman I-NP
-for B-PP
+for B-SBAR
 American B-NP
 Brands I-NP
 would B-VP
@@ -3160,8 +3160,8 @@ Pfizer B-NP
 said B-VP
 third-quarter B-NP
 sales I-NP
-increased B-VP
-4 B-NP
+increased B-NP
+4 I-NP
 % I-NP
 to B-PP
 $ B-NP
@@ -3192,7 +3192,7 @@ stopping I-VP
 at B-PP
 the B-NP
 most I-NP
-conveniently O
+conveniently B-ADVP
 located B-VP
 service B-NP
 stations I-NP
@@ -3207,7 +3207,7 @@ depository B-NP
 institutions I-NP
 by B-PP
 the B-NP
-New I-NP
+New B-NP
 York I-NP
 Federal I-NP
 Reserve I-NP
@@ -3220,7 +3220,7 @@ chunk I-NP
 of B-PP
 the B-NP
 $ I-NP
-2 I-NP
+2 B-NP
 billion I-NP
 is B-VP
 expected I-VP
@@ -3230,9 +3230,9 @@ eaten I-VP
 up B-PRT
 by B-PP
 overtime B-NP
-for B-PP
-city B-NP
-workers I-NP
+for O
+city O
+workers O
 deployed O
 in O
 the O
@@ -3244,19 +3244,19 @@ spokesman O
 for O
 Mr. O
 Agnos O
-. B-NP
+. O
 
 Pharmaceuticals B-NP
 made B-VP
-across-the-board B-NP
-advances I-NP
+across-the-board B-PRT
+advances B-NP
 . O
 
 The B-NP
 shutdown I-NP
 will B-VP
-idle I-VP
-2,000 B-NP
+idle B-NP
+2,000 I-NP
 hourly I-NP
 employees I-NP
 and O
@@ -3270,7 +3270,7 @@ and O
 heavy O
 duty O
 trucks O
-. B-NP
+. O
 
 The B-NP
 day I-NP
@@ -3278,8 +3278,8 @@ before B-PP
 the B-NP
 quake I-NP
 , O
-Seagate B-VP
-completed I-VP
+Seagate B-ADVP
+completed B-VP
 three B-NP
 days I-NP
 of B-PP
@@ -3297,8 +3297,8 @@ efforts I-NP
 to B-VP
 find I-VP
 offsetting B-NP
-cuts I-NP
-to B-VP
+cuts B-VP
+to I-VP
 fund I-VP
 the B-NP
 payments I-NP
@@ -3329,7 +3329,7 @@ letter I-NP
 , O
 Rep. B-NP
 David I-NP
-Obey I-NP
+Obey O
 , O
 chairman B-NP
 of B-PP
@@ -3367,7 +3367,7 @@ of B-PP
 new B-NP
 homes I-NP
 rose B-VP
-and O
+and B-PP
 inventories B-NP
 of B-PP
 houses B-NP
@@ -3402,7 +3402,7 @@ increases I-NP
 in B-PP
 construction B-NP
 activity I-NP
-along B-ADVP
+along B-PP
 with B-PP
 government B-NP
 and I-NP
@@ -3429,7 +3429,7 @@ to I-VP
 represent I-VP
 the B-NP
 people I-NP
-that B-SBAR
+that O
 sent B-VP
 me B-NP
 here B-ADVP
@@ -3455,7 +3455,7 @@ Secretary I-NP
 Brady I-NP
 will B-VP
 go I-VP
-before B-PP
+before B-SBAR
 the B-NP
 Senate I-NP
 Banking I-NP
@@ -3489,7 +3489,7 @@ also B-ADVP
 pay B-VP
 a B-NP
 premium I-NP
-to B-PP
+to B-VP
 other B-NP
 shareholders I-NP
 . O
@@ -3523,7 +3523,7 @@ exploit I-VP
 the B-NP
 administration I-NP
 's B-VP
-obsession B-PRT
+obsession I-VP
 with B-PP
 overthrowing I-PP
 the B-NP
@@ -3576,9 +3576,9 @@ United B-NP
 parent I-NP
 company I-NP
 , O
-dived B-SBAR
-$ B-NP
-24.875 I-NP
+dived B-VP
+$ B-ADJP
+24.875 I-ADJP
 on B-PP
 the B-NP
 Big I-NP
@@ -3604,7 +3604,7 @@ of B-PP
 sending B-VP
 military B-NP
 aid I-NP
-to B-PP
+to B-VP
 Cambodia B-NP
 's B-NP
 non-communists I-NP
@@ -3635,8 +3635,8 @@ debt I-NP
 a B-NP
 bad I-NP
 trade I-NP
-all O
-around B-ADVP
+all B-ADVP
+around I-ADVP
 . O
 
 On B-PP
@@ -3657,8 +3657,8 @@ as B-PP
 last B-NP
 year I-NP
 , O
-because B-SBAR
-of B-PP
+because B-PP
+of I-PP
 the B-NP
 company I-NP
 's B-NP
@@ -3669,7 +3669,7 @@ program I-NP
 
 He B-NP
 was B-VP
-superb B-ADJP
+superb B-INTJ
 . O
 
 Bank B-NP
@@ -3689,8 +3689,8 @@ engaged B-VP
 advisers B-NP
 to B-VP
 `` O
-explore B-NP
-financial I-NP
+explore B-SBAR
+financial B-NP
 alternatives I-NP
 for B-PP
 the B-NP
@@ -3728,8 +3728,8 @@ the B-NP
 sale I-NP
 of B-PP
 collectibles B-NP
-also B-VP
-be I-VP
+also B-ADVP
+be B-VP
 given I-VP
 preferential B-NP
 treatment I-NP
@@ -3738,8 +3738,8 @@ treatment I-NP
 Oncor B-NP
 , O
 a B-NP
-six-year-old I-NP
-developer I-NP
+six-year-old B-PP
+developer B-NP
 of I-NP
 genetic I-NP
 medical I-NP
@@ -3785,7 +3785,7 @@ Biondi I-NP
 is B-VP
 the B-NP
 former I-NP
-chief I-NP
+chief B-NP
 executive I-NP
 of B-PP
 HBO B-NP
@@ -3849,7 +3849,7 @@ more I-NP
 selling B-VP
 pressure B-NP
 is B-VP
-overhanging I-VP
+overhanging B-SBAR
 the B-NP
 market I-NP
 . O
@@ -3861,8 +3861,8 @@ led B-VP
 by B-PP
 Chicago B-NP
 's B-VP
-Pritzker B-NP
-family I-NP
+Pritzker B-PRT
+family B-NP
 recently B-ADVP
 lowered B-VP
 a B-NP
@@ -3901,7 +3901,7 @@ unsurpassed B-VP
 record I-VP
 for B-NP
 Cambodian I-NP
-tyranny I-NP
+tyranny O
 . O
 
 Instead B-ADVP
@@ -3921,8 +3921,8 @@ members B-NP
 of B-PP
 Congress B-NP
 -- O
-most B-ADVP
-recently I-ADVP
+most B-NP
+recently B-ADVP
 in B-PP
 a B-NP
 White I-NP
@@ -3958,7 +3958,7 @@ the B-NP
 stock I-NP
 almost B-VP
 stalled I-VP
-out B-PRT
+out B-ADVP
 . O
 
 He B-NP
@@ -3969,7 +3969,7 @@ the B-NP
 embroidery I-NP
 to B-PP
 the B-NP
-backs I-NP
+backs B-VP
 of B-PP
 mink B-NP
 coats I-NP
@@ -3980,7 +3980,7 @@ jackets I-NP
 It B-NP
 closed B-VP
 yesterday B-NP
-at B-PP
+at B-ADVP
 34 B-NP
 3\/4 I-NP
 . O
@@ -3997,8 +3997,8 @@ extremely B-ADJP
 difficult I-ADJP
 , O
 if B-SBAR
-not B-ADJP
-impossible I-ADJP
+not B-VP
+impossible B-ADJP
 , O
 to B-VP
 regulate I-VP
@@ -4011,7 +4011,7 @@ has B-VP
 at B-PP
 its B-NP
 disposal I-NP
-$ I-NP
+$ B-NP
 273 I-NP
 million I-NP
 in B-PP
@@ -4040,7 +4040,7 @@ work I-NP
 after B-PP
 a B-NP
 1971 I-NP
-tremblor I-NP
+tremblor B-VP
 in B-PP
 Southern B-NP
 California I-NP
@@ -4070,15 +4070,15 @@ to I-VP
 be I-VP
 on B-PP
 the B-NP
-block I-NP
-soon B-ADVP
+block B-VP
+soon I-VP
 after B-PP
 the B-NP
 crucial I-NP
 Christmas I-NP
 season I-NP
 -- O
-may B-VP
+may O
 slide O
 into O
 the O
@@ -4087,7 +4087,7 @@ quarter O
 or O
 second O
 half O
-. B-NP
+. O
 
 The B-NP
 latest I-NP
@@ -4095,7 +4095,7 @@ latest I-NP
 notes I-NP
 were B-VP
 quoted I-VP
-late B-NP
+late B-ADVP
 at B-PP
 100 B-NP
 9\/32 I-NP
@@ -4130,7 +4130,7 @@ capital I-NP
 then B-ADVP
 it B-NP
 is B-VP
-incumbent B-PRT
+incumbent I-VP
 on B-PP
 them B-NP
 to B-VP
@@ -4166,7 +4166,7 @@ a B-NP
 bad I-NP
 egg I-NP
 gets B-VP
-in B-PP
+in B-PRT
 with B-PP
 the B-NP
 good I-NP
@@ -4176,7 +4176,7 @@ ones I-NP
 UAL B-NP
 declined B-VP
 to I-VP
-comment I-VP
+comment B-NP
 on B-PP
 British B-NP
 Air I-NP
@@ -4186,7 +4186,7 @@ statement I-NP
 
 `` O
 The B-NP
-prognosis I-NP
+prognosis B-ADVP
 is B-VP
 only B-NP
 fair I-NP
@@ -4211,7 +4211,7 @@ They B-NP
 can B-VP
 cut I-VP
 this B-NP
-to B-PP
+to B-VP
 $ B-NP
 691.09 B-PP
 a B-NP
@@ -4225,8 +4225,8 @@ through B-PP
 college B-NP
 . O
 
-`` O
-You B-NP
+`` B-VP
+You O
 eliminate O
 companies O
 with O
@@ -4239,7 +4239,7 @@ up O
 in O
 price O
 . O
-'' B-NP
+'' O
 
 `` O
 It B-NP
@@ -4278,14 +4278,14 @@ XR4Ti I-NP
 than B-PP
 any B-NP
 other I-NP
-dealership I-NP
+dealership B-ADVP
 . O
 
 `` O
 As B-SBAR
-that B-SBAR
-wanes B-LST
-, O
+that B-NP
+wanes B-UCP
+, I-UCP
 you B-NP
 're B-VP
 going I-VP
@@ -4303,7 +4303,7 @@ he B-NP
 says B-VP
 . O
 
-Excluding B-PP
+Excluding B-VP
 tax B-NP
 credits I-NP
 , O
@@ -4323,7 +4323,7 @@ these B-NP
 issues I-NP
 are B-VP
 constructed I-VP
-to I-VP
+to B-VP
 withstand I-VP
 extremely B-ADJP
 tough I-ADJP
@@ -4335,7 +4335,7 @@ One B-NP
 exception I-NP
 is B-VP
 a B-NP
-continuing I-NP
+continuing B-NP
 experiment I-NP
 at B-PP
 Stanford B-NP
@@ -4385,7 +4385,7 @@ when B-ADVP
 the B-NP
 country I-NP
 was B-VP
-nearing I-VP
+nearing B-PRT
 the B-NP
 end I-NP
 of B-PP
@@ -4411,8 +4411,8 @@ because B-PP
 that B-NP
 would B-VP
 violate I-VP
-classification B-NP
-rules I-NP
+classification B-PRT
+rules B-NP
 . O
 
 Without B-PP
@@ -4429,8 +4429,8 @@ hard B-ADJP
 to B-VP
 sort I-VP
 out B-PRT
-worthwhile B-NP
-causes I-NP
+worthwhile B-ADVP
+causes B-VP
 from B-PP
 ripoffs B-NP
 if B-SBAR
@@ -4455,7 +4455,7 @@ scrambling I-VP
 to I-VP
 protect I-VP
 the B-NP
-very I-NP
+very B-NP
 programs I-NP
 at B-PP
 the B-NP
@@ -4469,7 +4469,7 @@ scandal I-NP
 Here B-ADVP
 are B-VP
 four B-NP
-key I-NP
+key B-NP
 steps I-NP
 : O
 
@@ -4486,7 +4486,7 @@ bank I-NP
 debt I-NP
 , O
 according B-PP
-to B-PP
+to B-VP
 a B-NP
 report I-NP
 by B-PP
@@ -4520,7 +4520,7 @@ in B-PP
 unfair B-ADJP
 sales B-NP
 practices I-NP
-that B-SBAR
+that B-NP
 encouraged B-VP
 customers B-NP
 to B-PP
@@ -4530,10 +4530,10 @@ services I-NP
 
 The B-NP
 bank I-NP
-'s B-NP
-medium-term I-NP
-and O
-long-term B-NP
+'s B-VP
+medium-term B-NP
+and I-NP
+long-term I-NP
 loans I-NP
 to B-PP
 less-developed B-NP
@@ -4563,8 +4563,8 @@ bank I-NP
 has B-VP
 a B-NP
 negative I-NP
-net I-NP
-worth B-ADJP
+net B-NP
+worth I-NP
 , O
 they B-NP
 say B-VP
@@ -4575,7 +4575,7 @@ agreed B-VP
 with B-PP
 the B-NP
 two-tier I-NP
-price I-NP
+price B-NP
 theory I-NP
 . O
 
@@ -4602,7 +4602,7 @@ to B-PP
 , I-NP
 and I-NP
 Libor I-NP
-plus I-NP
+plus B-NP
 1.25 I-NP
 point B-VP
 thereafter I-VP
@@ -4617,16 +4617,16 @@ money I-NP
 manager I-NP
 who B-NP
 heads B-VP
-Delphi I-VP
+Delphi B-SBAR
 Management B-NP
 Inc. I-NP
 , O
 points B-VP
 out B-PRT
 that B-NP
-for B-PP
-those B-NP
-who B-NP
+for O
+those O
+who O
 invest O
 on O
 fundamentals O
@@ -4648,7 +4648,7 @@ all O
 that O
 much O
 . O
-'' B-NP
+'' O
 
 The B-NP
 crowd I-NP
@@ -4656,8 +4656,8 @@ remained B-VP
 good B-ADJP
 natured I-ADJP
 , O
-even B-ADVP
-bemused I-ADVP
+even B-ADJP
+bemused I-ADJP
 . O
 
 In B-PP
@@ -4681,7 +4681,7 @@ in B-PP
 disaster-prone B-NP
 areas I-NP
 are B-VP
-pondering I-VP
+pondering B-SBAR
 the B-NP
 question I-NP
 of B-PP
@@ -4708,15 +4708,15 @@ France B-NP
 Societe B-NP
 Centrale I-NP
 Union I-NP
-des B-PP
+des O
 Assurances B-NP
 de I-NP
 Paris I-NP
 reached B-VP
-an B-NP
-accord I-NP
-effectively B-VP
-reducing B-VP
+an O
+accord O
+effectively O
+reducing O
 chances O
 of O
 an O
@@ -4728,7 +4728,7 @@ Life O
 Assurance O
 Society O
 PLC O
-. B-NP
+. O
 
 At B-PP
 the B-NP
@@ -4743,11 +4743,11 @@ out B-PRT
 shares B-NP
 of B-PP
 companies B-NP
-expected B-VP
-to I-VP
-profit I-VP
-or I-VP
-suffer I-VP
+expected I-NP
+to B-PP
+profit B-NP
+or I-NP
+suffer B-VP
 in B-PP
 some B-NP
 way I-NP
@@ -4781,8 +4781,8 @@ passenger I-NP
 flight I-NP
 from B-PP
 Japan B-NP
-to B-VP
-land I-VP
+to B-PP
+land B-NP
 here B-ADVP
 , O
 '' O
@@ -4808,14 +4808,14 @@ recover I-VP
 and O
 for B-PP
 borrowers B-NP
-to B-PP
+to B-VP
 service B-NP
 their B-NP
 loans I-NP
 . O
 
 Mr. B-NP
-Angrist I-NP
+Angrist B-ADVP
 writes B-VP
 on B-PP
 the B-NP
@@ -4842,7 +4842,7 @@ of B-PP
 $ B-NP
 98.5 I-NP
 million I-NP
-, O
+, I-NP
 or O
 $ B-NP
 1.27 I-NP
@@ -4877,14 +4877,14 @@ Insurance I-NP
 Co. I-NP
 of B-PP
 America B-NP
-that B-SBAR
+that O
 operates B-VP
 in B-PP
 every B-NP
 state I-NP
 . O
 
-Capitalizing B-ADVP
+Capitalizing B-INTJ
 on B-PP
 that B-NP
 presence I-NP
@@ -4908,8 +4908,8 @@ Europe B-NP
 
 Bolstered B-ADVP
 by B-PP
-strong B-NP
-performances I-NP
+strong B-ADJP
+performances I-ADJP
 by B-PP
 its B-NP
 psychiatric I-NP
@@ -4967,7 +4967,7 @@ Big B-NP
 Board I-NP
 composite I-NP
 trading I-NP
-yesterday I-NP
+yesterday B-NP
 , O
 Nynex B-NP
 common I-NP
@@ -4989,7 +4989,7 @@ be I-VP
 wind I-VP
 in B-PP
 the B-NP
-sails I-NP
+sails B-VP
 of B-PP
 any B-NP
 program I-NP
@@ -5012,11 +5012,11 @@ Burton I-NP
 . O
 
 According B-PP
-to B-PP
+to I-PP
 news B-NP
 reports I-NP
 , O
-the B-NP
+the O
 abrupt O
 termination O
 was O
@@ -5032,10 +5032,10 @@ with O
 the O
 peace O
 process O
-. B-NP
+. O
 
 June B-NP
-1 I-NP
+1 B-NP
 , O
 1987 B-NP
 : O
@@ -5050,9 +5050,9 @@ bookers I-NP
 , O
 probably B-ADVP
 no B-NP
-more I-NP
-or O
-less B-ADJP
+more B-ADJP
+or I-ADJP
+less I-ADJP
 than B-PP
 he B-NP
 would B-VP
@@ -5083,8 +5083,8 @@ when B-ADVP
 the B-NP
 House I-NP
 Energy I-NP
-and O
-Commerce B-NP
+and I-NP
+Commerce I-NP
 Committee I-NP
 takes B-VP
 up B-PRT
@@ -5094,7 +5094,7 @@ clean-air I-NP
 bill I-NP
 . O
 
-Not B-ADVP
+Not B-NP
 a B-NP
 peso I-NP
 is B-VP
@@ -5111,7 +5111,7 @@ competition I-NP
 inside B-PP
 the B-NP
 country I-NP
-, O
+, I-NP
 '' O
 she B-NP
 says B-VP
@@ -5124,8 +5124,8 @@ priced I-VP
 to I-VP
 yield I-VP
 to I-VP
-6.75 B-ADJP
-% I-ADJP
+6.75 B-NP
+% I-NP
 in B-PP
 2000 B-NP
 . O
@@ -5139,7 +5139,7 @@ there B-NP
 's B-VP
 a B-NP
 problem I-NP
-, O
+, I-NP
 do B-VP
 n't I-VP
 expect I-VP
@@ -5170,7 +5170,7 @@ will B-VP
 have I-VP
 to I-VP
 remain I-VP
-high B-ADJP
+high B-NP
 for B-PP
 some B-NP
 time I-NP
@@ -5196,8 +5196,8 @@ in B-PP
 the B-NP
 13 I-NP
 biggest I-NP
-ranch I-NP
-states I-NP
+ranch B-PP
+states B-NP
 held B-VP
 8.06 B-NP
 million I-NP
@@ -5230,8 +5230,8 @@ the B-NP
 litmus I-NP
 test I-NP
 could B-VP
-yet I-VP
-damage B-NP
+yet B-NP
+damage I-NP
 issues I-NP
 important I-NP
 to B-PP
@@ -5244,7 +5244,7 @@ coalition I-NP
 . O
 
 Until B-SBAR
-then B-ADVP
+then B-NP
 , O
 the B-NP
 billions I-NP
@@ -5258,7 +5258,7 @@ is B-VP
 wasted I-VP
 . O
 
-So O
+So B-ADVP
 a B-NP
 stock I-NP
 with B-PP
@@ -5297,7 +5297,7 @@ pushing I-VP
 for B-PP
 a B-NP
 takeover I-NP
-since B-PP
+since B-SBAR
 1987 B-NP
 , O
 appears B-VP
@@ -5394,8 +5394,8 @@ Science I-NP
 & I-NP
 Engineering I-NP
 , O
-up B-NP
-1\/2 I-NP
+up B-ADJP
+1\/2 I-ADJP
 to B-PP
 8 B-NP
 1\/2 I-NP
@@ -5419,7 +5419,7 @@ because B-PP
 of B-PP
 personnel B-NP
 's B-VP
-skill B-PRT
+skill I-VP
 in B-PP
 complaint-resolution I-PP
 . O
@@ -5433,7 +5433,7 @@ injunctions B-UCP
 none B-NP
 of B-PP
 the B-NP
-individuals I-NP
+individuals B-NP
 or I-NP
 companies I-NP
 admitted B-VP
@@ -5447,7 +5447,7 @@ Though B-SBAR
 it B-NP
 's B-VP
 probably I-VP
-safe B-ADJP
+safe B-NP
 to B-VP
 assume I-VP
 that B-SBAR
@@ -5459,8 +5459,8 @@ planners I-NP
 are B-VP
 honest B-NP
 and O
-even B-NP
-reasonably I-NP
+even O
+reasonably O
 competent O
 , O
 the O
@@ -5488,13 +5488,13 @@ himself O
 a O
 financial O
 planner O
-. B-NP
+. O
 
 Prompted B-ADVP
 by B-PP
 an B-NP
-earlier B-ADVP
-California B-NP
+earlier I-NP
+California I-NP
 earthquake I-NP
 , O
 as B-CONJP
@@ -5527,7 +5527,7 @@ $ B-NP
 equipping B-PP
 a B-NP
 trailer I-NP
-with B-PP
+with O
 communications O
 gear O
 to O
@@ -5536,7 +5536,7 @@ as O
 an O
 emergency O
 headquarters O
-. B-NP
+. O
 
 But O
 despite B-PP
@@ -5560,8 +5560,8 @@ Wall B-NP
 Street I-NP
 's B-NP
 volatility I-NP
-and O
-high B-NP
+and I-NP
+high I-NP
 U.K. I-NP
 interest I-NP
 rates I-NP
@@ -5605,13 +5605,13 @@ home B-ADVP
 the B-NP
 bacon I-NP
 '' O
-to B-PP
+to B-VP
 their B-NP
 respective I-NP
 constituencies I-NP
 . O
 
-Nausea B-INTJ
+Nausea B-NP
 seems B-VP
 a B-ADJP
 commonplace I-ADJP
@@ -5620,7 +5620,7 @@ symptom I-ADJP
 
 James B-NP
 L. I-NP
-Madson I-NP
+Madson O
 , O
 46 B-NP
 years I-NP
@@ -5662,7 +5662,7 @@ a B-NP
 year I-NP
 ago B-ADVP
 of B-PP
-`` O
+`` B-NP
 somewhat B-ADJP
 less I-ADJP
 than B-PP
@@ -5671,10 +5671,10 @@ than B-PP
 . O
 '' O
 
-`` O
-With B-SBAR
+`` B-VP
+With O
 pleasure O
-. B-NP
+. O
 
 But O
 lawyers B-NP
@@ -5683,9 +5683,9 @@ Mr. B-NP
 Steinberg I-NP
 probably B-ADVP
 faced B-VP
-much B-ADJP
-more I-ADJP
-potential B-NP
+much B-NP
+more I-NP
+potential I-NP
 liability I-NP
 because B-SBAR
 , O
@@ -5726,7 +5726,7 @@ former I-NP
 Wall I-NP
 Street I-NP
 Journal I-NP
-newsman I-NP
+newsman B-ADVP
 , O
 offered B-VP
 them B-NP
@@ -5740,7 +5740,7 @@ trading I-NP
 But O
 since B-SBAR
 returning B-VP
-to I-VP
+to B-PP
 advertising B-NP
 , O
 Maxwell B-NP
@@ -5756,10 +5756,10 @@ running B-NP
 neck I-NP
 and I-NP
 neck I-NP
-with B-PP
+with O
 archrival O
 Folgers O
-. B-NP
+. O
 
 World-wide B-NP
 sales I-NP
@@ -5781,7 +5781,7 @@ mints I-INTJ
 increased B-VP
 12 B-NP
 % I-NP
-to B-PP
+to B-VP
 $ B-NP
 277 I-NP
 million I-NP
@@ -5819,10 +5819,10 @@ I B-NP
 'd B-VP
 be I-VP
 paying I-VP
-so B-ADVP
-heavily B-VP
-just I-VP
-to I-VP
+so B-ADJP
+heavily B-ADVP
+just B-ADVP
+to B-VP
 have I-VP
 the B-NP
 option I-NP
@@ -5865,8 +5865,8 @@ damaged B-NP
 property I-NP
 is B-VP
 owned I-VP
-jointly I-VP
-or I-VP
+jointly B-ADVP
+or O
 separately B-ADVP
 and I-ADVP
 whether B-SBAR
@@ -5908,7 +5908,7 @@ said B-VP
 We B-NP
 've B-VP
 gotten I-VP
-all B-NP
+all O
 the B-NP
 benefits I-NP
 of I-NP
@@ -5930,7 +5930,7 @@ and O
 their B-NP
 confidence I-NP
 will B-VP
-return I-VP
+return B-NP
 , O
 he B-NP
 says B-VP
@@ -5944,7 +5944,7 @@ do I-VP
 something B-NP
 about B-PP
 this B-NP
-, O
+, I-NP
 '' O
 said B-VP
 Maury B-NP
@@ -5961,8 +5961,8 @@ The B-NP
 charge I-NP
 on B-PP
 loans B-NP
-to B-PP
-brokers B-NP
+to I-NP
+brokers I-NP
 on B-PP
 stock B-NP
 exchange I-NP
@@ -6005,7 +6005,7 @@ benefits I-NP
 for B-PP
 their B-NP
 respective I-NP
-constituencies I-NP
+constituencies B-ADVP
 , O
 voters B-NP
 in B-PP
@@ -6025,7 +6025,7 @@ in B-PP
 office B-NP
 . O
 
-Always B-LST
+Always B-ADVP
 . O
 
 `` B-INTJ
@@ -6042,12 +6042,12 @@ Treasurys B-NP
 '' O
 Mr. B-NP
 Corcoran I-NP
-replies I-NP
+replies O
 . O
 
 So O
 the B-NP
-Federal I-NP
+Federal B-NP
 Reserve I-NP
 is B-VP
 an B-NP
@@ -6067,8 +6067,8 @@ susceptible B-ADJP
 to B-PP
 some B-NP
 song I-NP
-and O
-dance B-VP
+and I-NP
+dance I-NP
 if B-SBAR
 it B-NP
 hits B-VP
@@ -6126,8 +6126,8 @@ McLennan I-NP
 Inc. I-NP
 , O
 up B-ADVP
-$ B-ADJP
-3.125 I-ADJP
+$ B-NP
+3.125 I-NP
 to B-PP
 $ B-NP
 75.875 I-NP
@@ -6149,8 +6149,8 @@ point I-NP
 where B-ADVP
 we B-NP
 can B-VP
-fund I-VP
-additional B-NP
+fund B-NP
+additional I-NP
 new-country I-NP
 development I-NP
 , O
@@ -6168,7 +6168,7 @@ dividend O
 '' O
 he O
 added O
-. B-NP
+. O
 
 The B-NP
 British I-NP
@@ -6191,8 +6191,8 @@ Deloitte B-NP
 '' O
 by B-PP
 Deloitte B-NP
-, O
-Haskins B-NP
+, I-NP
+Haskins I-NP
 & I-NP
 Sells I-NP
 and I-NP
@@ -6211,8 +6211,8 @@ world I-NP
 . O
 
 The B-NP
-heavy I-NP
-selling B-VP
+heavy B-NP
+selling I-NP
 by B-PP
 farmers B-NP
 helped B-VP
@@ -6235,8 +6235,8 @@ light B-NP
 trucks I-NP
 in B-PP
 the B-NP
-2.5-ton B-VP
-to I-VP
+2.5-ton I-NP
+to B-VP
 4.2-ton B-ADJP
 range I-ADJP
 is B-VP
@@ -6283,8 +6283,8 @@ quarter I-NP
 , O
 and O
 they B-NP
-estimated I-NP
-operating I-NP
+estimated B-VP
+operating B-NP
 margins I-NP
 at B-PP
 only B-NP
@@ -6319,9 +6319,9 @@ the B-NP
 major I-NP
 cities I-NP
 suffered B-VP
-largely B-ADVP
-cosmetic I-ADVP
-damage B-NP
+largely I-VP
+cosmetic B-NP
+damage I-NP
 -- O
 broken B-NP
 windows I-NP
@@ -6359,8 +6359,8 @@ the B-NP
 Ashland I-NP
 , O
 Ky. B-NP
-, O
-coal B-NP
+, I-NP
+coal I-NP
 mining I-NP
 , O
 water B-NP
@@ -6381,7 +6381,7 @@ a B-NP
 increase I-NP
 in B-PP
 third-quarter B-NP
-net I-NP
+net B-NP
 income I-NP
 despite B-PP
 a B-NP
@@ -6415,8 +6415,8 @@ in B-PP
 Alberta B-NP
 , I-NP
 Saskatchewan I-NP
-and I-NP
-Manitoba I-NP
+and O
+Manitoba B-NP
 . O
 
 Although B-SBAR
@@ -6452,8 +6452,8 @@ a B-NP
 Vermont I-NP
 Democrat I-NP
 who B-NP
-then B-ADVP
-served B-VP
+then B-VP
+served I-VP
 on B-PP
 the B-NP
 Senate I-NP
@@ -6468,8 +6468,8 @@ which B-NP
 provides B-VP
 engineered I-VP
 products B-NP
-, I-NP
-systems I-NP
+, O
+systems B-NP
 and I-NP
 services I-NP
 for B-PP
@@ -6493,7 +6493,7 @@ Now B-ADVP
 she B-NP
 leads B-VP
 a B-NP
-grassroots B-PP
+grassroots B-SBAR
 abortion-rights B-NP
 campaign I-NP
 in B-PP
@@ -6511,8 +6511,8 @@ Florio I-NP
 Dun B-NP
 & I-NP
 Bradstreet I-NP
-lost B-VP
-1 B-NP
+lost I-NP
+1 I-NP
 7\/8 I-NP
 to B-PP
 51 B-NP
@@ -6524,11 +6524,11 @@ shares I-NP
 . O
 
 To B-VP
-help I-VP
-residents B-NP
-in B-PP
-Northern B-NP
-California I-NP
+help O
+residents O
+in O
+Northern O
+California O
 rebuild O
 , O
 FEMA O
@@ -6574,14 +6574,14 @@ agency O
 individual O
 assistance O
 division O
-. B-NP
+. O
 
 Revenue B-NP
 was B-VP
 21.98 B-NP
 billion I-NP
 francs I-NP
-. O
+. I-NP
 
 `` O
 They B-NP
@@ -6605,7 +6605,7 @@ Peters I-NP
 for B-PP
 hiring B-VP
 him B-NP
-to B-PP
+to B-VP
 direct B-NP
 the B-NP
 Warner I-NP
@@ -6629,7 +6629,7 @@ ft. B-VP
 out B-PRT
 on B-PP
 a B-NP
-pier I-NP
+pier B-ADVP
 in B-PP
 San B-NP
 Rafael I-NP
@@ -6640,7 +6640,7 @@ average I-NP
 dropped B-VP
 6.40 I-VP
 to I-VP
-1247.87 B-PRT
+1247.87 B-ADJP
 and O
 has B-VP
 now I-VP
@@ -6668,7 +6668,7 @@ services I-NP
 jumped B-VP
 23 B-NP
 % I-NP
-to B-PP
+to B-VP
 $ B-NP
 177.4 I-NP
 million I-NP
@@ -6690,7 +6690,7 @@ more B-ADVP
 efficiently I-ADVP
 , O
 leading B-VP
-to I-VP
+to B-PP
 overcapacity B-NP
 they B-NP
 were B-VP
@@ -6713,7 +6713,7 @@ middlemen I-NP
 because B-PP
 it B-NP
 would B-VP
-jeopardize I-VP
+jeopardize B-SBAR
 industrial B-NP
 confidentiality I-NP
 . O
@@ -6724,9 +6724,9 @@ dropped B-VP
 $ B-NP
 1.625 B-PP
 yesterday B-NP
-to B-VP
-$ B-ADJP
-190.125 I-ADJP
+to B-PP
+$ B-NP
+190.125 I-NP
 on B-PP
 volume B-NP
 of B-PP
@@ -6749,7 +6749,7 @@ first I-NP
 hour I-NP
 of B-PP
 trading B-NP
-, O
+, I-NP
 about B-PP
 one B-NP
 million I-NP
@@ -6784,7 +6784,7 @@ special B-NP
 souvenir I-NP
 World I-NP
 Series I-NP
-postcards I-NP
+postcards B-VP
 with B-PP
 official B-NP
 postmarks I-NP
@@ -6816,7 +6816,7 @@ quick I-NP
 profit I-NP
 , O
 he B-NP
-and O
+and I-NP
 other B-NP
 traders I-NP
 said B-VP
@@ -6832,8 +6832,8 @@ Charleston B-NP
 Lost B-UCP
 Quite I-UCP
 a B-NP
-Lot I-NP
-to B-PP
+Lot B-VP
+to I-VP
 Hugo B-NP
 , O
 Especially B-ADJP
@@ -6865,7 +6865,7 @@ N.Y. B-NP
 is B-VP
 reportedly B-ADVP
 working B-VP
-out B-PRT
+out B-PP
 an B-NP
 agreement I-NP
 with B-PP
@@ -6875,7 +6875,7 @@ Helmsley B-NP
 Also B-ADVP
 , O
 he B-NP
-and O
+and I-NP
 Mr. B-NP
 Stein I-NP
 were B-VP
@@ -6910,9 +6910,9 @@ to I-VP
 rescue I-VP
 the B-NP
 nation I-NP
-'s B-NP
-troubled I-NP
-thrifts I-NP
+'s B-VP
+troubled I-VP
+thrifts B-NP
 . O
 
 For B-PP
@@ -6921,7 +6921,7 @@ fourth I-NP
 quarter I-NP
 , O
 Bristol-Myers B-NP
-Squibb I-NP
+Squibb B-NP
 will B-VP
 report I-VP
 one B-NP
@@ -6961,8 +6961,8 @@ loyalty I-NP
 will B-VP
 diminish I-VP
 ever I-VP
-so B-ADJP
-slightly I-ADJP
+so B-ADVP
+slightly I-ADVP
 -- O
 even B-ADVP
 for B-PP
@@ -6974,11 +6974,11 @@ Budweiser I-PP
 . O
 '' O
 
-By B-PP
+By B-ADVP
 1982 B-NP
 the B-NP
 ratio I-NP
-was B-VP
+was O
 43.5 O
 % O
 , O
@@ -7001,12 +7001,12 @@ assets O
 at O
 43 O
 cents O
-. B-NP
+. O
 
 Though B-SBAR
 Democrats B-NP
 can B-VP
-gloat B-PRT
+gloat I-VP
 at B-PP
 all B-NP
 this I-NP
@@ -7027,14 +7027,14 @@ at B-PP
 this B-NP
 early I-NP
 stage I-NP
-, O
-drugs B-NP
+, I-NP
+drugs I-NP
 caused B-VP
 additional B-NP
 concerns I-NP
 . O
 
-Computer B-NP
+Computer B-VP
 picking O
 is O
 n't O
@@ -7050,20 +7050,20 @@ and O
 founder O
 of O
 Pinpoint O
-. B-NP
+. O
 
 Merger B-INTJ
 Fallout I-INTJ
 : O
-Beware B-INTJ
-Employee I-INTJ
+Beware B-ADJP
+Employee I-ADJP
 Dishonesty O
 
 Mr. B-NP
 Baldwin I-NP
 likes I-NP
 the B-NP
-offering I-NP
+offering B-VP
 . O
 
 At B-PP
@@ -7072,7 +7072,7 @@ end I-NP
 of B-PP
 the B-NP
 month I-NP
-, O
+, I-NP
 the B-NP
 agency I-NP
 again B-ADVP
@@ -7096,16 +7096,16 @@ but O
 when B-ADVP
 it B-NP
 came B-VP
-back I-VP
-up B-PRT
+back B-PRT
+up B-ADVP
 , O
 it B-NP
 teemed I-NP
-with B-PP
+with O
 emotional O
 first-hand O
 reports O
-. B-NP
+. O
 
 The B-NP
 move I-NP
@@ -7141,7 +7141,7 @@ scrapped B-VP
 -- O
 kills B-SBAR
 the B-NP
-four-year-old B-PP
+four-year-old B-VP
 Merkur B-NP
 brand I-NP
 in B-PP
@@ -7150,8 +7150,8 @@ U.S. I-NP
 market I-NP
 . O
 
-Arkansas B-NP
-Democrat I-NP
+Arkansas B-SBAR
+Democrat B-NP
 David I-NP
 Pryor I-NP
 spilled B-PP
@@ -7183,7 +7183,7 @@ tell I-VP
 you B-NP
 ... O
 
-Brands O
+Brands B-VP
 made O
 by O
 the O
@@ -7203,7 +7203,7 @@ of O
 the O
 market O
 share O
-. B-NP
+. O
 
 A B-NP
 one-time I-NP
@@ -7219,8 +7219,8 @@ national I-NP
 edition I-NP
 will B-VP
 cost I-VP
-$ B-ADJP
-99,385 I-ADJP
+$ B-NP
+99,385 B-ADVP
 . O
 
 After B-PP
@@ -7228,7 +7228,7 @@ the B-NP
 vote I-NP
 , O
 Connecticut B-NP
-Rep. I-NP
+Rep. B-NP
 Nancy I-NP
 Johnson I-NP
 rounded B-VP
@@ -7252,9 +7252,9 @@ veto I-VP
 
 `` O
 If B-SBAR
-that I-SBAR
-'s B-NP
-true I-NP
+that B-NP
+'s B-VP
+true B-ADJP
 , O
 Orange B-NP
 County I-NP
@@ -7277,7 +7277,7 @@ Two-income B-NP
 couple I-NP
 , O
 age B-NP
-45 I-NP
+45 B-NP
 ; O
 $ B-NP
 150,000 I-NP
@@ -7310,7 +7310,7 @@ newly I-VP
 formed I-VP
 Employee B-NP
 Stock I-NP
-Ownership B-PP
+Ownership B-SBAR
 Plans B-NP
 . O
 
@@ -7330,7 +7330,7 @@ block I-VP
 Xtra B-NP
 's B-NP
 anti-takeover I-NP
-tactic I-NP
+tactic O
 . O
 
 UAL'S B-CONJP
@@ -7351,7 +7351,7 @@ Airways I-NP
 indicated B-VP
 it B-NP
 may B-VP
-balk B-PRT
+balk I-VP
 at B-PP
 any B-NP
 hastily I-NP
@@ -7383,7 +7383,7 @@ resuming I-PP
 its B-NP
 operations I-NP
 after B-PP
-filing B-NP
+filing B-VP
 earlier B-ADVP
 this B-NP
 year I-NP
@@ -7405,8 +7405,8 @@ year I-NP
 . O
 
 B.A.T B-NP
-aims B-VP
-to I-VP
+aims I-NP
+to B-VP
 sell I-VP
 such B-NP
 U.S. I-NP
@@ -7434,7 +7434,7 @@ issues O
 to O
 existing O
 holders O
-. B-NP
+. O
 
 Ciba-Geigy B-NP
 and O
@@ -7452,8 +7452,8 @@ for B-PP
 Connaught B-NP
 , O
 and O
-Institut B-SBAR
-Merieux B-NP
+Institut B-NP
+Merieux I-NP
 S.A. I-NP
 of B-PP
 France B-NP
@@ -7482,7 +7482,7 @@ from B-PP
 the B-NP
 first I-NP
 quarter I-NP
-and O
+and B-PP
 a B-NP
 5.4 I-NP
 % I-NP
@@ -7503,8 +7503,8 @@ calls I-NP
 for B-PP
 Control B-NP
 Data I-NP
-to B-VP
-share I-VP
+to I-NP
+share I-NP
 its B-NP
 expertise B-NP
 in B-PP
@@ -7516,13 +7516,13 @@ companies I-NP
 said B-VP
 . O
 
-Warner-Lambert B-NP
-Co I-NP
+Warner-Lambert O
+Co O
 . O
 
 The B-NP
-one-hour I-NP
-program I-NP
+one-hour B-PP
+program B-NP
 will B-VP
 be I-VP
 repeated I-VP
@@ -7558,7 +7558,7 @@ task I-NP
 and O
 splits B-SBAR
 it B-NP
-up B-ADVP
+up B-PRT
 into B-PP
 parts B-NP
 , O
@@ -7599,7 +7599,7 @@ shift I-NP
 ; O
 seven B-NP
 were B-VP
-hospitalized B-ADJP
+hospitalized B-PRT
 . O
 
 When B-ADVP
@@ -7615,7 +7615,7 @@ fast B-ADVP
 says B-VP
 David B-NP
 A. I-NP
-Wyss I-NP
+Wyss O
 , O
 chief B-NP
 financial I-NP
@@ -7630,9 +7630,9 @@ McGraw-Hill B-NP
 Inc I-NP
 . O
 
-Our B-NP
-heavy I-NP
-users I-NP
+Our B-VP
+heavy O
+users O
 consume O
 two O
 to O
@@ -7651,7 +7651,7 @@ to O
 increase O
 that O
 . O
-'' B-NP
+'' O
 
 In B-PP
 1984 B-NP
@@ -7669,7 +7669,7 @@ radio I-NP
 station I-NP
 in B-PP
 the B-NP
-northern I-NP
+northern B-NP
 part I-NP
 of B-PP
 the B-NP
@@ -7683,7 +7683,7 @@ Sandinista I-NP
 propaganda I-NP
 . O
 
-But O
+But B-VP
 rail O
 , O
 air O
@@ -7718,14 +7718,14 @@ corporate O
 transport O
 officials O
 said O
-. B-NP
+. O
 
 There B-NP
 is B-VP
 n't I-VP
 any I-VP
 rush I-VP
-on B-PP
+on B-PRT
 the B-NP
 part I-NP
 of B-PP
@@ -7745,8 +7745,8 @@ The B-NP
 idea I-NP
 was B-VP
 to I-VP
-`` O
-insure B-INTJ
+`` B-ADJP
+insure I-ADJP
 '' O
 the B-NP
 value I-NP
@@ -7775,7 +7775,7 @@ Still B-ADVP
 , O
 AMR B-NP
 's B-VP
-stumble B-ADJP
+stumble B-PRT
 does B-VP
 n't I-VP
 bode B-CONJP
@@ -7790,7 +7790,7 @@ industry I-NP
 
 He B-NP
 favors B-VP
-either I-VP
+either O
 an B-NP
 all-stock I-NP
 fund I-NP
@@ -7823,8 +7823,8 @@ John B-NP
 Rothman I-NP
 , O
 president B-NP
-and O
-chief B-NP
+and I-NP
+chief I-NP
 executive I-NP
 officer I-NP
 of B-PP
@@ -7854,7 +7854,7 @@ prompting B-VP
 forecasts B-NP
 of B-PP
 weaker B-NP
-results I-NP
+results B-VP
 ahead B-ADVP
 . O
 
@@ -7871,7 +7871,7 @@ of B-PP
 General B-NP
 Electric I-NP
 Co. I-NP
-, O
+, I-NP
 said B-VP
 the B-NP
 network I-NP
@@ -7900,7 +7900,7 @@ $ B-NP
 225 I-NP
 to B-PP
 $ B-NP
-240 B-PP
+240 B-SBAR
 a B-NP
 share I-NP
 , O
@@ -7924,10 +7924,10 @@ to I-VP
 pass I-VP
 parental-consent B-NP
 legislation I-NP
-along B-ADVP
+along B-PP
 with B-PP
-a B-NP
-statewide B-ADVP
+a O
+statewide O
 ban O
 on O
 the O
@@ -7951,7 +7951,7 @@ fetuses O
 weeks O
 and O
 older O
-. B-NP
+. O
 
 West B-NP
 German I-NP
@@ -7961,7 +7961,7 @@ and O
 Western B-NP
 analysts I-NP
 are B-VP
-doubtful B-ADJP
+doubtful B-INTJ
 . O
 
 Imprisoned B-ADVP
@@ -7975,7 +7975,7 @@ II I-NP
 for B-PP
 his B-NP
 political I-NP
-beliefs I-NP
+beliefs B-ADVP
 , O
 Mr. B-NP
 Honecker I-NP
@@ -8002,7 +8002,7 @@ Moscow B-NP
 The B-NP
 computers I-NP
 find B-VP
-all B-NP
+all O
 the B-NP
 key I-NP
 words I-NP
@@ -8022,8 +8022,8 @@ caution B-VP
 that B-SBAR
 it B-NP
 is B-VP
-far B-ADVP
-too I-ADVP
+far B-ADJP
+too B-ADVP
 soon I-ADVP
 for B-NP
 reliable I-NP
@@ -8050,7 +8050,7 @@ enormous B-NP
 sums I-NP
 . O
 
-Brady O
+Brady B-VP
 and O
 Breeden O
 work O
@@ -8075,7 +8075,7 @@ to O
 the O
 SEC O
 post O
-. B-NP
+. O
 
 To B-VP
 make I-VP
@@ -8083,8 +8083,8 @@ skiing B-NP
 more B-ADJP
 convenient I-ADJP
 for B-PP
-time-strapped I-PP
-visitors B-NP
+time-strapped B-NP
+visitors I-NP
 , O
 several B-NP
 resorts I-NP
@@ -8098,7 +8098,7 @@ travel I-NP
 agencies I-NP
 . O
 
-Biking O
+Biking B-VP
 groups O
 in O
 Montana O
@@ -8123,7 +8123,7 @@ editor O
 of O
 Bicycling O
 magazine O
-. B-NP
+. O
 
 The B-NP
 exhibition I-NP
@@ -8153,7 +8153,7 @@ two I-NP
 countries I-NP
 is B-VP
 a B-NP
-minuscule B-PP
+minuscule B-SBAR
 $ B-NP
 3 I-NP
 billion I-NP
@@ -8173,7 +8173,7 @@ at B-PP
 declining B-NP
 two I-NP
 points I-NP
-semi-annually I-NP
+semi-annually B-ADVP
 to B-PP
 par B-NP
 . O
@@ -8197,7 +8197,7 @@ project I-NP
 , O
 '' O
 Mr. B-NP
-Hicks I-NP
+Hicks O
 declares B-VP
 . O
 
@@ -8226,7 +8226,7 @@ Better B-NP
 Business I-NP
 Bureaus I-NP
 are B-VP
-not O
+not B-ADJP
 encouraging B-VP
 . O
 
@@ -8245,7 +8245,7 @@ was B-VP
 issued I-VP
 without B-PP
 the B-NP
-senator B-PP
+senator B-SBAR
 's B-NP
 permission I-NP
 . O
@@ -8256,8 +8256,8 @@ Regal I-NP
 was B-VP
 named I-VP
 president B-NP
-and O
-chief B-NP
+and I-NP
+chief I-NP
 executive I-NP
 officer I-NP
 of B-PP
@@ -8279,7 +8279,7 @@ was B-VP
 `` O
 a B-NP
 publicity I-NP
-stunt I-NP
+stunt O
 . O
 '' O
 
@@ -8293,7 +8293,7 @@ $ B-NP
 1.25 I-NP
 billion I-NP
 , O
-down B-ADVP
+down B-ADJP
 from B-PP
 $ B-NP
 1.36 I-NP
@@ -8320,9 +8320,9 @@ trucker B-VP
 off B-PRT
 against B-PP
 another B-NP
-as B-ADVP
-much I-ADVP
-as B-SBAR
+as B-PP
+much B-NP
+as B-PP
 they B-NP
 can B-VP
 , O
@@ -8354,7 +8354,7 @@ Kinnevik I-NP
 group I-NP
 of B-PP
 Sweden B-NP
-, O
+, I-NP
 and O
 Arfeen B-NP
 International I-NP
@@ -8371,7 +8371,7 @@ accessory B-NP
 apartments I-NP
 , O
 for B-PP
-cottages B-NP
+cottages I-PP
 built B-VP
 in B-PP
 a B-NP
@@ -8393,7 +8393,7 @@ National B-NP
 Advanced I-NP
 Systems I-NP
 , O
-CDC B-INTJ
+CDC B-LST
 -- O
 Control B-NP
 Data I-NP
@@ -8426,9 +8426,9 @@ the B-NP
 crucible I-NP
 of B-PP
 Panama B-NP
-'s B-NP
-long I-NP
-history I-NP
+'s B-VP
+long I-VP
+history B-NP
 of B-PP
 conspirators I-PP
 and O
@@ -8454,7 +8454,7 @@ so I-VP
 weaken I-VP
 an B-NP
 airline I-NP
-financially B-ADJP
+financially B-ADVP
 that B-SBAR
 it B-NP
 would B-VP
@@ -8485,7 +8485,7 @@ New B-NP
 York I-NP
 , I-NP
 Harris I-NP
-Amhowitz I-NP
+Amhowitz O
 , O
 general B-NP
 counsel I-NP
@@ -8514,8 +8514,8 @@ story I-NP
 is B-VP
 becoming I-VP
 part B-NP
-of B-PP
-local B-NP
+of I-NP
+local I-NP
 folklore I-NP
 . O
 
@@ -8539,16 +8539,16 @@ senior B-NP
 citizens I-NP
 , I-NP
 minorities I-NP
-, O
-families B-NP
+, I-NP
+families I-NP
 with B-PP
 children B-NP
 -- O
-even B-SBAR
-a B-NP
-blind B-ADJP
+even B-ADVP
+a O
+blind O
 skier O
-. B-NP
+. O
 
 `` O
 Every B-NP
@@ -8563,7 +8563,7 @@ a B-NP
 rally I-NP
 it B-NP
 gave B-VP
-up B-PRT
+up B-ADVP
 , O
 and O
 every B-NP
@@ -8578,8 +8578,8 @@ came B-VP
 down B-ADVP
 . O
 
-Thermal B-NP
-paper I-NP
+Thermal B-PP
+paper B-NP
 is B-VP
 used I-VP
 in B-NP
@@ -8605,7 +8605,7 @@ governments I-NP
 of B-PP
 Bavaria B-NP
 and O
-Baden-Wuerttemberg B-INTJ
+Baden-Wuerttemberg B-LST
 . O
 
 Randy B-NP
@@ -8613,7 +8613,7 @@ Delchamps I-NP
 was B-VP
 named I-VP
 chairman B-NP
-and O
+and I-NP
 chief B-NP
 executive I-NP
 officer I-NP
@@ -8646,7 +8646,7 @@ comfortable B-ADJP
 they B-NP
 will B-VP
 move I-VP
-on B-PP
+on B-PRT
 a B-NP
 deal I-NP
 , O
@@ -8669,8 +8669,8 @@ McCain I-NP
 , O
 -LRB- O
 R. B-NP
-, O
-Ariz. B-NP
+, I-NP
+Ariz. I-NP
 -RRB- O
 and O
 Alan B-NP
@@ -8711,7 +8711,7 @@ to B-VP
 give I-VP
 investors B-NP
 something B-NP
-more I-NP
+more B-ADJP
 than B-PP
 the B-NP
 average I-NP
@@ -8736,9 +8736,9 @@ percentage I-NP
 of I-NP
 revenues I-NP
 -- O
-to B-VP
-21.1 B-ADJP
-% I-ADJP
+to B-PP
+21.1 B-NP
+% I-NP
 in B-PP
 the B-NP
 quarter I-NP
@@ -8761,7 +8761,7 @@ full I-NP
 family I-NP
 of B-PP
 mainframes B-NP
-next I-NP
+next B-NP
 week I-NP
 , O
 it B-NP
@@ -8785,7 +8785,7 @@ cost B-VP
 the B-NP
 bank I-NP
 approximately B-NP
-$ I-NP
+$ B-NP
 140 I-NP
 million I-NP
 . O
@@ -8795,7 +8795,7 @@ composite B-NP
 trading I-NP
 on B-PP
 the B-NP
-New I-NP
+New B-NP
 York I-NP
 Stock I-NP
 Exchange I-NP
@@ -8825,8 +8825,8 @@ few B-NP
 , O
 if B-SBAR
 any B-NP
-, O
-customers B-NP
+, I-NP
+customers I-NP
 ever B-NP
 visit I-NP
 their B-NP
@@ -8855,8 +8855,8 @@ could B-VP
 be I-VP
 overstated B-PRT
 by B-PP
-as I-PP
-much B-NP
+as B-NP
+much I-NP
 as B-PP
 five B-NP
 percentage I-NP
@@ -8885,9 +8885,9 @@ executive I-NP
 officer I-NP
 , O
 noted B-VP
-that B-SBAR
-earnings B-NP
-advanced I-NP
+that B-NP
+earnings I-NP
+advanced B-VP
 `` O
 in B-PP
 the B-NP
@@ -8932,8 +8932,8 @@ entertainment I-NP
 powerhouse I-NP
 , O
 but O
-that B-SBAR
-Warner B-NP
+that B-NP
+Warner I-NP
 never B-ADVP
 felt B-VP
 threatened I-VP
@@ -8964,10 +8964,10 @@ and O
 buying B-VP
 long-term B-NP
 bonds I-NP
-while B-SBAR
-selling B-NP
-shorter-term I-NP
-Treasurys I-NP
+while I-NP
+selling B-VP
+shorter-term I-VP
+Treasurys B-NP
 . O
 
 The B-NP
@@ -8979,7 +8979,7 @@ Arizona B-NP
 real I-NP
 estate I-NP
 turns B-VP
-around B-ADVP
+around B-ADJP
 or O
 at B-ADVP
 least I-ADVP
@@ -8990,8 +8990,8 @@ said B-VP
 . O
 
 Other B-NP
-projects I-NP
-look I-NP
+projects B-VP
+look I-VP
 for B-PP
 offenders I-PP
 among I-PP
@@ -9001,8 +9001,8 @@ get B-VP
 cash B-NP
 tips I-NP
 , O
-people B-NP
-who B-NP
+people O
+who O
 engage O
 in O
 large O
@@ -9049,7 +9049,7 @@ years O
 to O
 defer O
 tax O
-. B-NP
+. O
 
 He B-NP
 said B-VP
@@ -9061,7 +9061,7 @@ be I-VP
 `` O
 on B-PP
 target B-NP
-'' O
+'' I-NP
 with B-PP
 analysts B-NP
 ' B-NP
@@ -9088,7 +9088,7 @@ Sotheby B-NP
 's B-VP
 , O
 Christie B-NP
-'s B-VP
+'s B-NP
 and O
 the B-NP
 National I-NP
@@ -9123,8 +9123,8 @@ in B-PP
 South B-NP
 Africa I-NP
 's B-VP
-abnormal B-NP
-society I-NP
+abnormal I-VP
+society B-NP
 . O
 
 But O
@@ -9161,7 +9161,7 @@ now B-ADVP
 the B-NP
 Fed I-NP
 has B-VP
-relaxed I-VP
+relaxed B-SBAR
 its B-NP
 grip I-NP
 on B-PP
@@ -9175,7 +9175,7 @@ in B-PP
 which B-NP
 they B-NP
 said B-VP
-hostilities B-ADJP
+hostilities B-PRT
 had B-VP
 ceased B-VP
 , O
@@ -9196,8 +9196,8 @@ A. I-NP
 Conway I-NP
 , O
 president B-NP
-and O
-chief B-NP
+and I-NP
+chief I-NP
 executive I-NP
 officer I-NP
 , O
@@ -9220,7 +9220,7 @@ Asked B-VP
 about B-PP
 the B-NP
 consultants I-NP
-' B-NP
+' I-NP
 reports I-NP
 , O
 an B-NP
@@ -9235,7 +9235,7 @@ disagree B-VP
 '' O
 
 Aetna B-NP
-and O
+and I-NP
 other B-NP
 insurers I-NP
 are B-VP
@@ -9243,13 +9243,13 @@ hiring I-VP
 engineers B-NP
 and O
 architects B-NP
-to B-VP
-help I-VP
-them B-NP
+to O
+help O
+them O
 assess O
 structural O
 damage O
-. B-NP
+. O
 
 He B-NP
 added B-VP
@@ -9272,16 +9272,16 @@ plunge I-NP
 Friday I-NP
 and O
 Monday B-NP
-'s B-NP
-rebound I-NP
+'s B-VP
+rebound I-VP
 . O
 
 Broader B-NP
 averages I-NP
 also B-ADVP
 posted B-VP
-modest B-NP
-gains I-NP
+modest B-ADJP
+gains B-NP
 . O
 
 U.S. B-NP
@@ -9294,7 +9294,7 @@ $ B-NP
 billion I-NP
 in B-PP
 September B-NP
-, O
+, I-NP
 to B-PP
 $ B-NP
 68.42 I-NP
@@ -9310,7 +9310,7 @@ The B-NP
 company I-NP
 , O
 which B-NP
-last I-NP
+last B-NP
 month I-NP
 paid B-VP
 # B-NP
@@ -9337,8 +9337,8 @@ market I-NP
 
 And O
 , O
-like B-SBAR
-corporates B-LST
+like B-PP
+corporates B-NP
 , O
 many B-NP
 municipal I-NP
@@ -9369,8 +9369,8 @@ Saturday B-NP
 , O
 in B-PP
 New B-NP
-Canaan B-UCP
-, I-UCP
+Canaan I-NP
+, O
 Conn B-NP
 . O
 
@@ -9404,15 +9404,15 @@ for B-PP
 granting I-PP
 Linear B-NP
 irrevocable I-NP
-licenses I-NP
+licenses B-VP
 for B-PP
 all B-NP
 products I-NP
 involved B-VP
 . O
 
-SIERRA B-SBAR
-TUCSON B-NP
+SIERRA B-NP
+TUCSON I-NP
 Cos. I-NP
 said B-VP
 it B-NP
@@ -9435,7 +9435,7 @@ million I-NP
 . O
 
 Mr. B-NP
-Smale I-NP
+Smale O
 said B-VP
 the B-NP
 appointment I-NP
@@ -9462,7 +9462,7 @@ formed B-VP
 a B-NP
 joint I-NP
 venture I-NP
-last I-NP
+last B-NP
 month I-NP
 , O
 named B-VP
@@ -9513,7 +9513,7 @@ Corp. I-NP
 reported B-VP
 a B-NP
 surprisingly I-NP
-strong I-NP
+strong B-NP
 51 I-NP
 % I-NP
 increase I-NP
@@ -9544,7 +9544,7 @@ spreadsheet I-NP
 . O
 
 Investors B-NP
-, O
+, I-NP
 for B-PP
 instance B-NP
 , O
@@ -9585,7 +9585,7 @@ Securities I-NP
 , O
 likely B-ADJP
 will B-VP
-vacate I-VP
+vacate B-PRT
 the B-NP
 premises I-NP
 as B-PP
@@ -9596,7 +9596,7 @@ liquidation I-NP
 . O
 
 The B-NP
-independent-contractor I-NP
+independent-contractor B-NP
 project I-NP
 , O
 which B-NP
@@ -9611,7 +9611,7 @@ IRS I-NP
 agents I-NP
 . O
 
-Recovering B-SBAR
+Recovering B-PP
 radiophonic B-NP
 sovereignty I-NP
 was B-VP
@@ -9645,8 +9645,8 @@ huge I-NP
 $ I-NP
 4 I-NP
 billion I-NP
-offering B-VP
-dominated I-VP
+offering I-NP
+dominated B-VP
 attention B-NP
 in B-PP
 the B-NP
@@ -9661,19 +9661,19 @@ used I-VP
 for B-PP
 working B-NP
 capital I-NP
-and O
-general B-NP
-corporate I-NP
+and I-NP
+general I-NP
+corporate B-NP
 purposes I-NP
 , O
-including B-PP
+including O
 expansion O
 of O
 the O
 company O
 's O
 operations O
-. B-NP
+. O
 
 Public B-NP
 protests B-VP
@@ -9705,7 +9705,7 @@ stolen I-VP
 the B-NP
 1984 I-NP
 election I-NP
-and O
+and I-NP
 had B-VP
 ordered I-VP
 the B-NP
@@ -9718,7 +9718,7 @@ Torrijos I-NP
 . O
 
 But O
-there B-NP
+there B-ADVP
 is B-VP
 no I-VP
 solid B-NP
@@ -9744,7 +9744,7 @@ one I-NP
 can B-VP
 be I-VP
 held I-VP
-liable B-PRT
+liable B-ADJP
 for B-PP
 an B-NP
 `` I-NP
@@ -9759,7 +9759,7 @@ Galileo I-NP
 worm I-NP
 apparently B-ADVP
 was B-VP
-hatched B-PRT
+hatched I-VP
 on B-PP
 a B-NP
 computer I-NP
@@ -9786,7 +9786,7 @@ the B-NP
 bridge I-NP
 , O
 which B-NP
-charges I-NP
+charges B-VP
 a B-NP
 $ I-NP
 1 I-NP
@@ -9829,7 +9829,7 @@ Treasury I-NP
 bonds I-NP
 climbed B-VP
 back B-ADVP
-above B-PP
+above I-ADVP
 8 B-NP
 % I-NP
 , O
@@ -9856,7 +9856,7 @@ objectives I-NP
 , O
 in B-PP
 addition B-NP
-to B-PP
+to B-VP
 stabilizing B-VP
 the B-NP
 price I-NP
@@ -9872,7 +9872,7 @@ those B-NP
 represent B-VP
 long-term B-NP
 strategies I-NP
-that B-SBAR
+that O
 probably B-ADVP
 wo B-VP
 n't I-VP
@@ -9893,8 +9893,8 @@ ones I-NP
 
 Last B-NP
 Friday I-NP
-, O
-after B-SBAR
+, I-NP
+after B-PP
 Congress B-NP
 passed B-VP
 it B-NP
@@ -9930,7 +9930,7 @@ interest I-NP
 groups I-NP
 try B-VP
 to I-VP
-undo B-PRT
+undo I-VP
 the B-NP
 1986 I-NP
 tax I-NP
@@ -9955,7 +9955,7 @@ Steinhardt B-NP
 Partners I-NP
 to B-VP
 take I-VP
-over B-PP
+over B-PRT
 a B-NP
 company I-NP
 . O
@@ -9964,7 +9964,7 @@ company I-NP
 People B-NP
 my B-NP
 age I-NP
-thought B-VP
+thought I-NP
 it B-NP
 was B-VP
 n't I-VP
@@ -9977,9 +9977,9 @@ issue I-NP
 
 `` O
 It B-NP
-'s B-VP
-traders B-NP
-squaring I-NP
+'s B-NP
+traders I-NP
+squaring B-NP
 positions I-NP
 . O
 
@@ -9987,7 +9987,7 @@ Berkeley B-NP
 very I-NP
 quiet I-NP
 right B-ADVP
-now I-ADVP
+now B-ADVP
 . O
 
 `` O
@@ -10001,7 +10001,7 @@ are B-VP
 worth B-ADJP
 $ B-NP
 15 I-NP
-apiece I-NP
+apiece B-ADVP
 , O
 '' O
 he B-NP
@@ -10049,8 +10049,8 @@ quarter I-NP
 , O
 according B-PP
 to B-PP
-MMS B-NP
-International I-NP
+MMS I-PP
+International B-NP
 , O
 a B-NP
 unit I-NP
@@ -10069,7 +10069,7 @@ general I-NP
 reasons I-NP
 for B-PP
 the B-NP
-mistaken B-PP
+mistaken B-SBAR
 monetary B-NP
 policy I-NP
 of B-PP
@@ -10080,7 +10080,7 @@ years I-NP
 : O
 
 But O
-that B-NP
+that B-SBAR
 is B-VP
 not I-VP
 the B-NP
@@ -10127,7 +10127,7 @@ about B-NP
 to B-PP
 unplug I-PP
 our B-NP
-IBM I-NP
+IBM B-NP
 mainframes I-NP
 for B-PP
 a B-NP
@@ -10141,13 +10141,13 @@ average I-NP
 closed B-VP
 down B-PRT
 18.65 B-NP
-, O
+, I-NP
 to B-PP
 2638.73 B-NP
 . O
 
-Even B-SBAR
-if I-SBAR
+Even B-ADVP
+if B-SBAR
 there B-NP
 is B-VP
 n't I-VP
@@ -10170,8 +10170,8 @@ of B-PP
 insurance B-NP
 brokers I-NP
 were B-VP
-especially B-ADJP
-strong I-ADJP
+especially B-ADVP
+strong B-NP
 . O
 
 In B-PP
@@ -10189,7 +10189,7 @@ Times I-NP
 closed B-VP
 at B-PP
 $ B-NP
-28.125 B-PP
+28.125 B-SBAR
 a B-NP
 share I-NP
 , O
@@ -10204,7 +10204,7 @@ the B-NP
 world I-NP
 of B-PP
 intelligence B-NP
-, O
+, I-NP
 if B-SBAR
 you B-NP
 want B-VP
@@ -10245,7 +10245,7 @@ experts I-NP
 to B-VP
 devise I-VP
 alternate B-NP
-approaches I-NP
+approaches B-VP
 to B-PP
 a B-NP
 reorganization I-NP
@@ -10261,12 +10261,12 @@ $ B-NP
 billion I-NP
 from B-PP
 $ B-NP
-6.94 I-NP
+6.94 B-NP
 billion I-NP
 . O
 
 The B-NP
-five-member B-PP
+five-member B-VP
 Atlantis B-NP
 crew I-NP
 will B-VP
@@ -10300,7 +10300,7 @@ Monday B-NP
 . O
 
 The B-NP
-employees I-NP
+employees B-NP
 also B-ADVP
 said B-VP
 the B-NP
@@ -10318,7 +10318,7 @@ Reward B-SBAR
 El B-NP
 Espectador I-NP
 's B-VP
-courage B-PRT
+courage I-VP
 with B-PP
 real B-NP
 support I-NP
@@ -10329,7 +10329,7 @@ marked B-VP
 the B-NP
 first I-NP
 time I-NP
-a B-NP
+a I-NP
 U.S. I-NP
 official I-NP
 was B-VP
@@ -10351,7 +10351,7 @@ attributed B-VP
 the B-NP
 earnings I-NP
 growth I-NP
-to B-PP
+to B-VP
 strong B-NP
 sales I-NP
 in B-PP
@@ -10378,7 +10378,7 @@ elections I-NP
 that B-SBAR
 some B-NP
 analysts I-NP
-say B-VP
+say B-ADVP
 could B-VP
 cost I-VP
 him B-NP
@@ -10401,7 +10401,7 @@ auctioneer I-CONJP
 Campo B-NP
 is B-VP
 less I-VP
-concerned B-ADJP
+concerned I-VP
 with B-PP
 market B-NP
 niches B-CONJP
@@ -10420,8 +10420,8 @@ Mark B-NP
 , O
 an B-NP
 oil I-NP
-and O
-gas B-NP
+and I-NP
+gas I-NP
 concern I-NP
 , O
 said B-VP
@@ -10467,7 +10467,7 @@ Langton I-NP
 is B-VP
 among B-PP
 the B-NP
-legions I-NP
+legions B-VP
 of B-PP
 bikers B-NP
 who B-NP
@@ -10494,7 +10494,7 @@ yesterday B-NP
 at B-PP
 $ B-NP
 6 I-NP
-a B-NP
+a I-NP
 share I-NP
 , O
 down B-ADVP
@@ -10505,7 +10505,7 @@ cents I-NP
 We B-NP
 do B-VP
 n't I-VP
-want I-VP
+want B-VP
 to I-VP
 be I-VP
 party B-NP
@@ -10516,8 +10516,8 @@ rejection I-NP
 . O
 '' O
 
-Ex-Im B-NP
-Bank I-NP
+Ex-Im B-SBAR
+Bank B-NP
 officials I-NP
 said B-VP
 this B-NP
@@ -10529,8 +10529,8 @@ under B-NP
 way I-NP
 . O
 
-The B-NP
-unit I-NP
+The B-VP
+unit O
 stabilized O
 about O
 midday O
@@ -10561,7 +10561,7 @@ the O
 unit O
 's O
 tumble O
-. B-NP
+. O
 
 `` O
 We B-NP
@@ -10590,7 +10590,7 @@ Lynch B-NP
 , I-NP
 Jones I-NP
 & I-NP
-Ryan I-NP
+Ryan O
 . O
 
 Mr. B-NP
@@ -10610,7 +10610,7 @@ executive I-NP
 committee I-NP
 of B-PP
 Banc B-NP
-One I-NP
+One B-NP
 Indiana I-NP
 Corp. I-NP
 , O
@@ -10645,7 +10645,7 @@ to I-VP
 make I-VP
 it B-NP
 work I-NP
-, O
+, I-NP
 '' O
 says B-VP
 Mr. B-NP
@@ -10660,7 +10660,7 @@ New B-NP
 Jersey I-NP
 Turnpike I-NP
 Authority I-NP
-'s B-VP
+'s B-NP
 7.20 B-ADJP
 % I-ADJP
 issue B-NP
@@ -10678,7 +10678,7 @@ bid I-NP
 Ford B-NP
 trucks I-NP
 may B-VP
-outsell I-VP
+outsell B-SBAR
 Chevy B-NP
 trucks I-NP
 in B-PP
@@ -10706,7 +10706,7 @@ Corp I-NP
 . O
 
 Another B-NP
-Fox I-NP
+Fox B-NP
 official I-NP
 , O
 who B-NP
@@ -10756,7 +10756,7 @@ show I-NP
 `` B-NP
 Hill I-NP
 Street I-NP
-Blues I-NP
+Blues B-ADVP
 . O
 '' O
 
@@ -10770,8 +10770,8 @@ of B-PP
 banks B-NP
 to B-VP
 justify I-VP
-cash I-VP
-caches B-PRT
+cash B-NP
+caches I-NP
 to B-PP
 the B-NP
 IRS I-NP
@@ -10790,7 +10790,7 @@ agencies I-NP
 moved B-VP
 to I-VP
 provide I-VP
-specialized B-PRT
+specialized I-VP
 assistance B-NP
 . O
 
@@ -10800,7 +10800,7 @@ again B-ADVP
 shook B-VP
 bond B-NP
 prices I-NP
-, O
+, I-NP
 while B-SBAR
 the B-NP
 dollar I-NP
@@ -10817,7 +10817,7 @@ had B-VP
 threatened I-VP
 a B-NP
 veto I-NP
-previously I-NP
+previously B-VP
 . O
 
 Democratic B-NP
@@ -10840,7 +10840,7 @@ cuts B-NP
 that B-SBAR
 took B-VP
 effect B-NP
-this I-NP
+this B-NP
 week I-NP
 , O
 says B-VP
@@ -10858,7 +10858,7 @@ them B-NP
 '' O
 
 The B-NP
-transaction I-NP
+transaction B-NP
 would B-VP
 mark I-VP
 the B-NP
@@ -10874,7 +10874,7 @@ Sweden B-NP
 National I-NP
 Audit I-NP
 Bureau I-NP
-releases B-VP
+releases I-NP
 its B-NP
 report I-NP
 confirming B-VP
@@ -10897,8 +10897,8 @@ British I-NP
 companies I-NP
 still B-ADVP
 making B-VP
-hard B-ADVP
-toilet B-NP
+hard B-NP
+toilet I-NP
 paper I-NP
 stopped B-VP
 production B-NP
@@ -10912,8 +10912,8 @@ that B-NP
 births I-NP
 were B-VP
 `` O
-extremely B-NP
-unlikely I-NP
+extremely B-ADJP
+unlikely B-ADJP
 '' O
 after B-SBAR
 the B-NP
@@ -10963,10 +10963,10 @@ Rica I-NP
 operating I-NP
 on B-PP
 a B-NP
-shoestring I-NP
+shoestring B-VP
 . O
 
-Stocks B-NP
+Stocks B-VP
 : O
 
 Mr. B-NP
@@ -10979,8 +10979,8 @@ be I-VP
 reluctant B-ADJP
 to B-VP
 step I-VP
-up B-PRT
-building B-NP
+up B-ADVP
+building B-VP
 at B-PP
 the B-NP
 moment I-NP
@@ -11002,7 +11002,7 @@ bonds I-NP
 are B-VP
 very B-ADJP
 sensitive I-ADJP
-to B-PP
+to B-VP
 the B-NP
 downside I-NP
 , O
@@ -11047,7 +11047,7 @@ of B-PP
 local B-NP
 agencies I-NP
 to B-VP
-comply B-PRT
+comply I-VP
 with B-PP
 conditions B-NP
 agreed B-VP
@@ -11065,8 +11065,8 @@ to B-PP
 sit B-VP
 down B-ADVP
 and O
-talk B-NP
-to B-PP
+talk B-VP
+to I-VP
 anybody B-NP
 , O
 '' O
@@ -11082,7 +11082,7 @@ When B-ADVP
 stocks B-VP
 stabilized I-VP
 , O
-that B-NP
+that O
 was B-VP
 a B-NP
 disappointment I-NP
@@ -11094,8 +11094,8 @@ a B-NP
 statement I-NP
 , O
 Alex B-NP
-Kroll B-UCP
-, I-UCP
+Kroll I-NP
+, O
 Young B-NP
 & I-NP
 Rubicam I-NP
@@ -11133,7 +11133,7 @@ floor I-NP
 , O
 who B-NP
 can B-VP
-observe I-VP
+observe B-SBAR
 the B-NP
 computer-guided B-NP
 trading I-NP
@@ -11158,7 +11158,7 @@ days I-NP
 But O
 this B-NP
 is B-VP
-not I-VP
+not O
 where B-ADVP
 the B-NP
 rewards I-NP
@@ -11195,8 +11195,8 @@ which B-NP
 put B-VP
 both B-NP
 UAL I-NP
-and O
-NWA B-NP
+and I-NP
+NWA I-NP
 in B-PP
 play B-VP
 as B-PP
@@ -11244,7 +11244,7 @@ the B-NP
 middlemen I-NP
 who B-NP
 received B-VP
-kickbacks B-PRT
+kickbacks I-VP
 from B-PP
 the B-NP
 company I-NP
@@ -11264,7 +11264,7 @@ million I-NP
 , O
 or O
 $ B-NP
-3.04 B-PP
+3.04 B-VP
 a B-NP
 share I-NP
 , O
@@ -11312,7 +11312,7 @@ a B-NP
 rise I-NP
 this B-NP
 summer I-NP
-that B-SBAR
+that O
 helped B-VP
 to I-VP
 reduce I-VP
@@ -11327,7 +11327,7 @@ The B-NP
 time I-NP
 is B-VP
 Pacific B-NP
-Daylight B-PP
+Daylight B-VP
 Time B-NP
 , O
 and O
@@ -11352,7 +11352,7 @@ helping B-VP
 hand I-VP
 from B-PP
 some B-NP
-catalog I-NP
+catalog B-NP
 companies I-NP
 . O
 
@@ -11368,8 +11368,8 @@ at B-PP
 % I-NP
 to B-VP
 yield I-VP
-10.958 B-ADJP
-% I-ADJP
+10.958 B-NP
+% I-NP
 in B-PP
 an B-NP
 offering I-NP
@@ -11403,8 +11403,8 @@ grants I-NP
 relief I-NP
 for B-PP
 certain B-NP
-estate-tax I-NP
-returns I-NP
+estate-tax B-PP
+returns B-NP
 . O
 
 a B-NP
@@ -11430,7 +11430,7 @@ compiled B-VP
 by B-PP
 Bank B-NP
 Rate I-NP
-Monitor I-NP
+Monitor O
 . O
 
 Jeff B-NP
@@ -11443,7 +11443,7 @@ brother I-NP
 Jack B-NP
 , O
 who B-NP
-fancies B-PP
+fancies B-SBAR
 himself B-NP
 the B-NP
 rebellious I-NP
@@ -11493,7 +11493,7 @@ that B-SBAR
 if I-SBAR
 it B-NP
 takes B-VP
-only I-VP
+only B-ADVP
 43 B-NP
 cents I-NP
 to B-VP
@@ -11528,7 +11528,7 @@ at B-PP
 a B-NP
 dollar I-NP
 is B-VP
-primarily B-ADVP
+primarily B-PP
 a B-NP
 convenience I-NP
 . O
@@ -11553,7 +11553,7 @@ million I-NP
 or O
 $ B-NP
 2.02 B-NP
-a B-NP
+a I-NP
 share I-NP
 , O
 from B-PP
@@ -11573,8 +11573,8 @@ the B-NP
 period I-NP
 . O
 
-Speculation B-ADVP
-that B-SBAR
+Speculation B-SBAR
+that I-SBAR
 the B-NP
 Federal I-NP
 Reserve I-NP
@@ -11611,8 +11611,8 @@ and O
 the B-NP
 failed I-NP
 bank I-NP
-'s B-VP
-five B-NP
+'s B-NP
+five I-NP
 offices I-NP
 will B-VP
 reopen I-VP
@@ -11623,7 +11623,7 @@ today B-NP
 But O
 if B-SBAR
 he B-NP
-'s B-NP
+'s I-NP
 sharp I-NP
 and O
 quick B-NP
@@ -11641,8 +11641,8 @@ have B-VP
 won I-VP
 the B-NP
 French I-NP
-space-buying I-NP
-business I-NP
+space-buying B-PP
+business B-NP
 of B-PP
 such B-NP
 advertising I-NP
@@ -11663,8 +11663,8 @@ Kodak I-NP
 
 That B-NP
 's B-VP
-usually B-ADVP
-how I-ADVP
+usually I-VP
+how B-ADVP
 long I-ADVP
 it B-NP
 takes B-VP
@@ -11677,7 +11677,7 @@ pass I-VP
 
 During B-PP
 the B-NP
-15-month I-NP
+15-month B-NP
 survey I-NP
 , O
 43 B-NP
@@ -11715,7 +11715,7 @@ Horta B-INTJ
 auctioned I-INTJ
 pistols I-INTJ
 and O
-sabers B-INTJ
+sabers B-LST
 - O
 along B-ADVP
 with B-PP
@@ -11724,10 +11724,10 @@ and O
 jewels B-INTJ
 . O
 
-Mortgage-Backed B-NP
-Securities I-NP
+Mortgage-Backed O
+Securities O
 
-As B-SBAR
+As B-PP
 a B-NP
 result I-NP
 , O
@@ -11800,7 +11800,7 @@ Enterprises I-NP
 , O
 which B-NP
 is B-VP
-49%-owned B-PRT
+49%-owned I-VP
 by B-PP
 Coca-Cola B-NP
 Co. I-NP
@@ -11846,15 +11846,15 @@ board I-NP
 increasing B-VP
 its B-NP
 membership I-NP
-to B-PP
-nine B-NP
+to I-NP
+nine I-NP
 . O
 
 The B-NP
 White I-NP
 House I-NP
 , O
-never B-ADVP
+never B-VP
 eager B-ADJP
 for B-PP
 a B-NP
@@ -11900,7 +11900,7 @@ account I-NP
 to B-PP
 Waring B-NP
 & I-NP
-LaRosa I-NP
+LaRosa O
 , O
 New B-NP
 York I-NP
@@ -11937,8 +11937,8 @@ containing B-VP
 costs B-NP
 as B-PP
 it B-NP
-spreads B-VP
-to I-VP
+spreads I-NP
+to B-VP
 cover I-VP
 medical B-NP
 services I-NP
@@ -11961,8 +11961,8 @@ infelicitous B-INTJ
 '' O
 analogy B-SBAR
 he B-NP
-once B-ADVP
-heard B-VP
+once B-VP
+heard I-VP
 arguing B-VP
 `` O
 now B-ADVP
@@ -12005,7 +12005,7 @@ and I-UCP
 feeds I-UCP
 his B-NP
 own I-NP
-sheep I-NP
+sheep O
 . O
 
 President B-NP
@@ -12013,9 +12013,9 @@ Bush I-NP
 told B-VP
 reporters B-NP
 : O
-`` B-INTJ
-Whether I-INTJ
-that O
+`` O
+Whether B-SBAR
+that B-NP
 -LCB- O
 the B-NP
 leadership I-NP
@@ -12046,7 +12046,7 @@ to B-VP
 do I-VP
 besides B-PP
 ski B-NP
-and I-NP
+and O
 sit B-VP
 in B-PP
 the B-NP
@@ -12070,7 +12070,7 @@ of B-PP
 Commerce B-NP
 . O
 
-After B-PP
+After B-SBAR
 San B-NP
 Francisco I-NP
 Mayor I-NP
@@ -12109,7 +12109,7 @@ Ford B-NP
 executives I-NP
 will B-VP
 say I-VP
-little B-NP
+little I-VP
 beyond B-PP
 reiterating I-PP
 their B-NP
@@ -12130,7 +12130,7 @@ about B-NP
 The B-NP
 results I-NP
 were B-VP
-fascinating B-ADJP
+fascinating B-INTJ
 , O
 '' O
 he B-NP
@@ -12139,7 +12139,7 @@ said B-VP
 
 The B-NP
 official I-NP
-poverty I-NP
+poverty B-NP
 threshold I-NP
 is B-VP
 set I-VP
@@ -12157,7 +12157,7 @@ were B-VP
 also I-VP
 bolstered I-VP
 by B-PP
-`` O
+`` B-NP
 a B-NP
 very I-NP
 meaningful I-NP
@@ -12178,7 +12178,7 @@ said B-VP
 
 Over B-PP
 the B-NP
-next I-NP
+next B-NP
 50 I-NP
 years I-NP
 , O
@@ -12201,7 +12201,7 @@ compared I-VP
 with B-PP
 the B-NP
 300-day I-NP
-estimate I-NP
+estimate B-VP
 . O
 
 They B-NP
@@ -12210,7 +12210,7 @@ the B-NP
 broker I-NP
 took B-VP
 them B-NP
-out B-PRT
+out B-PP
 for B-PP
 lunch B-NP
 frequently B-ADVP
@@ -12223,7 +12223,7 @@ business I-NP
 would B-VP
 require I-VP
 substantial B-NP
-additional I-NP
+additional B-NP
 investment I-NP
 to B-VP
 enable I-VP
@@ -12246,7 +12246,7 @@ John I-NP
 Kerry I-NP
 -LRB- O
 D. B-NP
-, O
+, I-NP
 Mass B-NP
 . O
 -RRB- O
@@ -12265,7 +12265,7 @@ tried I-VP
 customary B-ADJP
 forms B-VP
 of B-PP
-growing B-VP
+growing B-NP
 their B-NP
 currency I-NP
 cushion I-NP
@@ -12276,11 +12276,11 @@ prefer B-VP
 deep-discount B-NP
 zero-coupon I-NP
 bonds I-NP
-. O
+. I-NP
 
 -- O
-Pat B-INTJ
-D'Amico I-INTJ
+Pat B-ADJP
+D'Amico I-ADJP
 . O
 
 The B-NP
@@ -12297,7 +12297,7 @@ the B-NP
 AIDS I-NP
 virus I-NP
 the B-NP
-cornerstone I-NP
+cornerstone B-VP
 of B-PP
 an B-NP
 expanded I-NP
@@ -12319,9 +12319,9 @@ recommended I-NP
 . O
 
 White B-NP
-Males I-NP
+Males O
 
-Deductions B-ADVP
+Deductions B-INTJ
 of B-PP
 charitable B-NP
 gifts I-NP
@@ -12343,7 +12343,7 @@ Industries I-NP
 the B-NP
 most I-NP
 active I-NP
-Amex I-NP
+Amex B-NP
 issue I-NP
 , O
 rose B-VP
@@ -12356,9 +12356,9 @@ to B-PP
 `` O
 There B-NP
 's B-VP
-too B-NP
-much I-NP
-capacity I-NP
+too B-ADJP
+much I-ADJP
+capacity B-NP
 , O
 '' O
 contended B-SBAR
@@ -12377,7 +12377,7 @@ Markets I-NP
 For B-PP
 the B-NP
 first I-NP
-nine I-NP
+nine B-NP
 months I-NP
 of B-PP
 the B-NP
@@ -12401,7 +12401,7 @@ company I-NP
 will B-VP
 auction I-VP
 another B-NP
-$ I-NP
+$ B-NP
 50 I-NP
 million I-NP
 of B-PP
@@ -12430,7 +12430,7 @@ August B-NP
 compared B-VP
 with B-PP
 a B-NP
-revised I-NP
+revised B-VP
 July B-NP
 deficit I-NP
 of B-PP
@@ -12449,7 +12449,7 @@ WTI B-NP
 rose B-VP
 17 B-NP
 cents I-NP
-to B-PP
+to B-VP
 $ B-NP
 20.42 I-NP
 . O
@@ -12464,7 +12464,7 @@ Mr. B-NP
 Andersson I-NP
 's B-NP
 shopping I-NP
-spree I-NP
+spree B-ADVP
 , O
 during B-PP
 which B-NP
@@ -12489,8 +12489,8 @@ week I-NP
 's B-NP
 total I-NP
 was B-VP
-down B-ADJP
-7.1 I-ADJP
+down B-ADVP
+7.1 B-ADJP
 % I-ADJP
 from B-PP
 297,446 B-NP
@@ -12509,8 +12509,8 @@ funds I-NP
 tracked B-VP
 by B-PP
 IBC\/Donoghue B-NP
-'s B-VP
-remained I-VP
+'s I-NP
+remained B-VP
 at B-PP
 38 B-NP
 days I-NP
@@ -12532,7 +12532,7 @@ Monday I-NP
 with B-PP
 a B-NP
 buying B-VP
-spree B-PRT
+spree I-VP
 in B-PP
 both B-NP
 stocks I-NP
@@ -12578,7 +12578,7 @@ marked B-VP
 Hugo B-NP
 '' O
 and O
-postmarked B-ADVP
+postmarked B-ADJP
 by B-PP
 Jan. B-NP
 16 I-NP
@@ -12606,9 +12606,9 @@ $ B-NP
 annual I-NP
 dividend I-NP
 and O
-generally B-NP
-loyal I-NP
-following I-NP
+generally B-ADVP
+loyal B-ADJP
+following B-PP
 among B-PP
 large B-NP
 institutional I-NP
@@ -12625,9 +12625,9 @@ price I-NP
 . O
 
 The B-NP
-Editor I-NP
+Editor O
 
-Wearing B-SBAR
+Wearing B-PP
 a B-NP
 business I-NP
 suit I-NP
@@ -12670,8 +12670,8 @@ president I-NP
 
 Sterling B-NP
 was B-VP
-already I-VP
-showing I-VP
+already B-ADVP
+showing B-VP
 some B-NP
 signs I-NP
 of B-PP
@@ -12696,7 +12696,7 @@ the B-NP
 world I-NP
 -- O
 such B-NP
-as B-PP
+as B-SBAR
 Procter B-NP
 & I-NP
 Gamble I-NP
@@ -12716,7 +12716,7 @@ agency I-NP
 They B-NP
 're B-VP
 often I-VP
-right B-ADVP
+right B-ADJP
 across B-PP
 the B-NP
 street I-NP
@@ -12731,7 +12731,7 @@ said B-VP
 . O
 
 It B-NP
-instructs B-PP
+instructs B-SBAR
 a B-NP
 broker I-NP
 to B-VP
@@ -12760,7 +12760,7 @@ the B-NP
 World I-NP
 Series I-NP
 seem B-VP
-unimportant B-ADJP
+unimportant B-INTJ
 . O
 
 By B-PP
@@ -12771,7 +12771,7 @@ paid B-VP
 its B-NP
 expenses I-NP
 it B-NP
-only I-NP
+only B-ADVP
 had B-VP
 $ B-NP
 120,000 B-VP
@@ -12805,7 +12805,7 @@ or O
 cents I-NP
 a B-NP
 share I-NP
-, O
+, I-NP
 from B-PP
 $ B-NP
 110 I-NP
@@ -12833,7 +12833,7 @@ should B-VP
 hold I-VP
 on B-PP
 tight B-NP
-to B-PP
+to B-VP
 their B-NP
 Jaguar I-NP
 shares I-NP
@@ -12862,7 +12862,7 @@ more B-NP
 than I-NP
 erasing B-VP
 Monday B-NP
-'s B-NP
+'s I-NP
 losses I-NP
 . O
 
@@ -12871,12 +12871,12 @@ he B-NP
 says B-VP
 that B-SBAR
 's B-NP
-no B-ADVP
-more I-ADVP
+no I-NP
+more B-ADVP
 a B-NP
 reason I-NP
-for B-PP
-banning B-VP
+for O
+banning O
 Egg O
 Kings O
 than O
@@ -12888,17 +12888,17 @@ reason O
 for O
 banning O
 cars O
-. B-NP
+. O
 
-`` O
-Even B-SBAR
-though I-SBAR
-these B-NP
-favorable I-NP
-trends I-NP
-in B-PP
-lung-cancer B-NP
-mortality I-NP
+`` B-INTJ
+Even O
+though O
+these O
+favorable O
+trends O
+in O
+lung-cancer O
+mortality O
 affect O
 all O
 sex O
@@ -12918,7 +12918,7 @@ granted O
 the O
 report O
 says O
-. B-NP
+. O
 
 These B-NP
 guarantee I-NP
@@ -12930,7 +12930,7 @@ declines I-NP
 while B-SBAR
 still B-ADVP
 passing B-VP
-along B-PP
+along B-PRT
 most B-NP
 gains I-NP
 . O
@@ -12959,7 +12959,7 @@ to B-VP
 yield I-VP
 8.04 B-NP
 % I-NP
-Tuesday I-NP
+Tuesday B-NP
 . O
 
 In B-PP
@@ -12976,7 +12976,7 @@ the B-NP
 work I-NP
 force I-NP
 goes B-VP
-to I-VP
+to B-PP
 personnel B-NP
 specialists I-NP
 with B-PP
@@ -12990,7 +12990,7 @@ But O
 they B-NP
 are B-NP
 stalwart I-NP
-socialists I-NP
+socialists O
 . O
 
 The B-NP
@@ -13006,7 +13006,7 @@ further I-NP
 step I-NP
 in B-PP
 the B-NP
-internationalization I-NP
+internationalization B-VP
 of B-PP
 its B-NP
 business I-NP
@@ -13016,10 +13016,10 @@ activities I-NP
 They B-NP
 have B-VP
 offered I-VP
-bundles B-CONJP
-of I-CONJP
-homeequity I-CONJP
-loans B-NP
+bundles B-PRT
+of B-PP
+homeequity B-NP
+loans I-NP
 , O
 as B-CONJP
 well I-CONJP
@@ -13050,7 +13050,7 @@ Ana I-NP
 , O
 Calif. B-NP
 , O
-enlisted B-SBAR
+enlisted B-VP
 his B-NP
 local I-NP
 congressman I-NP
@@ -13077,7 +13077,7 @@ price I-NP
 of B-PP
 roughly B-NP
 $ I-NP
-370 B-PP
+370 O
 an B-NP
 ounce I-NP
 was B-VP
@@ -13116,7 +13116,7 @@ times I-NP
 it B-NP
 will B-VP
 be I-VP
-Prego B-PRT
+Prego B-ADVP
 . O
 
 The B-NP
@@ -13137,8 +13137,8 @@ Viacom B-NP
 , O
 which B-NP
 has B-VP
-also I-VP
-discussed I-VP
+also B-ADVP
+discussed B-VP
 the B-NP
 sale I-NP
 of B-PP
@@ -13165,7 +13165,7 @@ million I-NP
 or O
 57 B-NP
 cents I-NP
-a B-NP
+a I-NP
 share I-NP
 , O
 last B-NP
@@ -13174,8 +13174,8 @@ year I-NP
 
 He B-NP
 gave B-VP
-10-to-1 B-NP
-odds I-NP
+10-to-1 I-VP
+odds B-NP
 that B-SBAR
 a B-NP
 capital-gains I-NP
@@ -13213,8 +13213,8 @@ the B-NP
 government I-NP
 could B-VP
 make I-VP
-now B-ADVP
-to B-VP
+now I-VP
+to I-VP
 help I-VP
 the B-NP
 poor I-NP
@@ -13232,7 +13232,7 @@ neighborhoods B-NP
 . O
 
 Investor B-NP
-Asher I-NP
+Asher B-NP
 Edelman I-NP
 increased B-VP
 his B-NP
@@ -13267,7 +13267,7 @@ of B-PP
 unhusked B-NP
 rice I-NP
 , O
-more B-NP
+more B-ADJP
 than B-PP
 10 B-NP
 % I-NP
@@ -13310,7 +13310,7 @@ outside B-NP
 of I-NP
 prime I-NP
 time I-NP
-, O
+, I-NP
 on B-PP
 Saturday B-NP
 mornings I-NP
@@ -13331,7 +13331,7 @@ shares I-NP
 based B-VP
 on B-PP
 the B-NP
-3.7 I-NP
+3.7 B-NP
 million I-NP
 shares I-NP
 outstanding B-ADJP
@@ -13343,8 +13343,8 @@ Sept. B-NP
 
 Take B-VP
 the B-NP
-`` O
-credit B-NP
+`` I-NP
+credit I-NP
 enhancements I-NP
 , O
 '' O
@@ -13368,7 +13368,7 @@ What B-NP
 it B-NP
 does B-VP
 n't I-VP
-say B-ADVP
+say I-VP
 is B-VP
 that B-SBAR
 the B-NP
@@ -13390,7 +13390,7 @@ a B-NP
 near-monopoly I-NP
 on B-PP
 mainframes B-NP
-, O
+, I-NP
 with B-PP
 an B-NP
 estimated I-NP
@@ -13411,7 +13411,7 @@ freeway I-NP
 have B-VP
 been I-VP
 heaved I-VP
-about B-NP
+about B-ADJP
 like B-PP
 plastic B-NP
 building I-NP
@@ -13426,7 +13426,7 @@ Kemp I-NP
 ran B-VP
 into B-PP
 a B-NP
-buzzsaw I-NP
+buzzsaw B-ADVP
 of B-PP
 criticism B-NP
 from B-PP
@@ -13441,7 +13441,7 @@ plan I-NP
 thus B-ADVP
 places B-VP
 a B-NP
-large I-NP
+large B-NP
 new I-NP
 affirmative-action I-NP
 program I-NP
@@ -13468,7 +13468,7 @@ The B-NP
 notes I-NP
 are B-VP
 rated B-VP
-MIG-1 B-PRT
+MIG-1 I-VP
 by B-PP
 Moody B-NP
 's B-VP
@@ -13481,7 +13481,7 @@ Inc I-NP
 But O
 it B-NP
 's B-VP
-like B-PP
+like I-VP
 kicking B-VP
 your B-NP
 father I-NP
@@ -13500,7 +13500,7 @@ second I-NP
 floor I-NP
 of B-PP
 Leo B-NP
-'s B-VP
+'s B-NP
 at B-PP
 55th B-NP
 and I-NP
@@ -13530,8 +13530,8 @@ shares I-NP
 were B-VP
 long I-VP
 an B-NP
-arcane I-NP
-Wall I-NP
+arcane B-VP
+Wall B-NP
 Street I-NP
 art I-NP
 best I-NP
@@ -13571,25 +13571,25 @@ do I-VP
 the B-NP
 work I-NP
 , O
-though B-SBAR
-most B-NP
+though B-ADVP
+most I-ADVP
 of B-PP
-the B-NP
+the O
 rerouting O
 was O
 done O
 by O
 computer O
-. B-NP
+. O
 
 However B-ADVP
 , O
 he B-NP
 added B-VP
 , O
-such B-NP
-event-driven I-NP
-trading I-NP
+such B-PP
+event-driven I-PP
+trading B-NP
 moves I-NP
 typically B-ADVP
 last I-ADVP
@@ -13610,16 +13610,16 @@ He B-NP
 argued B-VP
 that B-SBAR
 both B-NP
-CPI B-UCP
-and I-UCP
-PPI B-NP
+CPI I-NP
+and O
+PPI B-ADVP
 have B-VP
-in B-ADVP
-fact I-ADVP
-decelerated I-ADVP
-since B-SBAR
+in B-PP
+fact B-NP
+decelerated O
+since O
 spring O
-. B-NP
+. O
 
 `` O
 Demand B-NP
@@ -13648,7 +13648,7 @@ at B-PP
 a B-NP
 rate I-NP
 `` O
-close B-NP
+close B-ADJP
 to B-VP
 or I-VP
 slightly B-ADJP
@@ -13683,10 +13683,10 @@ using B-VP
 high B-NP
 interest I-NP
 rates I-NP
-to B-VP
-fight I-VP
-inflation B-NP
-and I-NP
+to B-PP
+fight B-NP
+inflation I-NP
+and O
 shore O
 up O
 the O
@@ -13701,9 +13701,9 @@ to O
 managing O
 the O
 economy O
-. B-NP
+. O
 
-After B-PP
+After B-SBAR
 last B-NP
 Friday I-NP
 's B-NP
@@ -13736,11 +13736,11 @@ larger B-NP
 computers I-NP
 may B-VP
 be I-VP
-needed I-VP
+needed B-NP
 . O
 
 Other B-NP
-scientists I-NP
+scientists B-NP
 said B-VP
 they B-NP
 also B-ADVP
@@ -13760,7 +13760,7 @@ time I-NP
 . O
 
 Guaranteed B-NP
-by B-PP
+by B-ADVP
 India B-NP
 . O
 
@@ -13774,8 +13774,8 @@ to B-VP
 invoke B-INTJ
 cloture I-INTJ
 and O
-limit B-NP
-debate I-NP
+limit B-VP
+debate B-NP
 , O
 but O
 behind B-PP
@@ -13789,9 +13789,9 @@ majority I-NP
 took B-VP
 shape I-VP
 yesterday B-NP
-and O
-brushed B-INTJ
-aside B-ADVP
+and I-NP
+brushed O
+aside O
 amendments O
 seeking O
 to O
@@ -13809,14 +13809,14 @@ aid O
 to O
 political O
 parties O
-. B-NP
+. O
 
 The B-NP
 Packwood I-NP
 plan I-NP
 , O
-as B-ADJP
-expected I-ADJP
+as B-NP
+expected I-NP
 , O
 would B-VP
 allow I-VP
@@ -13847,19 +13847,19 @@ year I-NP
 
 Wang B-NP
 had B-VP
-previously B-ADVP
-forecast B-VP
+previously B-NP
+forecast I-NP
 a B-NP
 loss I-NP
 . O
 
-3:25 B-NP
-a.m I-NP
+3:25 O
+a.m O
 . O
 
 The B-NP
 Pentagon I-NP
-foiled B-PP
+foiled B-SBAR
 the B-NP
 plan I-NP
 . O
@@ -13868,7 +13868,7 @@ BAKER B-CONJP
 FALTERS I-CONJP
 in B-PP
 the B-NP
-Mideast I-NP
+Mideast B-ADVP
 amid B-PP
 Israeli B-NP
 paralysis I-NP
@@ -13892,7 +13892,7 @@ rose B-VP
 14 B-NP
 % I-NP
 to B-VP
-131,146 B-PRT
+131,146 I-VP
 between B-PP
 1983 B-NP
 and I-NP
@@ -13910,7 +13910,7 @@ available B-ADJP
 
 In B-PP
 addition B-NP
-to B-PP
+to B-VP
 the B-NP
 $ I-NP
 15.6 I-NP
@@ -13945,7 +13945,7 @@ notes I-NP
 
 The B-NP
 Soviets I-NP
-' O
+' I-NP
 eavesdropping B-VP
 paid I-VP
 off B-PRT
@@ -13966,9 +13966,9 @@ in B-PP
 the B-NP
 U.S. I-NP
 is B-VP
-now B-ADVP
-about B-PP
-4 B-NP
+now I-VP
+about B-NP
+4 I-NP
 1\/4 I-NP
 times I-NP
 as B-PP
@@ -14000,12 +14000,12 @@ markets I-NP
 pales B-VP
 in B-PP
 comparison B-NP
-to B-PP
+to B-VP
 the B-NP
 1930s I-NP
 , O
 decades B-NP
-before B-ADVP
+before O
 derivative O
 instruments O
 such O
@@ -14015,11 +14015,11 @@ and O
 futures O
 were O
 introduced O
-. B-NP
+. O
 
 Mr. B-NP
 Byrum I-NP
-and O
+and I-NP
 Ms. B-NP
 Smith I-NP
 could B-VP
@@ -14031,10 +14031,10 @@ comment B-NP
 . O
 
 Monday B-NP
-and O
+and I-NP
 Tuesday B-NP
 `` O
-were B-VP
+were O
 lackluster O
 in O
 comparison O
@@ -14042,12 +14042,12 @@ comparison O
 '' O
 he O
 said O
-. B-NP
+. O
 
 Sales B-NP
 rose B-VP
-14 B-NP
-% I-NP
+14 B-ADJP
+% I-ADJP
 to B-PP
 $ B-NP
 715 I-NP
@@ -14059,7 +14059,7 @@ million I-NP
 . O
 
 GE B-NP
-Capital I-NP
+Capital B-NP
 has B-VP
 a B-NP
 working I-NP
@@ -14076,8 +14076,8 @@ sent B-VP
 a B-NP
 questionnaire I-NP
 , O
-951 B-INTJ
-replied I-INTJ
+951 B-CONJP
+replied I-CONJP
 . O
 
 The B-NP
@@ -14086,13 +14086,13 @@ hopes B-VP
 to I-VP
 fill I-VP
 the B-NP
-new I-NP
+new B-NP
 positions I-NP
 soon B-ADVP
 . O
 
-Calls B-ADVP
-to B-PP
+Calls B-INTJ
+to B-VP
 Shelly B-NP
 Schwab I-NP
 , O
@@ -14116,7 +14116,7 @@ National I-NP
 tumbled B-VP
 24 B-NP
 % I-NP
-after B-PP
+after B-SBAR
 reporting B-VP
 a B-NP
 sizable I-NP
@@ -14128,8 +14128,8 @@ Alusuisse B-NP
 of B-PP
 America B-NP
 Inc. I-NP
-plans B-VP
-to I-VP
+plans I-NP
+to B-VP
 sell I-VP
 its B-NP
 Consolidated I-NP
@@ -14177,7 +14177,7 @@ period I-NP
 the B-NP
 $ I-NP
 1 I-NP
-billion-plus I-NP
+billion-plus B-ADVP
 in B-PP
 losses B-NP
 to B-PP
@@ -14213,7 +14213,7 @@ human I-NP
 suffering I-NP
 . O
 
-But O
+But B-VP
 supporters O
 argue O
 that O
@@ -14230,7 +14230,7 @@ would O
 hesitate O
 doing O
 it O
-. B-NP
+. O
 
 When B-ADVP
 the B-NP
@@ -14238,7 +14238,7 @@ Soviets I-NP
 announced B-VP
 their B-NP
 last I-NP
-soldier O
+soldier B-ADVP
 had B-VP
 left I-VP
 Afghanistan B-NP
@@ -14269,7 +14269,7 @@ confident B-ADJP
 that B-SBAR
 they B-NP
 're B-VP
-prepared B-ADJP
+prepared B-VP
 . O
 
 But O
@@ -14283,7 +14283,7 @@ revised I-VP
 in B-PP
 order B-NP
 to B-VP
-work I-VP
+work B-NP
 with B-PP
 that B-NP
 system I-NP
@@ -14301,7 +14301,7 @@ Contel B-NP
 closed B-VP
 at B-PP
 $ B-NP
-33.75 B-PP
+33.75 B-SBAR
 a B-NP
 share I-NP
 , O
@@ -14321,7 +14321,7 @@ were B-VP
 at B-PP
 their B-NP
 recent I-NP
-highs I-NP
+highs O
 , O
 short-term B-NP
 CDs I-NP
@@ -14354,7 +14354,7 @@ the B-NP
 position I-NP
 of B-PP
 chief B-NP
-financial I-NP
+financial B-NP
 officer I-NP
 , O
 who B-NP
@@ -14370,7 +14370,7 @@ agency I-NP
 `` O
 The B-NP
 Japanese I-NP
-take B-VP
+take O
 the B-NP
 long I-NP
 view I-NP
@@ -14398,7 +14398,7 @@ who B-NP
 could B-VP
 be I-VP
 held I-VP
-liable B-PRT
+liable B-ADJP
 for B-PP
 the B-NP
 damage I-NP
@@ -14424,7 +14424,7 @@ contemplated B-VP
 that B-SBAR
 John B-NP
 B. I-NP
-McCoy I-NP
+McCoy O
 , O
 chairman B-NP
 and O
@@ -14455,24 +14455,24 @@ from B-PP
 The B-NP
 Wall I-NP
 Street I-NP
-Journal I-NP
-'s B-VP
-New B-NP
+Journal O
+'s B-NP
+New I-NP
 York I-NP
 bureau I-NP
 . O
 
-Mr. B-NP
-Ehrlich I-NP
-predicted B-VP
+Mr. B-VP
+Ehrlich O
+predicted O
 unprecedented O
 famine O
 by O
 1980 O
-. B-NP
+. O
 
 The B-NP
-chairman I-NP
+chairman B-NP
 promised B-VP
 Mr. B-NP
 Stone I-NP
@@ -14493,13 +14493,13 @@ began B-VP
 importing I-VP
 from B-PP
 the B-NP
-Far I-NP
-East I-NP
+Far B-VP
+East B-NP
 . O
 
 The B-NP
 $ I-NP
-11,775,000 I-NP
+11,775,000 B-ADVP
 of B-PP
 term B-NP
 bonds I-NP
@@ -14527,7 +14527,7 @@ the B-NP
 sales I-NP
 impact I-NP
 will B-VP
-linger B-ADJP
+linger B-INTJ
 . O
 
 The B-NP
@@ -14570,8 +14570,8 @@ are B-VP
 made I-VP
 in B-PP
 less B-NP
-than B-PP
-10 B-NP
+than I-NP
+10 I-NP
 years I-NP
 . O
 
@@ -14584,7 +14584,7 @@ the B-NP
 elections I-NP
 , O
 its B-NP
-coherence I-NP
+coherence O
 is B-VP
 likely B-ADJP
 to B-VP
@@ -14605,8 +14605,8 @@ Noriega I-NP
 -- O
 has B-VP
 an B-NP
-easy I-NP
-out B-ADVP
+easy B-ADJP
+out I-ADJP
 . O
 
 Without B-PP
@@ -14631,14 +14631,14 @@ Holmes I-NP
 sold B-VP
 unregistered B-NP
 securities I-NP
-and O
-misled B-NP
-investors I-NP
+and I-NP
+misled B-PP
+investors B-NP
 . O
 
 One B-NP
-price-depressing I-NP
-development I-NP
+price-depressing B-VP
+development B-NP
 was B-VP
 the B-NP
 lower-than-expected I-NP
@@ -14671,7 +14671,7 @@ earthquake I-NP
 will B-VP
 definitely B-ADVP
 top B-NP
-$ I-NP
+$ B-NP
 1 I-NP
 billion I-NP
 and O
@@ -14688,9 +14688,9 @@ Mr. B-NP
 Steinhardt I-NP
 says B-VP
 he B-NP
-'s B-VP
-`` O
-comfortable B-NP
+'s B-NP
+`` I-NP
+comfortable I-NP
 holding I-NP
 USAir I-NP
 as B-PP
@@ -14711,7 +14711,7 @@ Equitec B-NP
 closed B-VP
 at B-PP
 $ B-NP
-2.625 B-PP
+2.625 B-SBAR
 a B-NP
 share I-NP
 , O
@@ -14732,7 +14732,7 @@ in B-PP
 Nicaragua B-NP
 and I-NP
 could B-VP
-accomplish I-VP
+accomplish B-SBAR
 many B-NP
 essential I-NP
 things I-NP
@@ -14797,12 +14797,12 @@ conversation I-ADJP
 '' O
 on B-PP
 the B-NP
-Aswara B-CONJP
-Peninsula I-CONJP
+Aswara B-ADJP
+Peninsula I-ADJP
 . O
 
-AFTERSHOCKS B-CONJP
-RATTLED I-CONJP
+AFTERSHOCKS B-LST
+RATTLED O
 Northern B-NP
 California I-NP
 amid B-PP
@@ -14819,8 +14819,8 @@ example B-NP
 of B-PP
 this B-NP
 year I-NP
-'s B-NP
-respondents I-NP
+'s B-VP
+respondents B-NP
 said B-VP
 they B-NP
 expect B-VP
@@ -14839,9 +14839,9 @@ and O
 other B-NP
 plant-science B-NP
 products I-NP
-more I-NP
-than I-NP
-offset B-VP
+more B-VP
+than I-VP
+offset I-VP
 a B-NP
 slight I-NP
 decline I-NP
@@ -14884,7 +14884,7 @@ the B-NP
 usability I-NP
 of B-PP
 certain B-NP
-batches I-NP
+batches B-VP
 of B-PP
 EPO B-NP
 material I-NP
@@ -14924,7 +14924,7 @@ of B-PP
 the B-NP
 current I-NP
 board I-NP
-until B-PP
+until B-SBAR
 new B-NP
 members I-NP
 are B-VP
@@ -14950,7 +14950,7 @@ new I-NP
 company I-NP
 -- O
 have B-VP
-sunk B-PRT
+sunk I-VP
 to B-PP
 about B-NP
 half I-NP
@@ -14969,8 +14969,8 @@ businessman I-NP
 . O
 
 It B-NP
-'s B-NP
-time I-NP
+'s B-VP
+time B-NP
 the B-NP
 State I-NP
 Department I-NP
@@ -14995,8 +14995,8 @@ the B-NP
 limitations I-NP
 were B-VP
 reasonable B-ADJP
-and I-ADJP
-realistic I-ADJP
+and O
+realistic B-LST
 and O
 allowed B-VP
 the B-NP
@@ -15028,10 +15028,10 @@ sidewalk I-NP
 under B-PP
 our B-NP
 feet I-NP
-oozing B-VP
-up B-PRT
-and O
-down B-ADVP
+oozing O
+up B-ADVP
+and I-ADVP
+down I-ADVP
 , O
 and O
 the B-NP
@@ -15049,7 +15049,7 @@ the B-NP
 coal I-NP
 the B-NP
 plants I-NP
-buy I-NP
+buy B-NP
 will B-VP
 come I-VP
 from B-PP
@@ -15072,8 +15072,8 @@ its B-NP
 highly I-NP
 profitable I-NP
 Hill I-NP
-'s B-VP
-Pet B-NP
+'s B-NP
+Pet I-NP
 Products I-NP
 unit I-NP
 , O
@@ -15089,8 +15089,8 @@ tip I-NP
 of B-PP
 the B-NP
 bunny I-NP
-'s B-NP
-good I-NP
+'s B-VP
+good B-NP
 nose I-NP
 was B-VP
 then B-ADVP
@@ -15112,7 +15112,7 @@ The B-NP
 results I-NP
 roughly I-NP
 matched I-NP
-estimates I-NP
+estimates B-VP
 of B-PP
 securities B-NP
 analysts I-NP
@@ -15160,12 +15160,12 @@ for B-PP
 me B-NP
 , O
 a B-NP
-serious I-NP
+serious B-NP
 investment I-NP
 . O
 
 The B-NP
-June I-NP
+June B-NP
 increase I-NP
 compared B-PP
 with B-PP
@@ -15186,7 +15186,7 @@ earlier B-ADVP
 I B-NP
 thought B-VP
 the B-NP
-probabilities I-NP
+probabilities B-VP
 of B-PP
 -LCB- O
 a B-NP
@@ -15211,7 +15211,7 @@ conservative B-NP
 Republicans I-NP
 who B-NP
 have B-VP
-championed B-ADJP
+championed B-PRT
 both O
 the B-NP
 Contras I-NP
@@ -15251,7 +15251,7 @@ a B-NP
 year I-NP
 in B-PP
 1987 B-NP
-and I-NP
+and O
 gave B-VP
 up B-PRT
 several B-NP
@@ -15274,9 +15274,9 @@ is B-VP
 their B-NP
 fellow I-NP
 Turks I-NP
-arriving B-CONJP
-as I-CONJP
-refugees B-NP
+arriving B-PP
+as B-NP
+refugees I-NP
 from B-PP
 Bulgaria B-NP
 . O
@@ -15297,7 +15297,7 @@ might B-VP
 not I-VP
 be I-VP
 completed I-VP
-until B-PP
+until B-SBAR
 next B-NP
 year I-NP
 's B-NP
@@ -15317,7 +15317,7 @@ number I-NP
 of B-PP
 his B-NP
 suppliers I-NP
-and O
+and I-NP
 asked B-VP
 them B-NP
 to B-VP
@@ -15346,9 +15346,9 @@ the B-NP
 situation I-NP
 . O
 
-\*\* B-INTJ
-As B-ADVP
-of B-PP
+\*\* B-ADVP
+As B-PP
+of I-PP
 August B-NP
 30 I-NP
 
@@ -15358,9 +15358,9 @@ for B-PP
 mass B-NP
 cheating B-VP
 , O
-such B-PP
-as I-PP
-questionable I-PP
+such B-NP
+as B-SBAR
+questionable I-SBAR
 tax B-NP
 shelters I-NP
 and O
@@ -15372,15 +15372,15 @@ gaped I-VP
 so B-ADVP
 broadly I-ADVP
 that B-SBAR
-Congress B-NP
-has B-VP
-passed I-VP
+Congress O
+has O
+passed O
 stringent O
 laws O
 to O
 close O
 them O
-. B-NP
+. O
 
 However B-ADVP
 , O
@@ -15390,7 +15390,7 @@ to B-PP
 the B-NP
 company I-NP
 insist B-VP
-shuttering I-VP
+shuttering B-SBAR
 the B-NP
 insurance I-NP
 division I-NP
@@ -15422,8 +15422,8 @@ Coal I-NP
 prices I-NP
 , O
 while B-SBAR
-not B-ADJP
-skyrocketing I-ADJP
+not O
+skyrocketing B-LST
 , O
 will B-VP
 grow I-VP
@@ -15445,7 +15445,7 @@ warranty I-NP
 on B-PP
 auto-emission B-NP
 systems I-NP
-to B-PP
+to B-VP
 eight B-NP
 years I-NP
 or O
@@ -15468,7 +15468,7 @@ unfortunately B-INTJ
 , O
 plenty B-NP
 of B-PP
-answers I-PP
+answers B-NP
 to B-PP
 that B-NP
 question I-NP
@@ -15494,7 +15494,7 @@ other B-NP
 student I-NP
 benefactors O
 are B-VP
-flocking B-PRT
+flocking I-VP
 to B-PP
 new B-NP
 schemes I-NP
@@ -15507,7 +15507,7 @@ the B-NP
 company I-NP
 , O
 a B-NP
-provider I-NP
+provider B-VP
 of B-PP
 environmental B-NP
 consulting I-NP
@@ -15552,7 +15552,7 @@ last I-NP
 of B-PP
 its B-NP
 H&R B-NP
-Block I-NP
+Block B-NP
 holdings I-NP
 earlier B-ADVP
 this B-NP
@@ -15565,8 +15565,8 @@ STORES B-NP
 Inc. I-NP
 said B-VP
 it B-NP
-offered B-VP
-$ B-NP
+offered I-NP
+$ I-NP
 50 I-NP
 million I-NP
 of B-PP
@@ -15589,8 +15589,8 @@ company I-NP
 would B-VP
 likely B-ADJP
 replace B-VP
-about B-NP
-one-third I-NP
+about B-PP
+one-third B-NP
 of B-PP
 its B-NP
 managers I-NP
@@ -15603,7 +15603,7 @@ new B-NP
 employees I-NP
 . O
 
-Product O
+Product B-VP
 delays O
 , O
 however O
@@ -15639,7 +15639,7 @@ their O
 PCs O
 more O
 aggressively O
-. B-NP
+. O
 
 In B-PP
 the B-NP
@@ -15647,7 +15647,7 @@ four-part I-NP
 offering I-NP
 , O
 the B-NP
-$ I-NP
+$ B-NP
 71 I-NP
 million I-NP
 of B-PP
@@ -15666,7 +15666,7 @@ to B-PP
 . O
 
 We B-NP
-just B-ADVP
+just B-NP
 want B-VP
 to I-VP
 have I-VP
@@ -15689,7 +15689,7 @@ the B-NP
 Cela I-NP
 for B-PP
 `` B-NP
-rich I-NP
+rich B-NP
 and I-NP
 intensive I-NP
 prose I-NP
@@ -15706,7 +15706,7 @@ blocks I-NP
 away B-ADVP
 at B-PP
 1 B-NP
-Chase I-NP
+Chase B-NP
 Manhattan I-NP
 Plaza I-NP
 . O
@@ -15741,8 +15741,8 @@ the B-NP
 company I-NP
 's B-NP
 new I-NP
-antianemia I-NP
-drug I-NP
+antianemia B-PP
+drug B-NP
 for B-PP
 kidney B-NP
 patients B-NP
@@ -15753,7 +15753,7 @@ Gaubert I-NP
 's B-NP
 lawyer I-NP
 , O
-Abbe B-SBAR
+Abbe B-PP
 David B-NP
 Lowell B-NP
 of B-PP
@@ -15793,7 +15793,7 @@ a B-NP
 series I-NP
 of B-PP
 setbacks I-PP
-since I-PP
+since B-PP
 the B-NP
 financing I-NP
 problems I-NP
@@ -15822,7 +15822,7 @@ place I-VP
 . O
 
 Mr. B-NP
-Cockburn I-NP
+Cockburn O
 is B-VP
 a B-NP
 columnist I-NP
@@ -15843,7 +15843,7 @@ about B-PP
 1,500 B-NP
 Eclipse I-NP
 cars I-NP
-to B-PP
+to B-VP
 Japan B-NP
 by B-PP
 year B-NP
@@ -15854,8 +15854,8 @@ end I-NP
 The B-NP
 amount I-NP
 was B-VP
-n't I-VP
-disclosed I-VP
+n't O
+disclosed B-VP
 . O
 
 General B-NP
@@ -15881,7 +15881,7 @@ $ I-NP
 million I-NP
 world-wide I-NP
 audit I-NP
-and O
+and I-NP
 associated B-VP
 tax B-NP
 work I-NP
@@ -15909,8 +15909,8 @@ to I-VP
 continue I-VP
 being I-VP
 a B-NP
-low-paid I-NP
-private I-NP
+low-paid B-VP
+private B-NP
 eye I-NP
 , O
 and O
@@ -15933,8 +15933,8 @@ him B-NP
 Bond B-NP
 prices I-NP
 were B-VP
-little B-ADJP
-changed I-ADJP
+little B-NP
+changed B-VP
 in B-PP
 sluggish B-NP
 activity I-NP
@@ -15942,7 +15942,7 @@ activity I-NP
 
 It B-NP
 comes B-VP
-down B-PRT
+down B-ADVP
 to B-PP
 a B-NP
 question I-NP
@@ -15962,7 +15962,7 @@ So B-ADVP
 go B-VP
 out B-PRT
 there B-NP
-and I-NP
+and O
 eat B-VP
 that B-NP
 debt I-NP
@@ -15976,7 +15976,7 @@ as B-PP
 both B-NP
 sides I-NP
 are B-VP
-undertaking I-VP
+undertaking B-PRT
 new B-NP
 mobilization I-NP
 efforts I-NP
@@ -16004,8 +16004,8 @@ elections I-NP
 Champion B-NP
 International I-NP
 Corp. I-NP
-'s B-VP
-third-quarter B-NP
+'s B-NP
+third-quarter I-NP
 profit I-NP
 dropped B-VP
 17 B-NP
@@ -16034,10 +16034,10 @@ Interest B-NP
 rate-sensitive I-NP
 shares I-NP
 such B-PP
-as B-NP
-steel I-NP
-, O
-construction B-NP
+as I-PP
+steel B-NP
+, I-NP
+construction I-NP
 and O
 electric B-NP
 utility I-NP
@@ -16050,18 +16050,18 @@ in B-PP
 the B-NP
 week I-NP
 , O
-saw B-VP
-their B-NP
-advance I-NP
+saw O
+their O
+advance O
 weaken O
 yesterday O
-. B-NP
+. O
 
 Shearson B-NP
 is B-VP
 offering I-VP
 the B-NP
-notes I-NP
+notes B-VP
 as B-PP
 6 B-NP
 3\/4 I-NP
@@ -16088,8 +16088,8 @@ area I-NP
 's B-NP
 economy I-NP
 and O
-increased B-NP
-competition I-NP
+increased B-VP
+competition B-NP
 , O
 particularly B-ADVP
 in B-PP
@@ -16119,7 +16119,7 @@ Canadian B-NP
 developer I-NP
 Olympia I-NP
 & I-NP
-York I-NP
+York O
 Developments B-NP
 Ltd I-NP
 . O
@@ -16159,9 +16159,9 @@ take I-VP
 % I-NP
 and O
 the B-NP
-remaining I-NP
-16.66 I-NP
-% I-NP
+remaining B-VP
+16.66 B-ADJP
+% I-ADJP
 , O
 currently B-ADVP
 owned B-VP
@@ -16183,13 +16183,13 @@ edition I-NP
 misstated B-VP
 the B-NP
 percentage I-NP
-increase I-NP
+increase B-VP
 . O
 
 Truckers B-INTJ
 are B-VP
-`` O
-trying B-VP
+`` I-VP
+trying I-VP
 to I-VP
 send I-VP
 signals B-VP
@@ -16227,7 +16227,7 @@ In B-PP
 Frankfurt B-NP
 , O
 a B-NP
-Lufthansa I-NP
+Lufthansa B-NP
 spokesman I-NP
 confirmed B-VP
 talks B-NP
@@ -16245,7 +16245,7 @@ As B-SBAR
 thanks B-LST
 , O
 the B-NP
-egg I-NP
+egg B-NP
 industry I-NP
 tried B-VP
 to I-VP
@@ -16259,7 +16259,7 @@ said B-VP
 its B-NP
 Union I-NP
 Pacific I-NP
-Railroad O
+Railroad B-ADVP
 had B-VP
 a B-NP
 3 I-NP
@@ -16322,11 +16322,11 @@ owners I-NP
 financial I-NP
 condition I-NP
 is B-VP
-pointless B-ADJP
+pointless B-PRT
 . O
 
-Not B-ADVP
-likely I-ADVP
+Not B-NP
+likely B-ADJP
 , O
 I B-NP
 think B-VP
@@ -16337,7 +16337,7 @@ infertility I-CONJP
 problems B-NP
 and I-NP
 procedures I-NP
-proliferate B-PP
+proliferate B-SBAR
 as B-NP
 aging I-NP
 baby I-NP
@@ -16366,8 +16366,8 @@ January B-NP
 runs B-VP
 on B-PP
 the B-NP
-Unix I-NP
-operating I-NP
+Unix B-VP
+operating B-NP
 system I-NP
 . O
 
@@ -16375,7 +16375,7 @@ A B-NP
 series I-NP
 of B-PP
 newspaper B-NP
-articles I-NP
+articles B-NP
 accused B-VP
 the B-NP
 trust I-NP
@@ -16399,8 +16399,8 @@ and O
 Chase B-NP
 Manhattan I-NP
 Corp. I-NP
-unexpectedly B-VP
-failed I-VP
+unexpectedly I-NP
+failed B-VP
 to I-VP
 obtain I-VP
 bank B-NP
@@ -16427,7 +16427,7 @@ and O
 Mr. B-NP
 Peters I-NP
 go B-VP
-off B-PRT
+off B-ADVP
 to B-PP
 Columbia B-NP
 . O
@@ -16473,7 +16473,7 @@ how B-ADVP
 many B-NP
 of B-PP
 them B-NP
-there B-ADVP
+there B-NP
 are B-VP
 -LRB- O
 estimates B-NP
@@ -16493,7 +16493,7 @@ of B-PP
 Britain B-NP
 won B-VP
 the B-NP
-other I-NP
+other B-NP
 license I-NP
 . O
 
@@ -16505,7 +16505,7 @@ at B-NP
 the B-NP
 rubble I-NP
 while B-SBAR
-jackhammers I-SBAR
+jackhammers B-NP
 tried B-VP
 to I-VP
 break I-VP
@@ -16526,7 +16526,7 @@ industrials I-NP
 closed B-VP
 up B-PRT
 39.55 B-NP
-, O
+, I-NP
 at B-PP
 2683.20 B-NP
 , O
@@ -16570,22 +16570,22 @@ Inc. I-NP
 up B-ADVP
 $ B-NP
 1.75 I-NP
-to B-PP
-$ B-NP
-29.25 I-NP
+to B-VP
+$ B-ADJP
+29.25 I-ADJP
 . O
 
 The B-NP
 arms-kickback I-NP
 scandal I-NP
 is B-VP
-likely B-ADJP
-to B-VP
+likely I-VP
+to I-VP
 be I-VP
 one B-NP
 of B-PP
-the B-NP
-big I-NP
+the O
+big O
 talking O
 points O
 in O
@@ -16604,7 +16604,7 @@ by O
 average O
 Indian O
 voters O
-. B-NP
+. O
 
 It B-NP
 was B-VP
@@ -16613,7 +16613,7 @@ possibility I-NP
 of B-PP
 this B-NP
 demand I-NP
-that B-SBAR
+that O
 helped B-VP
 firm B-NP
 prices I-NP
@@ -16641,9 +16641,9 @@ the B-NP
 ages I-NP
 of B-PP
 35 B-NP
-and I-NP
-44 I-NP
-a B-NP
+and O
+44 B-NP
+a I-NP
 decade I-NP
 apart B-ADVP
 . O
@@ -16673,7 +16673,7 @@ two B-NP
 U.S. I-NP
 auto I-NP
 giants I-NP
-battling I-NP
+battling B-VP
 for B-PP
 it B-NP
 . O
@@ -16701,7 +16701,7 @@ they B-NP
 squeeze I-NP
 out B-PP
 everyone B-NP
-else I-NP
+else B-ADJP
 . O
 
 At B-PP
@@ -16712,12 +16712,12 @@ convention I-NP
 , O
 abortion B-NP
 was B-VP
-barely B-ADJP
+barely B-NP
 discussed B-VP
 at B-PP
 all B-NP
 , O
-though B-ADVP
+though O
 delegates O
 were O
 evenly O
@@ -16730,7 +16730,7 @@ an O
 anti-abortion O
 constitutional O
 amendment O
-. B-NP
+. O
 
 The B-NP
 latest I-NP
@@ -16738,7 +16738,7 @@ latest I-NP
 notes I-NP
 were B-VP
 quoted I-VP
-late B-NP
+late B-ADVP
 at B-PP
 a B-NP
 price I-NP
@@ -16770,13 +16770,13 @@ to B-PP
 pence I-NP
 on B-PP
 London B-NP
-'s B-NP
-stock I-NP
+'s B-VP
+stock B-NP
 exchange I-NP
 yesterday I-NP
 . O
 
-Medical O
+Medical B-VP
 costs O
 continued O
 their O
@@ -16794,7 +16794,7 @@ of O
 0.7 O
 % O
 increases O
-. B-NP
+. O
 
 But O
 through B-PP
@@ -16815,10 +16815,10 @@ Noriega I-NP
 was B-VP
 a B-NP
 model I-NP
-recruit I-NP
+recruit O
 . O
 
-But O
+But B-VP
 Dale O
 Irvine O
 , O
@@ -16838,7 +16838,7 @@ outlying O
 San O
 Francisco O
 areas O
-. B-NP
+. O
 
 Philip B-NP
 Morris I-NP
@@ -16846,8 +16846,8 @@ disclosed B-VP
 little B-NP
 detailed I-NP
 information I-NP
-about B-NP
-performance I-NP
+about B-PP
+performance B-NP
 by B-PP
 major B-NP
 business I-NP
@@ -16876,13 +16876,13 @@ increased B-NP
 revenues I-NP
 . O
 
-Confronted B-ADVP
+Confronted B-NP
 with B-PP
 the B-NP
 evidence I-NP
 , O
-Mr. B-NP
-Tharp I-NP
+Mr. O
+Tharp O
 pleaded O
 guilty O
 to O
@@ -16905,18 +16905,18 @@ to O
 months O
 in O
 prison O
-. B-NP
+. O
 
 Declining B-NP
 issues I-NP
 outnumbered B-VP
 advancers B-NP
-505-455 I-NP
+505-455 B-VP
 , O
-with B-PP
+with O
 172 O
 unchanged O
-. B-NP
+. O
 
 In B-PP
 the B-NP
@@ -16946,7 +16946,7 @@ a B-NP
 share I-NP
 , O
 compared B-VP
-to I-VP
+to B-PP
 a B-NP
 loss I-NP
 of B-PP
@@ -16970,8 +16970,8 @@ quarter I-NP
 That B-NP
 news I-NP
 , O
-plus O
-recent B-NP
+plus B-NP
+recent I-NP
 signs I-NP
 of B-PP
 economic B-NP
@@ -17007,8 +17007,8 @@ say B-VP
 The B-NP
 disclosures I-NP
 state I-NP
-that B-SBAR
-commissions B-NP
+that B-NP
+commissions I-NP
 were B-VP
 paid I-VP
 by B-PP
@@ -17027,9 +17027,9 @@ In B-PP
 addition B-NP
 , O
 a B-NP
-planned B-VP
-two-part I-VP
-offering I-VP
+planned I-NP
+two-part I-NP
+offering I-NP
 of B-PP
 $ B-NP
 58 I-NP
@@ -17062,7 +17062,7 @@ the B-NP
 1988 I-NP
 election I-NP
 had B-VP
-single-issue B-ADJP
+single-issue B-PRT
 , O
 pro-life B-NP
 voters I-NP
@@ -17084,11 +17084,11 @@ Michael B-NP
 Dukakis I-NP
 . O
 
-Two B-NP
-Los I-NP
-Angeles I-NP
-radio I-NP
-stations I-NP
+Two B-VP
+Los O
+Angeles O
+radio O
+stations O
 initiated O
 Red O
 Cross O
@@ -17117,7 +17117,7 @@ the O
 Red O
 Cross O
 said O
-. B-NP
+. O
 
 In B-PP
 any B-NP
@@ -17135,7 +17135,7 @@ of B-PP
 return B-NP
 than B-PP
 the B-NP
-20%-plus I-NP
+20%-plus B-ADVP
 in B-PP
 the B-NP
 original I-NP
@@ -17166,8 +17166,8 @@ reflecting B-VP
 higher B-NP
 costs I-NP
 and O
-tightened B-NP
-demand I-NP
+tightened B-VP
+demand I-VP
 for B-PP
 freight B-NP
 transport I-NP
@@ -17178,7 +17178,7 @@ Meador I-NP
 had B-VP
 been I-VP
 executive B-NP
-vice I-NP
+vice B-NP
 president I-NP
 of B-PP
 Balcor B-NP
@@ -17197,7 +17197,7 @@ completed I-VP
 but O
 two B-NP
 other I-NP
-phases O
+phases B-ADVP
 are B-VP
 continuing I-VP
 . O
@@ -17217,8 +17217,8 @@ U.K. I-NP
 economy I-NP
 is B-VP
 slowing I-VP
-that B-ADVP
-quickly I-ADVP
+that B-SBAR
+quickly B-ADVP
 . O
 
 They B-NP
@@ -17241,8 +17241,8 @@ far I-ADVP
 offered B-VP
 by B-PP
 Connecticut B-NP
-, O
-Illinois B-NP
+, I-NP
+Illinois I-NP
 , O
 Virginia B-NP
 and O
@@ -17266,8 +17266,8 @@ a B-NP
 Legal I-NP
 Services I-NP
 post I-NP
-, O
-after B-SBAR
+, I-NP
+after B-PP
 he B-NP
 gave B-VP
 wrong B-ADJP
@@ -17288,7 +17288,7 @@ exceed I-VP
 inflation B-NP
 by B-PP
 a B-NP
-wider I-NP
+wider B-NP
 margin I-NP
 than B-PP
 they B-NP
@@ -17325,8 +17325,8 @@ options I-NP
 exchange I-NP
 had B-VP
 run I-VP
-up B-PRT
-volume B-NP
+up B-NP
+volume I-NP
 of B-PP
 1.1 B-NP
 million I-NP
@@ -17344,14 +17344,14 @@ reorganization I-NP
 plan I-NP
 previously I-NP
 presented B-VP
-to I-VP
+to B-PP
 creditors B-NP
 would B-VP
 have I-VP
 to I-VP
-be I-VP
+be O
 revamped O
-. B-NP
+. O
 
 Such B-NP
 an B-NP
@@ -17371,8 +17371,8 @@ competence I-PP
 ethics B-NP
 and I-NP
 finances I-NP
-and O
-punish B-SBAR
+and I-NP
+punish B-PP
 those B-NP
 investment I-NP
 advisers I-NP
@@ -17397,9 +17397,9 @@ particular B-NP
 types I-NP
 of B-PP
 stocks B-NP
-, O
-such B-NP
-as B-PP
+, I-NP
+such B-PP
+as I-PP
 smaller B-NP
 companies I-NP
 , O
@@ -17433,7 +17433,7 @@ in B-PP
 children B-NP
 's B-NP
 pencil I-NP
-boxes I-NP
+boxes B-ADVP
 at B-PP
 five-and-dime B-NP
 stores I-NP
@@ -17441,8 +17441,8 @@ in B-PP
 1973 B-NP
 . O
 
-White B-NP
-women I-NP
+White B-VP
+women O
 serve O
 tea O
 and O
@@ -17456,7 +17456,7 @@ cups O
 and O
 saucers O
 afterwards O
-. B-NP
+. O
 
 The B-NP
 company I-NP
@@ -17482,7 +17482,7 @@ in B-PP
 anyone B-NP
 who B-NP
 has B-VP
-contracted I-VP
+contracted B-PRT
 the B-NP
 disease I-NP
 , O
@@ -17496,7 +17496,7 @@ Market I-NP
 Deposits I-NP
 - O
 a B-NP
-6.23 I-NP
+6.23 B-NP
 % I-NP
 
 Falconbridge B-NP
@@ -17507,7 +17507,7 @@ says B-VP
 will B-VP
 continue I-VP
 operating I-VP
-in B-PP
+in B-PRT
 its B-NP
 current I-NP
 form I-NP
@@ -17530,9 +17530,9 @@ Honecker I-NP
 Dresden B-NP
 party I-NP
 secretary I-NP
-Hans B-CONJP
-Modrow I-CONJP
-and B-NP
+Hans B-PP
+Modrow B-NP
+and I-NP
 Politburo I-NP
 member I-NP
 Guenter O
@@ -17551,8 +17551,8 @@ fund B-NP
 selling I-NP
 , O
 which B-NP
-continued B-VP
-until B-SBAR
+continued I-NP
+until B-PP
 the B-NP
 close I-NP
 of B-PP
@@ -17564,7 +17564,7 @@ need B-VP
 them B-NP
 and O
 I B-NP
-thank B-PP
+thank B-SBAR
 God B-NP
 for B-PP
 them B-NP
@@ -17572,7 +17572,7 @@ them B-NP
 '' O
 
 The B-NP
-two I-NP
+two B-NP
 banks I-NP
 appear B-VP
 to I-VP
@@ -17585,7 +17585,7 @@ fit I-NP
 I B-NP
 actually B-ADVP
 thought B-VP
-that B-SBAR
+that B-NP
 I B-NP
 might B-VP
 die I-VP
@@ -17599,7 +17599,7 @@ S&P I-NP
 500 I-NP
 or O
 some B-NP
-other I-NP
+other B-NP
 index I-NP
 exactly B-ADVP
 , O
@@ -17619,7 +17619,7 @@ Source B-NP
 Telerate B-NP
 Systems I-NP
 Inc I-NP
-. O
+. I-NP
 
 An B-NP
 FM I-NP
@@ -17628,8 +17628,8 @@ attached B-VP
 to I-VP
 a B-NP
 user I-NP
-'s B-NP
-personal I-NP
+'s B-VP
+personal B-NP
 computer I-NP
 receives B-VP
 the B-NP
@@ -17645,7 +17645,7 @@ that B-SBAR
 is B-VP
 easily I-VP
 described I-VP
-as B-PP
+as B-ADVP
 undemocratic B-ADJP
 . O
 
@@ -17658,11 +17658,11 @@ as B-ADJP
 known I-ADJP
 for B-PP
 his B-NP
-flamboyant I-NP
+flamboyant O
 tastes B-VP
 and O
-the B-NP
-youthful I-NP
+the O
+youthful O
 muse O
 who O
 shares O
@@ -17674,14 +17674,14 @@ is O
 for O
 his O
 books O
-. B-NP
+. O
 
 This B-NP
 is B-VP
 the B-NP
 first I-NP
 time I-NP
-I B-NP
+I I-NP
 've B-VP
 seen I-VP
 something B-NP
@@ -17700,7 +17700,7 @@ Computer-guided B-INTJ
 buying B-VP
 then I-VP
 kicked I-VP
-in B-PRT
+in B-PP
 , O
 and O
 the B-NP
@@ -17718,7 +17718,7 @@ is B-VP
 pricey B-NP
 : O
 $ B-NP
-7,500 B-PP
+7,500 B-SBAR
 a B-NP
 year I-NP
 for B-PP
@@ -17747,7 +17747,7 @@ We B-NP
 have B-VP
 no B-NP
 problem I-NP
-to B-PP
+to B-VP
 our B-NP
 freight I-NP
 service I-NP
@@ -17783,7 +17783,7 @@ marks I-NP
 the B-NP
 first I-NP
 so-called I-NP
-greenfield I-NP
+greenfield B-NP
 plant I-NP
 for B-PP
 such B-NP
@@ -17796,13 +17796,13 @@ increase I-NP
 in B-PP
 Customs B-NP
 Service I-NP
-air-interdiction I-NP
-funds I-NP
+air-interdiction B-PP
+funds B-NP
 is B-VP
 also B-ADVP
 intended B-VP
-to I-VP
-counter I-VP
+to O
+counter O
 smuggling O
 , O
 and O
@@ -17817,7 +17817,7 @@ quadrupled O
 in O
 five O
 years O
-. B-NP
+. O
 
 The B-NP
 companies I-NP
@@ -17838,8 +17838,8 @@ change I-NP
 in B-PP
 actual B-NP
 earnings I-NP
-per I-NP
-share I-NP
+per B-PP
+share B-NP
 . O
 
 The B-NP
@@ -17860,7 +17860,7 @@ the B-NP
 sale I-NP
 of B-PP
 a B-NP
-winery I-NP
+winery B-ADVP
 in B-PP
 Spain B-NP
 . O
@@ -17869,7 +17869,7 @@ The B-NP
 University I-NP
 said B-VP
 the B-NP
-two I-NP
+two B-NP
 companies I-NP
 agreed B-VP
 to I-VP
@@ -17902,7 +17902,7 @@ vaccine I-NP
 maker I-NP
 . O
 
-Circulation B-INTJ
+Circulation B-ADVP
 soared B-VP
 as B-PP
 the B-NP
@@ -17929,9 +17929,9 @@ whatever B-NP
 a B-NP
 person I-NP
 's B-VP
-particular B-ADJP
-weak I-ADJP
-point I-ADJP
+particular B-NP
+weak I-NP
+point I-NP
 , O
 timing B-NP
 is B-VP
@@ -17943,7 +17943,7 @@ company I-NP
 said B-VP
 it B-NP
 may B-VP
-install I-VP
+install B-SBAR
 additional B-NP
 processing I-NP
 units I-NP
@@ -17962,17 +17962,17 @@ products I-NP
 
 It B-NP
 implies B-VP
-very B-NP
-dramatic I-NP
-growth I-NP
-, O
+very B-ADJP
+dramatic I-ADJP
+growth B-NP
+, I-NP
 '' O
 he B-NP
 said B-VP
 . O
 
-COMPARE B-INTJ
-P\/E I-INTJ
+COMPARE O
+P\/E B-INTJ
 RATIOS I-INTJ
 WITH I-INTJ
 PROSPECTS I-INTJ
@@ -17992,7 +17992,7 @@ to I-VP
 bring I-VP
 `` O
 accountability B-NP
-'' O
+'' I-NP
 to B-PP
 the B-NP
 agency I-NP
@@ -18039,8 +18039,8 @@ all I-ADVP
 of B-PP
 the B-NP
 partnership I-NP
-'s B-NP
-assets I-NP
+'s B-VP
+assets B-NP
 . O
 
 Moreover B-ADVP
@@ -18077,7 +18077,7 @@ from B-PP
 a B-NP
 public I-NP
 company I-NP
-that B-SBAR
+that B-NP
 was B-VP
 n't I-VP
 concerned B-ADJP
@@ -18087,7 +18087,7 @@ financing I-NP
 provision I-NP
 . O
 
-Dan O
+Dan B-VP
 Baldwin O
 , O
 managing O
@@ -18127,12 +18127,12 @@ part O
 of O
 the O
 package O
-. B-NP
+. O
 
 Prices B-NP
 of B-PP
-pre-refunded B-NP
-municipal I-NP
+pre-refunded I-PP
+municipal B-NP
 bonds I-NP
 were B-VP
 capped B-VP
@@ -18177,7 +18177,7 @@ $ B-NP
 3.18 I-NP
 billion I-NP
 , O
-mostly B-ADVP
+mostly B-PP
 from B-NP
 acquisition I-NP
 of B-PP
@@ -18190,11 +18190,11 @@ businesses B-NP
 . O
 
 The B-NP
-proposal I-NP
-would B-VP
-restore I-VP
-some B-NP
-discipline I-NP
+proposal O
+would O
+restore O
+some O
+discipline O
 erased O
 from O
 the O
@@ -18208,15 +18208,15 @@ Budget O
 Reform O
 '' O
 Act O
-. B-NP
+. O
 
 They B-NP
 're B-VP
-just B-ADJP
-as I-ADJP
+just B-NP
+as O
 confused O
 . O
-'' B-NP
+'' O
 
 At B-PP
 the B-NP
@@ -18229,8 +18229,8 @@ Francisco I-NP
 , O
 Vice B-NP
 President I-NP
-Robert B-NP
-Fienberg I-NP
+Robert I-NP
+Fienberg O
 says B-VP
 operations B-NP
 were B-VP
@@ -18244,14 +18244,14 @@ yesterday B-NP
 afternoon I-NP
 . O
 
-Most B-NP
+Most B-VP
 earn O
 high O
 ratings O
 from O
 credit O
 agencies O
-. B-NP
+. O
 
 Currently B-ADVP
 , O
@@ -18272,7 +18272,7 @@ managed I-VP
 by B-PP
 a B-NP
 court-appointed B-NP
-liquidator I-NP
+liquidator B-ADVP
 . O
 
 The B-NP
@@ -18283,8 +18283,8 @@ that B-SBAR
 closer B-NP
 scrutiny I-NP
 of B-PP
-how B-ADVP
-the B-NP
+how B-NP
+the I-NP
 agency I-NP
 uses B-VP
 its B-NP
@@ -18329,15 +18329,15 @@ rumor I-NP
 a B-NP
 few I-NP
 days I-NP
-after B-PP
-its B-NP
-shocking B-ADJP
+after B-SBAR
+its O
+shocking O
 190.58-point O
 plunge O
-. B-NP
+. O
 
-`` O
-Banks B-NP
+`` B-NP
+Banks I-NP
 want B-VP
 to I-VP
 remain I-VP
@@ -18374,7 +18374,7 @@ the B-NP
 attorney I-NP
 general I-NP
 's B-VP
-contentions B-PRT
+contentions I-VP
 about B-PP
 First B-NP
 Meridian I-NP
@@ -18393,8 +18393,8 @@ serving B-VP
 Miami B-NP
 , O
 Fort B-NP
-Lauderdale B-UCP
-and I-UCP
+Lauderdale I-NP
+and O
 West B-NP
 Palm O
 Beach O
@@ -18415,7 +18415,7 @@ the O
 growing O
 security O
 industry O
-. B-NP
+. O
 
 But O
 many B-NP
@@ -18435,7 +18435,7 @@ in B-PP
 the B-NP
 junk-bond I-NP
 market I-NP
-that B-SBAR
+that B-NP
 would B-VP
 make I-VP
 it B-NP
@@ -18449,7 +18449,7 @@ takeovers I-NP
 
 -LRB- O
 It B-NP
-matches B-PP
+matches B-SBAR
 her B-NP
 voice I-NP
 . O
@@ -18472,7 +18472,7 @@ results I-NP
 and O
 a B-NP
 lot I-NP
-more I-NP
+more B-ADVP
 will B-VP
 be I-VP
 done I-VP
@@ -18506,7 +18506,7 @@ unusual I-NP
 mix I-NP
 of B-PP
 senators B-NP
-, O
+, I-NP
 including B-PP
 Republicans B-NP
 Jesse B-UCP
@@ -18549,11 +18549,11 @@ much I-NP
 more I-NP
 attractive I-NP
 agency I-NP
-to B-VP
-large B-ADJP
-multinationals I-ADJP
-today B-NP
-than B-PP
+to B-PP
+large B-NP
+multinationals B-ADVP
+today I-ADVP
+than B-SBAR
 we B-NP
 were B-VP
 yesterday B-NP
@@ -18580,7 +18580,7 @@ in B-PP
 by B-PP
 the B-NP
 Coastal I-NP
-Barrier I-NP
+Barrier B-NP
 Resource I-NP
 System I-NP
 . O
@@ -18590,7 +18590,7 @@ is B-VP
 n't I-VP
 predicting I-VP
 a B-NP
-postponement B-VP
+postponement I-NP
 because B-SBAR
 the B-NP
 units I-NP
@@ -18646,8 +18646,8 @@ other B-NP
 low-profit I-NP
 personal I-NP
 computers I-NP
-now B-ADVP
-operate B-VP
+now B-VP
+operate I-VP
 several B-NP
 times I-NP
 as B-ADVP
@@ -18670,8 +18670,8 @@ rate I-NP
 , O
 '' O
 which B-NP
-excludes I-NP
-food I-NP
+excludes B-VP
+food B-NP
 and I-NP
 energy I-NP
 , O
@@ -18694,7 +18694,7 @@ worry B-VP
 investment B-NP
 returns I-NP
 , O
-combined B-NP
+combined B-VP
 with B-PP
 fees B-NP
 and O
@@ -18714,7 +18714,7 @@ needs B-VP
 . O
 
 The B-NP
-disagreement I-NP
+disagreement B-NP
 centers I-NP
 on B-PP
 testing B-NP
@@ -18723,17 +18723,17 @@ and O
 other B-NP
 issues I-NP
 involving B-VP
-a B-NP
-FileNet B-NP
-system I-NP
+a O
+FileNet O
+system O
 installed O
 earlier O
 this O
 year O
-. B-NP
+. O
 
 Union B-NP
-Pacific I-NP
+Pacific B-NP
 Corp I-NP
 . O
 third-quarter B-NP
@@ -18750,7 +18750,7 @@ That B-NP
 what B-NP
 they B-NP
 're B-VP
-after B-SBAR
+after B-ADJP
 . O
 '' O
 
@@ -18760,8 +18760,8 @@ a B-NP
 leader I-NP
 in B-PP
 morning B-NP
-, O
-prime-time B-NP
+, I-NP
+prime-time I-NP
 and O
 late B-NP
 night I-NP
@@ -18791,13 +18791,13 @@ business I-NP
 . O
 
 Heating B-NP
-oil I-NP
+oil B-NP
 prices I-NP
 also B-ADVP
 rose B-VP
 . O
 
-Indeed B-INTJ
+Indeed B-ADVP
 , O
 one B-NP
 of B-PP
@@ -18807,7 +18807,7 @@ actions I-NP
 as I-NP
 leader I-NP
 was B-VP
-to I-VP
+to O
 visit O
 a O
 gritty O
@@ -18827,15 +18827,15 @@ workers O
 a O
 la O
 Gorbachev O
-. B-NP
+. O
 
 FEDERAL B-NP
 HOME I-NP
 LOAN I-NP
 MORTGAGE I-NP
 CORP I-NP
-. O
--LRB- O
+. I-NP
+-LRB- I-NP
 Freddie B-NP
 Mac I-NP
 -RRB- O
@@ -18853,7 +18853,7 @@ Calif. B-NP
 , I-NP
 company I-NP
 called B-VP
-Anterior I-VP
+Anterior B-PRT
 Technology B-NP
 that B-SBAR
 provides B-VP
@@ -18878,7 +18878,7 @@ row I-NP
 while B-SBAR
 imports B-NP
 rose B-VP
-to I-VP
+to B-PP
 a B-NP
 record I-NP
 . O
@@ -18890,7 +18890,7 @@ Mr. B-NP
 Davis I-NP
 , O
 used B-VP
-just I-VP
+just B-ADVP
 such B-PP
 a B-NP
 letter I-NP
@@ -18929,7 +18929,7 @@ plan I-NP
 The B-NP
 U.S.S.R. I-NP
 would B-VP
-prolong I-VP
+prolong B-SBAR
 a B-NP
 suspension I-NP
 of B-PP
@@ -18959,14 +18959,14 @@ was B-VP
 created I-VP
 to I-VP
 help I-VP
-fund I-VP
+fund B-NP
 the B-NP
 thrift I-NP
 bailout I-NP
 . O
 
 `` O
-Politics B-ADVP
+Politics B-NP
 has B-VP
 essentially I-VP
 put I-VP
@@ -19018,7 +19018,7 @@ painfully B-CONJP
 taught I-CONJP
 some B-NP
 investors I-NP
-exactly B-ADVP
+exactly I-NP
 what B-NP
 stop I-NP
 orders I-NP
@@ -19042,15 +19042,15 @@ marriage I-NP
 was B-VP
 one B-NP
 of B-PP
-convenience I-PP
+convenience B-ADJP
 . O
 
 `` O
 It B-NP
 's B-VP
 impossible B-ADJP
-to B-VP
-put I-VP
+to B-PP
+put B-VP
 an B-NP
 exact I-NP
 figure I-NP
@@ -19072,7 +19072,7 @@ trades I-NP
 are B-VP
 very B-NP
 short-term I-NP
-and O
+and I-NP
 are B-VP
 going I-VP
 to I-VP
@@ -19093,8 +19093,8 @@ Havel O
 reportedly B-ADVP
 escaped B-VP
 the B-NP
-crackdown B-UCP
-, I-UCP
+crackdown B-ADVP
+, O
 the B-NP
 fourth I-NP
 against B-PP
@@ -19118,8 +19118,8 @@ other B-NP
 New I-NP
 York I-NP
 agencies I-NP
-that B-NP
-license I-NP
+that B-SBAR
+license B-NP
 or O
 register O
 professionals O
@@ -19148,18 +19148,18 @@ from O
 phonebook O
 Yellow O
 Pages O
-. B-NP
+. O
 
-First B-LST
+First B-NP
 , O
 its B-NP
 position I-NP
 in B-PP
 the B-NP
 government I-NP
-is B-VP
+is O
 anomalous O
-. B-NP
+. O
 
 However B-ADVP
 , O
@@ -19168,7 +19168,7 @@ said B-VP
 the B-NP
 Tokyo I-NP
 bank I-NP
-indicated B-VP
+indicated I-NP
 that B-SBAR
 it B-NP
 wo B-VP
@@ -19197,13 +19197,13 @@ of B-PP
 another B-NP
 company I-NP
 , O
-RobertsCorp B-INTJ
+RobertsCorp B-LST
 . O
 
 `` O
 It B-NP
-'s B-VP
-the B-NP
+'s I-NP
+the O
 missing O
 link O
 '' O
@@ -19224,7 +19224,7 @@ the O
 Olivetti O
 spokesman O
 said O
-. B-NP
+. O
 
 The B-NP
 1986 I-NP
@@ -19256,7 +19256,7 @@ up B-ADVP
 for B-PP
 tax B-NP
 goodies I-NP
-all I-NP
+all B-NP
 over B-PP
 Capitol B-NP
 Hill I-NP
@@ -19265,7 +19265,7 @@ Hill I-NP
 From B-PP
 Chevy B-NP
 trucks I-NP
-to B-PP
+to B-VP
 Lipton B-NP
 iced I-NP
 tea I-NP
@@ -19281,8 +19281,8 @@ state I-NP
 has B-VP
 been I-VP
 inundated I-VP
-with B-PP
-broadcast B-VP
+with O
+broadcast O
 commercials O
 and O
 print O
@@ -19293,13 +19293,13 @@ Texans O
 and O
 castigating O
 outsiders O
-. B-NP
+. O
 
-In B-PP
+In B-SBAR
 February B-NP
 1987 I-NP
 , O
-Bally B-NP
+Bally O
 thwarted O
 a O
 possible O
@@ -19336,7 +19336,7 @@ million O
 above O
 market O
 price O
-. B-NP
+. O
 
 A B-NP
 couple I-NP
@@ -19346,8 +19346,8 @@ Rockford B-NP
 Ill. I-NP
 , O
 raised B-VP
-$ B-NP
-12,591 B-VP
+$ B-ADJP
+12,591 I-ADJP
 earlier B-ADVP
 this B-NP
 year I-NP
@@ -19394,8 +19394,8 @@ a B-NP
 child I-NP
 's B-NP
 toy I-NP
-block B-VP
-that B-NP
+block I-NP
+that B-SBAR
 was B-VP
 being I-VP
 tossed I-VP
@@ -19403,7 +19403,7 @@ tossed I-VP
 
 It B-NP
 makes B-VP
-sense B-NP
+sense B-VP
 from B-PP
 a B-NP
 strategic I-NP
@@ -19414,7 +19414,7 @@ standpoint I-NP
 `` O
 But O
 by B-PP
-and I-PP
+and O
 large B-NP
 this I-NP
 company I-NP
@@ -19446,7 +19446,7 @@ or O
 cents I-NP
 a B-NP
 share I-NP
-, O
+, I-NP
 on B-PP
 sales B-NP
 of B-PP
@@ -19456,9 +19456,9 @@ million I-NP
 . O
 
 Harley-Davidson B-NP
-'s B-VP
-complaint B-NP
-claims I-NP
+'s B-NP
+complaint I-NP
+claims B-VP
 that B-SBAR
 the B-NP
 group I-NP
@@ -19524,7 +19524,7 @@ had B-VP
 expected I-VP
 a B-NP
 $ I-NP
-9.1 I-NP
+9.1 B-NP
 billion I-NP
 gap I-NP
 . O
@@ -19537,7 +19537,7 @@ expected I-VP
 to I-VP
 have I-VP
 expanded I-VP
-to B-PP
+to I-VP
 $ B-NP
 9.1 I-NP
 billion I-NP
@@ -19551,7 +19551,7 @@ important I-ADJP
 to B-VP
 be I-VP
 left I-VP
-to B-PP
+to I-VP
 the B-NP
 financial I-NP
 and I-NP
@@ -19575,7 +19575,7 @@ purpose I-NP
 That B-NP
 is B-VP
 a B-NP
-skill B-PP
+skill B-SBAR
 Sony B-NP
 badly B-ADVP
 needs B-VP
@@ -19610,8 +19610,8 @@ return I-NP
 it B-NP
 as B-ADVP
 soon I-ADVP
-as B-SBAR
-possible B-NP
+as B-ADJP
+possible I-ADJP
 . O
 
 The B-NP
@@ -19621,7 +19621,7 @@ the B-NP
 system I-NP
 has B-VP
 been I-VP
-challenged B-PRT
+challenged B-ADJP
 in B-PP
 a B-NP
 class-action I-NP
@@ -19643,7 +19643,7 @@ USACafes B-NP
 said B-VP
 . O
 
-COPPER B-LST
+COPPER B-ADVP
 : O
 
 Currency B-NP
@@ -19663,7 +19663,7 @@ shift I-VP
 its B-NP
 focus I-NP
 back B-ADVP
-to B-PP
+to B-VP
 economic B-NP
 fundamentals I-NP
 , O
@@ -19709,7 +19709,7 @@ robots B-VP
 succeeding I-VP
 Walter B-NP
 K. I-NP
-Weisel I-NP
+Weisel O
 . O
 
 In B-PP
@@ -19734,12 +19734,12 @@ flight I-NP
 from B-PP
 Japan B-NP
 was B-VP
-rerouted I-VP
+rerouted B-PRT
 there B-NP
 . O
 
 Soon B-ADVP
-after B-PP
+after B-SBAR
 the B-NP
 release I-NP
 of B-PP
@@ -19775,8 +19775,8 @@ believed B-VP
 they B-NP
 were B-VP
 buying I-VP
-government-insured B-NP
-certificates I-NP
+government-insured I-VP
+certificates B-NP
 of B-PP
 deposit B-NP
 . O
@@ -19797,7 +19797,7 @@ unemployment B-NP
 compensation I-NP
 , O
 become B-VP
-tipsters B-PRT
+tipsters B-ADJP
 for B-PP
 the B-NP
 IRS I-NP
@@ -19844,7 +19844,7 @@ as B-PP
 and O
 as B-ADJP
 low I-ADJP
-as B-PP
+as B-SBAR
 28 B-NP
 3\/4 I-NP
 before B-PP
@@ -19866,7 +19866,7 @@ station I-NP
 owner B-NP
 Rudi I-NP
 van I-NP
-Dyk I-NP
+Dyk B-ADVP
 , O
 who B-NP
 doubles B-VP
@@ -19899,7 +19899,7 @@ trading I-NP
 profit I-NP
 at B-PP
 # B-NP
-30 I-NP
+30 B-NP
 million I-NP
 . O
 
@@ -19938,7 +19938,7 @@ nearby B-NP
 Richmond I-NP
 , O
 Calif. B-NP
-, O
+, I-NP
 was B-VP
 undamaged B-ADJP
 . O
@@ -19952,7 +19952,7 @@ it B-NP
 to B-VP
 be I-VP
 this B-NP
-quiet I-NP
+quiet B-NP
 . O
 
 The B-NP
@@ -19961,7 +19961,7 @@ will B-VP
 cost I-VP
 around B-PP
 $ B-NP
-16,250 I-NP
+16,250 B-VP
 on B-PP
 average B-NP
 in B-PP
@@ -19969,7 +19969,7 @@ Europe B-NP
 . O
 
 The B-NP
-6 I-NP
+6 B-NP
 3\/4 I-NP
 % I-NP
 notes B-VP
@@ -19978,7 +19978,7 @@ yield I-VP
 % I-NP
 . O
 
-Mayer O
+Mayer B-VP
 , O
 Brown O
 & O
@@ -20004,7 +20004,7 @@ Jeff O
 C. O
 Dodd O
 ... O
-. B-NP
+. O
 
 She B-NP
 says B-VP
@@ -20017,12 +20017,12 @@ and O
 bring B-VP
 Cleveland B-NP
 tourist I-NP
-revenue I-NP
+revenue B-NP
 . O
 
 The B-NP
 company I-NP
-also B-ADVP
+also I-NP
 makes B-VP
 optical B-NP
 character I-NP
@@ -20032,7 +20032,7 @@ equipment I-NP
 
 Perhaps B-ADVP
 it B-NP
-does B-VP
+does O
 . O
 
 In B-PP
@@ -20063,7 +20063,7 @@ to B-VP
 be I-VP
 construction B-NP
 projects I-NP
-that B-SBAR
+that B-NP
 would B-VP
 n't I-VP
 otherwise I-VP
@@ -20072,7 +20072,7 @@ been I-VP
 anticipated I-VP
 . O
 
-Electronic O
+Electronic B-VP
 theft O
 by O
 foreign O
@@ -20093,7 +20093,7 @@ their O
 international O
 competitive O
 advantage O
-. B-NP
+. O
 
 Seymour B-NP
 Schreibman I-NP
@@ -20107,7 +20107,7 @@ Raphael I-NP
 Furs I-NP
 Inc. I-NP
 , O
-treats B-SBAR
+treats B-VP
 the B-NP
 reverse I-NP
 side I-NP
@@ -20141,7 +20141,7 @@ way I-NP
 Mr. B-NP
 Ballhaus I-NP
 photographs I-NP
-her B-NP
+her I-NP
 , O
 from B-PP
 the B-NP
@@ -20200,8 +20200,8 @@ to B-VP
 be I-VP
 named I-VP
 Trelleborg B-NP
-'s B-NP
-new I-NP
+'s B-VP
+new B-NP
 chairman I-NP
 when B-ADVP
 Ernst B-NP
@@ -20220,7 +20220,7 @@ get I-VP
 stronger B-ADJP
 and O
 stronger B-ADJP
-, O
+, I-ADJP
 '' O
 he B-NP
 says B-VP
@@ -20258,7 +20258,7 @@ unwise I-INTJ
 '' O
 to B-VP
 be I-VP
-overcommitted B-PRT
+overcommitted I-VP
 to B-PP
 stocks B-NP
 . O
@@ -20295,7 +20295,7 @@ grades I-NP
 , I-NP
 test I-NP
 scores I-NP
-and O
+and I-NP
 `` O
 supplemental B-NP
 points I-NP
@@ -20338,7 +20338,7 @@ deal I-NP
 and O
 no B-NP
 payment I-NP
-to B-PP
+to B-VP
 any B-NP
 Indian I-NP
 individual I-NP
@@ -20372,11 +20372,11 @@ $ B-NP
 million I-NP
 a B-NP
 year I-NP
-earlier B-ADVP
+earlier I-NP
 . O
 
 `` O
-As B-SBAR
+As B-PP
 a B-NP
 result I-NP
 of B-PP
@@ -20410,19 +20410,19 @@ items I-NP
 in B-PP
 conference B-NP
 , O
-inasmuch B-CONJP
-regardless I-CONJP
-of B-PP
-their B-NP
-resolution I-NP
-you B-NP
-apparently B-ADVP
+inasmuch B-INTJ
+regardless O
+of O
+their O
+resolution O
+you O
+apparently O
 intend O
 to O
 veto O
 this O
 bill O
-. B-NP
+. O
 
 The B-NP
 heart I-NP
@@ -20438,8 +20438,8 @@ and O
 other B-NP
 commodities I-NP
 , O
-such B-NP
-as B-PP
+such B-PP
+as I-PP
 corn B-NP
 and I-NP
 coffee I-NP
@@ -20510,11 +20510,11 @@ tickets I-NP
 good I-NP
 for B-PP
 all B-NP
-local I-NP
-lifts I-NP
+local B-ADJP
+lifts I-ADJP
 . O
 
-Arbitragers B-INTJ
+Arbitragers B-NP
 were B-VP
 n't I-VP
 the B-NP
@@ -20542,7 +20542,7 @@ decision I-NP
 , O
 he B-NP
 went B-VP
-to I-VP
+to B-PP
 a B-NP
 `` I-NP
 company I-NP
@@ -20566,8 +20566,8 @@ guarantee I-NP
 the B-NP
 Ex-Im I-NP
 Bank I-NP
-'s B-NP
-preliminary I-NP
+'s B-VP
+preliminary B-NP
 commitment I-NP
 is B-VP
 subject B-ADJP
@@ -20597,8 +20597,8 @@ plan I-NP
 says B-VP
 Stephanie B-NP
 Masaki-Schatz I-NP
-, O
-manager B-NP
+, I-NP
+manager I-NP
 of B-PP
 corporate B-NP
 emergency I-NP
@@ -20627,7 +20627,7 @@ Lake I-PP
 Charles B-NP
 , O
 La. B-INTJ
-, O
+, I-INTJ
 `` O
 prepares B-VP
 for B-PP
@@ -20641,7 +20641,7 @@ of B-PP
 Mexico B-NP
 , O
 '' O
-says B-VP
+says O
 Keith O
 L. O
 Fogg O
@@ -20650,7 +20650,7 @@ a O
 company O
 safety O
 director O
-. B-NP
+. O
 
 Investors B-NP
 who B-NP
@@ -20661,7 +20661,7 @@ lightened I-UCP
 up B-NP
 on B-PP
 stocks B-NP
-, O
+, I-NP
 `` O
 have B-VP
 just I-VP
@@ -20679,8 +20679,8 @@ also B-ADVP
 cited B-VP
 retail B-NP
 trade I-NP
-and O
-consumer B-NP
+and I-NP
+consumer I-NP
 demand I-NP
 for B-PP
 new B-NP
@@ -20702,7 +20702,7 @@ Tots B-NP
 Indeed B-INTJ
 , O
 according B-PP
-to B-PP
+to B-VP
 West B-NP
 German I-NP
 government I-NP
@@ -20734,7 +20734,7 @@ a B-NP
 financially I-NP
 troubled I-NP
 real-estate I-NP
-syndicator I-NP
+syndicator O
 , O
 New B-NP
 York-based I-NP
@@ -20759,7 +20759,7 @@ manager I-NP
 . O
 
 March B-NP
-24 I-NP
+24 B-NP
 , O
 1986 B-NP
 : O
@@ -20780,7 +20780,7 @@ Safety I-NP
 said B-VP
 the B-NP
 two I-NP
-reactors O
+reactors B-ADVP
 were B-VP
 at B-ADVP
 Kursk I-ADVP
@@ -20790,7 +20790,7 @@ Smolensk I-ADVP
 
 He B-NP
 credits I-NP
-imports I-NP
+imports B-VP
 . O
 
 Amoco B-NP
@@ -20809,7 +20809,7 @@ acquired B-VP
 from B-PP
 Tenneco B-NP
 Inc. I-NP
-last I-NP
+last B-NP
 year I-NP
 . O
 
@@ -20832,7 +20832,7 @@ a B-NP
 Board I-NP
 of B-PP
 Trade B-NP
-lunchroom I-NP
+lunchroom B-ADVP
 . O
 
 The B-NP
@@ -20843,7 +20843,7 @@ increased B-VP
 $ B-NP
 2.53 I-NP
 billion I-NP
-to B-PP
+to B-VP
 $ B-NP
 116.56 I-NP
 billion I-NP
@@ -20863,9 +20863,9 @@ billion I-NP
 . O
 
 But O
-given B-VP
-such B-ADJP
-strong I-ADJP
+given B-PP
+such B-NP
+strong B-ADJP
 brand I-ADJP
 disloyalty I-ADJP
 , O
@@ -20907,7 +20907,7 @@ fired I-VP
 as B-NP
 maitre I-NP
 'd B-VP
-because B-SBAR
+because B-PP
 she B-NP
 was B-VP
 pregnant B-ADJP
@@ -20925,7 +20925,7 @@ for B-PP
 the B-NP
 systems I-NP
 was B-VP
-developing I-VP
+developing B-NP
 as B-ADVP
 rapidly I-ADVP
 as B-SBAR
@@ -20945,7 +20945,7 @@ Hanover I-NP
 have B-VP
 been I-VP
 fighting I-VP
-ferociously B-PRT
+ferociously B-ADJP
 over B-PP
 their B-NP
 shares I-NP
@@ -20972,12 +20972,12 @@ in B-PP
 the B-NP
 U.S. I-NP
 railroad I-NP
-since B-SBAR
-1947 B-LST
+since B-PP
+1947 I-PP
 . O
 
 They B-NP
-currently B-ADVP
+currently B-NP
 have B-VP
 large B-NP
 orders I-NP
@@ -21022,7 +21022,7 @@ the B-NP
 quake I-NP
 , O
 according B-PP
-to B-PP
+to B-VP
 a B-NP
 state I-NP
 official I-NP
@@ -21040,12 +21040,12 @@ Johnson I-NP
 said B-VP
 , O
 a B-NP
-shrinking B-PP
+shrinking B-VP
 that B-NP
 has B-VP
 propelled B-VP
-laptops B-PRT
-into B-PP
+laptops O
+into O
 position O
 as O
 the O
@@ -21055,7 +21055,7 @@ of O
 the O
 computer O
 business O
-. B-NP
+. O
 
 The B-NP
 effete B-UCP
@@ -21073,8 +21073,8 @@ that B-NP
 is B-VP
 why B-ADVP
 you B-NP
-only I-NP
-see B-VP
+only B-VP
+see I-VP
 him B-NP
 Reproduced I-NP
 in B-PP
@@ -21099,8 +21099,8 @@ between B-PP
 $ B-NP
 69.5 I-NP
 million I-NP
-and O
-$ B-NP
+and I-NP
+$ I-NP
 76 B-NP
 million I-NP
 , O
@@ -21123,7 +21123,7 @@ Hart I-NP
 Research I-NP
 Associates I-NP
 interviewed B-VP
-2,064 I-VP
+2,064 B-SBAR
 adults B-NP
 age I-NP
 18 I-NP
@@ -21152,7 +21152,7 @@ which B-NP
 closed B-VP
 at B-PP
 $ B-NP
-15.125 I-NP
+15.125 B-VP
 , O
 up B-ADVP
 $ B-NP
@@ -21179,7 +21179,7 @@ Ernst B-NP
 Young I-NP
 , O
 said B-VP
-Enviropact I-VP
+Enviropact B-SBAR
 's B-NP
 financial I-NP
 situation I-NP
@@ -21205,7 +21205,7 @@ is B-VP
 n't I-VP
 a B-NP
 boatload I-NP
--LCB- O
+-LCB- I-NP
 of B-PP
 big B-NP
 investors I-NP
@@ -21220,7 +21220,7 @@ into B-PP
 indexing B-NP
 , O
 '' O
-says B-VP
+says O
 P. O
 James O
 Kartalia O
@@ -21243,7 +21243,7 @@ and O
 active O
 management O
 services O
-. B-NP
+. O
 
 Capitalism B-INTJ
 may B-VP
@@ -21273,13 +21273,13 @@ wages B-NP
 , O
 the B-NP
 structural I-NP
-inequity I-NP
+inequity B-ADVP
 of B-PP
 the B-NP
 system I-NP
 -- O
-that B-NP
-make B-VP
+that O
+make O
 fools O
 of O
 those O
@@ -21295,11 +21295,11 @@ that O
 history O
 is O
 over O
-. B-NP
+. O
 
 Both B-NP
-accounts B-VP
-reflect I-VP
+accounts I-NP
+reflect B-VP
 significant B-NP
 increases I-NP
 from B-PP
@@ -21331,12 +21331,12 @@ the B-NP
 needle I-NP
 has B-VP
 a B-NP
-very I-NP
-sharp I-NP
-point I-NP
+very B-ADJP
+sharp I-ADJP
+point I-ADJP
 . O
 
-Occidental O
+Occidental B-VP
 Petroleum O
 Corp. O
 holds O
@@ -21357,13 +21357,13 @@ in O
 its O
 16-story O
 headquarters O
-. B-NP
+. O
 
-J.C. B-SBAR
+J.C. B-PP
 Penney B-NP
 Co. I-NP
 , O
-which B-NP
+which O
 relocated O
 from O
 New O
@@ -21413,7 +21413,7 @@ lifestyle O
 the O
 ad O
 reads O
-. B-NP
+. O
 
 One B-NP
 top I-NP
@@ -21440,7 +21440,7 @@ of B-PP
 , O
 in B-PP
 the B-NP
-East I-NP
+East B-NP
 German I-NP
 leadership I-NP
 . O
@@ -21469,7 +21469,7 @@ up B-PRT
 for B-PP
 them B-NP
 to B-VP
-peddle B-ADJP
+peddle B-INTJ
 , O
 do B-VP
 n't I-VP
@@ -21481,7 +21481,7 @@ figures I-NP
 are B-VP
 n't I-VP
 seasonally I-VP
-adjusted I-VP
+adjusted B-VP
 . O
 
 In B-PP
@@ -21494,7 +21494,7 @@ of B-PP
 the B-NP
 Bay I-NP
 Area I-NP
-had B-VP
+had O
 ended B-VP
 up B-PRT
 with B-PP
@@ -21513,7 +21513,7 @@ auction I-NP
 houses I-NP
 are B-VP
 turning B-VP
-increasingly B-ADJP
+increasingly B-ADVP
 to B-PP
 specialized B-NP
 sales I-NP
@@ -21528,9 +21528,9 @@ said B-VP
 its B-NP
 flights I-NP
 into B-PP
-and O
-out B-ADVP
-of B-PP
+and I-PP
+out I-PP
+of I-PP
 San B-NP
 Francisco I-NP
 were B-VP
@@ -21571,7 +21571,7 @@ suspended B-VP
 its B-NP
 quarterly I-NP
 dividend I-NP
-because B-PP
+because B-SBAR
 of B-PP
 potential B-NP
 losses I-NP
@@ -21607,14 +21607,14 @@ Latin B-NP
 America I-NP
 , O
 the B-NP
-Far I-NP
-East I-NP
-and O
-Europe B-NP
+Far B-PP
+East B-NP
+and I-NP
+Europe I-NP
 . O
 
 White B-NP
-Females I-NP
+Females O
 
 Of B-PP
 course B-NP
@@ -21628,8 +21628,8 @@ software I-NP
 firm I-NP
 in B-PP
 my B-NP
-backyard B-CONJP
-than I-CONJP
+backyard I-NP
+than B-PP
 a B-NP
 hazardous I-NP
 waste I-NP
@@ -21639,8 +21639,8 @@ incinerator I-NP
 Underwear B-CONJP
 scored I-CONJP
 a B-NP
-middling I-NP
-36 I-NP
+middling B-PP
+36 B-NP
 % I-NP
 in B-PP
 brand B-NP
@@ -21668,8 +21668,8 @@ and O
 subtract B-VP
 two B-NP
 standard I-NP
-deviations B-VP
-to I-VP
+deviations I-NP
+to B-VP
 get I-VP
 a B-NP
 wider I-NP
@@ -21677,8 +21677,8 @@ range I-NP
 . O
 
 The B-NP
-Atlanta-based I-NP
-chemical I-NP
+Atlanta-based B-VP
+chemical B-NP
 manufacturer I-NP
 said B-VP
 lower B-NP
@@ -21698,7 +21698,7 @@ is B-VP
 , O
 it B-NP
 seems B-VP
-to I-VP
+to B-PP
 me B-NP
 that B-SBAR
 the B-NP
@@ -21733,7 +21733,7 @@ is B-VP
 based I-VP
 on B-PP
 the B-NP
-close I-NP
+close B-ADJP
 of B-PP
 1969 B-NP
 equaling B-VP
@@ -21745,13 +21745,13 @@ Homes I-NP
 was B-VP
 up B-PRT
 20 B-NP
-at B-ADVP
-2,960 I-ADVP
+at B-PP
+2,960 B-NP
 . O
 
 And O
 the B-NP
-Colorado I-NP
+Colorado B-NP
 planner I-NP
 who B-NP
 promised B-VP
@@ -21791,7 +21791,7 @@ high-tech B-NP
 said B-VP
 they B-NP
 , O
-too B-ADVP
+too B-NP
 , O
 fared B-VP
 as B-CONJP
@@ -21810,7 +21810,7 @@ of B-PP
 events B-NP
 in B-PP
 Panama B-NP
-, O
+, I-NP
 where B-ADVP
 the B-NP
 U.S. I-NP
@@ -21840,9 +21840,9 @@ the B-NP
 just-ended I-NP
 period I-NP
 fell B-VP
-to I-VP
-about B-PP
-$ B-NP
+to B-PP
+about B-NP
+$ I-NP
 225 I-NP
 million I-NP
 , O
@@ -21869,7 +21869,7 @@ Enterprises I-NP
 closed B-VP
 at B-PP
 $ B-NP
-16.375 B-PP
+16.375 B-SBAR
 a B-NP
 share I-NP
 , O
@@ -21878,9 +21878,9 @@ down B-ADVP
 cents I-NP
 . O
 
-`` O
-We B-NP
-expect B-VP
+`` B-VP
+We O
+expect O
 near-term O
 sluggishness O
 in O
@@ -21909,13 +21909,13 @@ aligned O
 with O
 demand O
 . O
-'' B-NP
+'' O
 
-He B-NP
-said B-VP
-certain B-ADJP
-volunteers I-ADJP
-developed B-VP
+He O
+said O
+certain O
+volunteers O
+developed O
 kinds O
 of O
 antibodies O
@@ -21923,7 +21923,7 @@ associated O
 with O
 early O
 AIDS O
-. B-NP
+. O
 
 In B-PP
 composite B-NP
@@ -21931,7 +21931,7 @@ trading I-NP
 yesterday I-NP
 on B-PP
 the B-NP
-New I-NP
+New B-NP
 York I-NP
 Stock I-NP
 Exchange I-NP
@@ -21953,7 +21953,7 @@ RATE I-NP
 : O
 7 B-NP
 % I-NP
-. O
+. I-NP
 
 Disk B-NP
 drives I-NP
@@ -21970,7 +21970,7 @@ memory I-NP
 generated B-VP
 38 B-NP
 % I-NP
-more I-NP
+more B-NP
 revenue I-NP
 in B-PP
 the B-NP
@@ -21996,10 +21996,10 @@ his B-NP
 reliance I-NP
 on B-PP
 others B-NP
-. O
+. I-NP
 '' O
 
-For B-PP
+For B-SBAR
 the B-NP
 past I-NP
 couple I-NP
@@ -22029,7 +22029,7 @@ were B-VP
 below B-PP
 both B-NP
 analysts I-NP
-' B-NP
+' I-NP
 forecasts I-NP
 and O
 the B-NP
@@ -22040,7 +22040,7 @@ level I-NP
 The B-NP
 volume I-NP
 is B-VP
-well B-ADJP
+well I-VP
 below B-PP
 the B-NP
 industry I-NP
@@ -22071,7 +22071,7 @@ quarter I-NP
 
 Traders B-NP
 and I-NP
-analysts I-NP
+analysts B-NP
 said B-VP
 they B-NP
 did B-VP
@@ -22098,7 +22098,7 @@ replace I-VP
 or I-VP
 reduce I-VP
 Berkeley B-NP
-'s B-NP
+'s I-NP
 broad I-NP
 racial I-NP
 preferences I-NP
@@ -22113,7 +22113,7 @@ been I-VP
 a B-NP
 long I-NP
 time I-NP
-coming I-NP
+coming B-VP
 . O
 
 The B-NP
@@ -22125,7 +22125,7 @@ wo B-VP
 n't I-VP
 be I-VP
 sold I-VP
-piecemeal B-PRT
+piecemeal B-ADJP
 , O
 Mr. B-NP
 Seidman I-NP
@@ -22147,7 +22147,7 @@ William B-NP
 C. I-NP
 Barksdale I-NP
 Jr I-NP
-. O
+. I-NP
 
 The B-NP
 average I-NP
@@ -22158,7 +22158,7 @@ was B-VP
 8.26 B-NP
 % I-NP
 , O
-compared B-VP
+compared B-PP
 with B-PP
 8.27 B-NP
 % I-NP
@@ -22190,7 +22190,7 @@ free B-ADJP
 toaster I-ADJP
 when B-ADVP
 you B-NP
-open I-NP
+open B-VP
 an B-NP
 account I-NP
 , O
@@ -22220,7 +22220,7 @@ Hong B-NP
 Kong I-NP
 and O
 Manila B-NP
-but O
+but I-NP
 were B-VP
 lower B-ADJP
 in B-PP
@@ -22236,7 +22236,7 @@ painfully I-ADJP
 at B-ADVP
 least I-ADVP
 at B-PP
-first B-NP
+first B-ADVP
 , O
 which B-NP
 is B-VP
@@ -22283,8 +22283,8 @@ reveals I-INTJ
 that O
 the B-NP
 personal I-NP
-staffing I-NP
-differences I-NP
+staffing B-PP
+differences B-NP
 noted B-VP
 in B-PP
 the B-NP
@@ -22334,7 +22334,7 @@ bonds I-NP
 or O
 corporate B-NP
 bonds I-NP
-traded B-VP
+traded I-NP
 on B-PP
 the B-NP
 New I-NP
@@ -22354,8 +22354,8 @@ did B-VP
 n't I-VP
 say I-VP
 by B-PP
-how B-ADVP
-much I-ADVP
+how B-ADJP
+much I-ADJP
 . O
 
 Last B-NP
@@ -22374,7 +22374,7 @@ stock I-NP
 down B-ADVP
 21 B-NP
 1\/2 I-NP
-to B-PP
+to B-VP
 85 B-NP
 . O
 
@@ -22383,7 +22383,7 @@ first I-NP
 , O
 we B-NP
 were B-VP
-unfazed B-ADJP
+unfazed B-INTJ
 . O
 
 International B-NP
@@ -22406,8 +22406,8 @@ common I-NP
 shares I-NP
 , O
 a B-NP
-move I-NP
-that B-SBAR
+move B-VP
+that B-NP
 should B-VP
 help I-VP
 support I-VP
@@ -22436,15 +22436,15 @@ the B-NP
 price I-NP
 reaches B-VP
 a B-NP
-certain I-NP
+certain B-NP
 level I-NP
 . O
 
 But O
 WCRS B-NP
 added B-VP
-that B-NP
-`` I-NP
+that B-SBAR
+`` O
 in B-PP
 the B-NP
 light I-NP
@@ -22491,7 +22491,7 @@ drew B-VP
 bids B-NP
 -- O
 one B-NP
-apiece I-NP
+apiece B-ADVP
 . O
 
 The B-NP
@@ -22502,7 +22502,7 @@ Lynch B-NP
 entry I-NP
 into B-PP
 the B-NP
-telephone I-NP
+telephone B-NP
 business I-NP
 . O
 
@@ -22517,7 +22517,7 @@ market I-NP
 , O
 few B-NP
 relocation I-NP
-specialists I-NP
+specialists B-NP
 expect B-VP
 a B-NP
 widespread I-NP
@@ -22537,7 +22537,7 @@ intended B-VP
 to I-VP
 dictate B-PRT
 a B-NP
-set B-VP
+set I-NP
 of B-PP
 prescriptive I-PP
 solutions B-NP
@@ -22559,7 +22559,7 @@ mirror B-VP
 those B-NP
 of B-PP
 the B-NP
-industry I-NP
+industry B-NP
 . O
 
 Officials B-NP
@@ -22568,7 +22568,7 @@ declined B-VP
 to I-VP
 comment I-VP
 , O
-as B-ADVP
+as B-NP
 did B-VP
 Helmsley B-NP
 management I-NP
@@ -22581,8 +22581,8 @@ wholesale I-NP
 sales I-NP
 index I-NP
 rose B-VP
-13.2 B-ADJP
-% I-ADJP
+13.2 B-NP
+% I-NP
 in B-PP
 June B-NP
 from B-PP
@@ -22610,7 +22610,7 @@ to B-VP
 stop I-VP
 bickering B-PRT
 and O
-work B-VP
+work B-NP
 together B-ADVP
 to B-VP
 develop I-VP
@@ -22646,8 +22646,8 @@ we B-NP
 have B-VP
 established I-VP
 today B-NP
-but O
-also B-ADVP
+but B-CONJP
+also I-CONJP
 the B-NP
 hope I-NP
 of B-PP
@@ -22686,7 +22686,7 @@ Amway B-NP
 products I-NP
 in B-PP
 addition B-NP
-to B-PP
+to B-VP
 their B-NP
 regular I-NP
 jobs I-NP
@@ -22717,7 +22717,7 @@ physicians B-NP
 and O
 receptionists B-INTJ
 -- O
-as B-SBAR
+as B-PP
 independent B-NP
 contractors I-NP
 . O
@@ -22728,7 +22728,7 @@ lot I-NP
 might B-VP
 split I-VP
 into B-PP
-crevasses I-PP
+crevasses B-NP
 , O
 so B-SBAR
 I B-NP
@@ -22760,7 +22760,7 @@ asteroids B-ADVP
 may B-VP
 have I-VP
 brought I-VP
-enough B-ADJP
+enough B-ADVP
 of B-PP
 this B-NP
 kind I-NP
@@ -22795,7 +22795,7 @@ of B-PP
 Panama B-NP
 , O
 having B-VP
-maneuvered I-VP
+maneuvered B-PRT
 his B-NP
 way I-NP
 to B-PP
@@ -22841,7 +22841,7 @@ where B-ADVP
 executives B-NP
 had B-VP
 worked I-VP
-through B-PP
+through B-PRT
 most B-NP
 of B-PP
 the B-NP
@@ -22862,8 +22862,8 @@ the B-NP
 signature I-NP
 of B-PP
 his B-NP
-adversary B-UCP
-, I-UCP
+adversary B-ADVP
+, O
 Panamanian B-NP
 leader I-NP
 Manuel I-NP
@@ -22883,7 +22883,7 @@ $ B-NP
 billion I-NP
 taken B-VP
 in B-PP
-nationwide B-ADJP
+nationwide B-ADVP
 by B-PP
 boiler B-NP
 rooms I-NP
@@ -22902,7 +22902,7 @@ Rose I-NP
 is B-VP
 still I-VP
 looking I-VP
-seriously B-ADVP
+seriously B-VP
 at B-PP
 the B-NP
 9000 I-NP
@@ -22929,7 +22929,7 @@ for B-PP
 the B-NP
 next I-NP
 two I-NP
-to B-PP
+to B-VP
 three B-NP
 months I-NP
 , O
@@ -22944,10 +22944,10 @@ PITCH I-CONJP
 could B-VP
 n't I-VP
 sound B-NP
-better I-NP
+better B-ADVP
 . O
 
-Kurds B-LST
+Kurds B-INTJ
 , O
 suffering B-VP
 what B-NP
@@ -22967,19 +22967,19 @@ of B-PP
 Syria B-NP
 , O
 Iran B-NP
-and I-NP
-Iraq B-VP
-have I-VP
-inundated I-VP
+and O
+Iraq B-INTJ
+have O
+inundated O
 eastern O
 Turkey O
-. B-NP
+. O
 
 A&W B-NP
 Brands I-NP
 lost B-VP
 1\/4 B-NP
-to B-PP
+to B-VP
 27 B-NP
 . O
 
@@ -23003,8 +23003,8 @@ sale I-NP
 of B-PP
 the B-NP
 company I-NP
-'s B-VP
-London B-NP
+'s B-NP
+London I-NP
 headquarters I-NP
 building I-NP
 . O
@@ -23023,7 +23023,7 @@ new I-NP
 source I-NP
 of B-PP
 funds B-NP
-to B-PP
+to B-VP
 issuers B-NP
 , O
 while B-SBAR
@@ -23053,15 +23053,15 @@ on B-PP
 a B-NP
 barrier I-NP
 island I-NP
-you B-NP
+you I-NP
 have B-VP
 to I-VP
 do I-VP
-so B-ADJP
-without B-PP
+so O
+without O
 taxpayer O
 support O
-. B-NP
+. O
 
 Twelve B-NP
 hundred I-NP
@@ -23075,8 +23075,8 @@ Napa I-NP
 County I-NP
 , O
 Calif. B-NP
-, O
-state B-NP
+, I-NP
+state I-NP
 park I-NP
 are B-VP
 among B-PP
@@ -23112,7 +23112,7 @@ n't I-VP
 participated B-VP
 in B-PP
 bankers B-NP
-' B-NP
+' I-NP
 efforts I-NP
 to B-VP
 revive I-VP
@@ -23140,7 +23140,7 @@ Wall B-NP
 Street I-NP
 's B-VP
 far B-ADJP
-sharper I-ADJP
+sharper B-SBAR
 6.9 B-NP
 % I-NP
 drop I-NP
@@ -23174,8 +23174,8 @@ empire I-NP
 that B-NP
 made I-NP
 state-run I-NP
-Petroleos B-CONJP
-Mexicanos I-CONJP
+Petroleos B-ADVP
+Mexicanos I-ADVP
 , O
 or O
 Pemex B-NP
@@ -23198,8 +23198,8 @@ boosted B-VP
 yields B-NP
 on B-PP
 the B-NP
-shortest I-NP
-term I-NP
+shortest B-PP
+term B-NP
 CDs I-NP
 in B-PP
 the B-NP
@@ -23247,7 +23247,7 @@ specifically B-ADVP
 -- O
 have B-VP
 been I-VP
-enough B-ADJP
+enough B-NP
 to B-PP
 swamp I-PP
 the B-NP
@@ -23275,7 +23275,7 @@ appeal I-NP
 of B-PP
 any B-NP
 impeachment I-NP
-to B-PP
+to B-VP
 the B-NP
 U.S. I-NP
 Supreme I-NP
@@ -23294,7 +23294,7 @@ officer I-NP
 credited B-VP
 the B-NP
 Macintosh I-NP
-SE\/30 I-NP
+SE\/30 B-ADVP
 and O
 IIcx B-NP
 computers I-NP
@@ -23326,7 +23326,7 @@ values I-NP
 at B-PP
 about B-NP
 $ I-NP
-44,000 I-NP
+44,000 O
 . O
 
 The B-NP
@@ -23347,7 +23347,7 @@ for B-PP
 Justice B-NP
 Department I-NP
 and O
-law-enforcement B-ADVP
+law-enforcement B-INTJ
 accounts B-VP
 that B-NP
 are B-VP
@@ -23368,7 +23368,7 @@ slumped B-VP
 % I-ADJP
 , O
 primarily B-ADVP
-because B-SBAR
+because B-PP
 of B-PP
 a B-NP
 continuing I-NP
@@ -23398,7 +23398,7 @@ The B-NP
 unnecessary B-UCP
 and I-UCP
 inappropriate B-NP
-use I-NP
+use B-VP
 of B-PP
 the B-NP
 hospital I-NP
@@ -23430,8 +23430,8 @@ savings-and-loan I-NP
 institutions I-NP
 in B-PP
 Kansas B-NP
-and I-NP
-Texas I-NP
+and O
+Texas B-NP
 were B-VP
 added I-VP
 to B-PP
@@ -23470,7 +23470,7 @@ the B-NP
 seven I-NP
 million I-NP
 shares I-NP
-next I-NP
+next B-NP
 Thursday I-NP
 . O
 
@@ -23488,7 +23488,7 @@ a B-NP
 barrel I-NP
 to B-PP
 $ B-NP
-20.75 B-PP
+20.75 B-SBAR
 a B-NP
 barrel I-NP
 . O
@@ -23500,17 +23500,17 @@ compares B-VP
 the B-NP
 Orange I-NP
 Workers I-NP
-to B-PP
+to B-VP
 the B-NP
 ANC I-NP
 , O
-which B-NP
-his B-NP
-father I-NP
+which O
+his O
+father O
 outlawed O
 in O
 1960 O
-. B-NP
+. O
 
 Combustion B-NP
 Engineering I-NP
@@ -23545,8 +23545,8 @@ used I-VP
 for B-PP
 reducing B-VP
 debt B-NP
-and I-NP
-general I-NP
+and O
+general B-NP
 purposes I-NP
 . O
 
@@ -23562,17 +23562,17 @@ time I-NP
 John B-NP
 Ingersoll I-NP
 , O
-scotched B-SBAR
+scotched B-VP
 the B-NP
 assassination I-NP
 plan I-NP
 . O
 
 The B-NP
-offering I-NP
-used B-VP
-at-market B-NP
-pricing I-NP
+offering B-VP
+used I-VP
+at-market B-PRT
+pricing B-NP
 . O
 
 Having B-VP
@@ -23607,8 +23607,8 @@ that B-NP
 trading I-NP
 had B-VP
 returned I-VP
-to I-VP
-normal B-ADJP
+to B-PP
+normal B-NP
 . O
 
 A B-NP
@@ -23624,7 +23624,7 @@ for B-PP
 United B-NP
 Airlines I-NP
 parent I-NP
-UAL I-NP
+UAL B-NP
 Corp. I-NP
 that B-SBAR
 would B-VP
@@ -23655,7 +23655,7 @@ Hugo I-NP
 , O
 an B-NP
 Atlantic I-NP
-storm I-NP
+storm B-NP
 , O
 did B-VP
 n't I-VP
@@ -23671,7 +23671,7 @@ that B-SBAR
 net B-NP
 income I-NP
 fell B-VP
-to I-VP
+to B-PP
 $ B-NP
 102.1 I-NP
 million I-NP
@@ -23709,19 +23709,19 @@ issue I-NP
 you B-NP
 take B-VP
 the B-NP
-risk I-NP
+risk B-VP
 that B-SBAR
 a B-NP
 bank I-NP
 or O
 an B-NP
 insurer I-NP
-could B-VP
-run I-VP
-into B-PP
+could O
+run O
+into O
 unexpected O
 difficulties O
-. B-NP
+. O
 
 If B-SBAR
 you B-NP
@@ -23735,8 +23735,8 @@ said B-VP
 it B-NP
 's B-VP
 a B-NP
-holding I-NP
-that B-SBAR
+holding B-VP
+that B-NP
 goes B-VP
 completely I-VP
 sour I-VP
@@ -23768,8 +23768,8 @@ for B-PP
 IBM B-NP
 to B-VP
 roll I-VP
-out B-PRT
-all B-NP
+out B-ADVP
+all I-ADVP
 the B-NP
 products I-NP
 that B-SBAR
@@ -23796,14 +23796,14 @@ Source B-NP
 : O
 PaineWebber B-NP
 Inc I-NP
-. O
+. I-NP
 
 `` O
 We B-NP
 call B-VP
 them B-NP
 fraud I-NP
-farms I-NP
+farms O
 . O
 '' O
 
@@ -23823,8 +23823,8 @@ more I-NP
 on B-PP
 Maalox B-NP
 advertising I-NP
-and I-NP
-promotion I-NP
+and O
+promotion B-NP
 in B-PP
 the B-NP
 second I-NP
@@ -23840,8 +23840,8 @@ period I-NP
 
 Hewlett-Packard B-NP
 will B-VP
-charge I-VP
-$ B-NP
+charge B-NP
+$ I-NP
 5,000 I-NP
 for B-PP
 a B-NP
@@ -23863,7 +23863,7 @@ victims B-NP
 , O
 too B-ADVP
 , O
-since B-SBAR
+since B-PP
 boiler B-NP
 rooms I-NP
 often B-VP
@@ -23889,7 +23889,7 @@ Base I-NP
 , O
 50 B-NP
 miles I-NP
-northeast I-NP
+northeast B-VP
 of B-PP
 San B-NP
 Francisco I-NP
@@ -23907,7 +23907,7 @@ But O
 revenue B-NP
 declined B-VP
 more B-ADJP
-than B-PP
+than B-SBAR
 2 B-NP
 % I-NP
 , O
@@ -23943,8 +23943,8 @@ expects B-VP
 consumers B-NP
 will B-VP
 adjust I-VP
-to I-VP
-higher-priced B-PRT
+to B-PP
+higher-priced I-PP
 soft B-NP
 drinks I-NP
 . O
@@ -23952,7 +23952,7 @@ drinks I-NP
 Still B-ADVP
 others B-NP
 are B-VP
-stung B-PRT
+stung I-VP
 by B-PP
 a B-NP
 desire I-NP
@@ -23991,7 +23991,7 @@ dividend I-NP
 , O
 the B-NP
 trust I-NP
-added B-VP
+added I-NP
 , O
 before B-PP
 results B-NP
@@ -24009,7 +24009,7 @@ Sales B-NP
 rose B-VP
 5.2 B-NP
 % I-NP
-to B-PP
+to B-VP
 $ B-NP
 2.04 I-NP
 billion I-NP
@@ -24034,7 +24034,7 @@ Suggestion B-NP
 Systems I-NP
 and O
 the B-NP
-Japan B-NP
+Japan I-NP
 Human I-NP
 Relations I-NP
 Association I-NP
@@ -24071,7 +24071,7 @@ an B-NP
 Internal I-NP
 Revenue B-NP
 Service I-NP
-criminal I-NP
+criminal B-NP
 investigator I-NP
 , O
 Samuel B-NP
@@ -24084,7 +24084,7 @@ Kelly I-NP
 built B-VP
 the B-NP
 company I-NP
-'s B-VP
+'s B-NP
 high-yield B-NP
 bond I-NP
 group I-NP
@@ -24121,7 +24121,7 @@ middle B-NP
 managers I-NP
 and O
 working B-VP
-harder B-ADVP
+harder B-ADJP
 to B-VP
 make I-VP
 less B-ADJP
@@ -24134,12 +24134,12 @@ Klein B-INTJ
 , O
 a B-NP
 small I-NP
-New I-NP
+New B-NP
 York I-NP
 shop I-NP
 , O
-is B-VP
-asking I-VP
+is O
+asking O
 magazine O
 ad O
 representatives O
@@ -24155,7 +24155,7 @@ run O
 in O
 their O
 publications O
-. B-NP
+. O
 
 In B-PP
 addition B-NP
@@ -24185,7 +24185,7 @@ business B-NP
 columnist I-NP
 Rodolfo B-CONJP
 Romero I-CONJP
-calls B-VP
+calls B-NP
 `` O
 the B-NP
 bellwether I-NP
@@ -24207,7 +24207,7 @@ people B-NP
 infected I-NP
 with B-PP
 the B-NP
-AIDS I-NP
+AIDS B-NP
 virus I-NP
 , O
 a B-NP
@@ -24226,8 +24226,8 @@ has B-VP
 been I-VP
 trimmed I-VP
 to I-VP
-about B-PP
-$ B-NP
+about B-NP
+$ I-NP
 72 B-NP
 million I-NP
 from B-PP
@@ -24241,7 +24241,7 @@ Jan. B-NP
 
 New B-NP
 York I-NP
-real I-NP
+real B-NP
 estate I-NP
 brokerage I-NP
 Edward I-NP
@@ -24273,7 +24273,7 @@ from B-PP
 $ B-NP
 206 I-NP
 million I-NP
-last I-NP
+last B-NP
 year I-NP
 . O
 
@@ -24287,7 +24287,7 @@ Francis I-NP
 J. I-NP
 McNeil I-NP
 testified B-VP
-before B-PP
+before B-SBAR
 the B-NP
 subcommittee I-NP
 , O
@@ -24330,11 +24330,11 @@ settled I-VP
 Retired B-NP
 army I-NP
 Chief I-NP
-of I-NP
-Staff B-CONJP
-Krishnaswami I-CONJP
-Sundarji I-CONJP
-discloses I-CONJP
+of B-PP
+Staff I-PP
+Krishnaswami I-PP
+Sundarji I-PP
+discloses I-PP
 in B-PP
 an B-NP
 interview I-NP
@@ -24365,11 +24365,11 @@ billion I-NP
 from B-PP
 $ B-NP
 1.03 I-NP
-billion I-NP
+billion O
 . O
 
-MINOR B-INTJ
-MEMOS I-INTJ
+MINOR B-ADVP
+MEMOS I-ADVP
 : O
 
 He B-NP
@@ -24381,7 +24381,7 @@ had B-VP
 been I-VP
 caught I-VP
 driving I-VP
-drunk B-PRT
+drunk B-ADVP
 , O
 which B-NP
 had B-VP
@@ -24425,8 +24425,8 @@ computer I-NP
 equipment I-NP
 to B-VP
 replace I-VP
-that B-SBAR
-damaged B-NP
+that B-NP
+damaged B-VP
 at B-PP
 El B-NP
 Espectador I-NP
@@ -24447,11 +24447,11 @@ journalists I-NP
 . O
 
 The B-NP
-amount I-NP
-would B-VP
-help I-VP
-Los B-NP
-Angeles I-NP
+amount O
+would O
+help O
+Los O
+Angeles O
 cope O
 in O
 the O
@@ -24471,7 +24471,7 @@ federal O
 assistance O
 to O
 arrive O
-. B-NP
+. O
 
 Your B-NP
 Oct. I-NP
@@ -24508,11 +24508,11 @@ in B-PP
 a B-NP
 timely I-NP
 fashion I-NP
-to B-PP
+to B-VP
 the B-NP
 opportunities I-NP
-to B-VP
-oust I-VP
+to O
+oust O
 Manuel O
 Noriega O
 presented O
@@ -24524,7 +24524,7 @@ coup O
 on O
 Oct. O
 3 O
-. B-NP
+. O
 
 Mr. B-NP
 Bakes I-NP
@@ -24557,14 +24557,14 @@ sales I-NP
 currently B-VP
 held I-VP
 in B-PP
-escrow I-PP
+escrow B-NP
 . O
 
 What B-NP
 happens B-VP
 if B-SBAR
 the B-NP
-sponsors I-NP
+sponsors B-NP
 do B-VP
 n't I-VP
 have I-VP
@@ -24592,7 +24592,7 @@ them B-NP
 paramount I-NP
 importance I-NP
 , O
-as B-SBAR
+as B-PP
 some B-NP
 private I-NP
 and I-NP
@@ -24622,7 +24622,7 @@ can B-VP
 be I-VP
 highly B-NP
 contagious I-NP
-, O
+, I-NP
 was B-VP
 spread I-VP
 by B-PP
@@ -24639,7 +24639,7 @@ Co. I-NP
 also B-ADVP
 has B-VP
 begun I-VP
-to B-PP
+to I-VP
 gain B-NP
 share I-NP
 in B-PP
@@ -24656,7 +24656,7 @@ Corp. I-NP
 up B-ADVP
 $ B-NP
 1.25 I-NP
-to B-PP
+to B-VP
 $ B-NP
 58 I-NP
 , O
@@ -24683,7 +24683,7 @@ maker I-NP
 Daikin I-NP
 Industries I-NP
 Ltd. I-NP
-was B-VP
+was O
 fined B-VP
 two B-NP
 million I-NP
@@ -24692,7 +24692,7 @@ yen I-NP
 $ B-NP
 14,000 I-NP
 -RRB- O
-for B-PP
+for O
 exporting O
 to O
 the O
@@ -24708,12 +24708,12 @@ used O
 in O
 missile-guidance O
 systems O
-. B-NP
+. O
 
 October B-NP
 is B-VP
 a B-NP
-critical I-NP
+critical B-NP
 month I-NP
 for B-PP
 the B-NP
@@ -24733,7 +24733,7 @@ many B-NP
 slopes I-NP
 are B-VP
 building I-VP
-nurseries B-PRT
+nurseries B-ADJP
 , O
 expanding B-VP
 ski B-NP
@@ -24755,8 +24755,8 @@ to B-VP
 plan I-VP
 , O
 except B-PP
-as I-PP
-to B-PP
+as B-NP
+to B-VP
 the B-NP
 withdrawal I-NP
 of B-PP
@@ -24776,8 +24776,8 @@ Congress B-NP
 as B-PP
 a B-NP
 `` O
-Watergate B-NP
-baby I-NP
+Watergate B-SBAR
+baby B-NP
 '' O
 in B-PP
 1974 B-NP
@@ -24791,7 +24791,7 @@ years I-NP
 later B-ADVP
 . O
 
-Only B-ADVP
+Only O
 a B-NP
 few I-NP
 books I-NP
@@ -24813,10 +24813,10 @@ membership I-NP
 in B-PP
 the B-NP
 General I-NP
-Agreement B-ADVP
-on I-ADVP
-Tariffs I-ADVP
-and O
+Agreement I-NP
+on B-PP
+Tariffs I-PP
+and I-PP
 Trade B-NP
 should B-VP
 be I-VP
@@ -24836,12 +24836,12 @@ restored I-VP
 . O
 
 I B-NP
-decided B-VP
-to I-VP
+decided O
+to O
 brave O
 the O
 storm O
-. B-NP
+. O
 
 Mr. B-NP
 Daly I-NP
@@ -24854,7 +24854,7 @@ by B-PP
 the B-NP
 competitive I-NP
 threat I-NP
-posed I-NP
+posed B-VP
 by B-PP
 Federal B-NP
 Express I-NP
@@ -24876,7 +24876,7 @@ The B-NP
 Cypress I-NP
 reinforcement I-NP
 project I-NP
-itself B-NP
+itself I-NP
 was B-VP
 part B-NP
 of B-PP
@@ -24902,7 +24902,7 @@ acquire I-VP
 a B-NP
 majority I-NP
 interest I-NP
-later B-ADVP
+later B-VP
 . O
 
 He B-NP
@@ -24915,7 +24915,7 @@ to I-VP
 see I-VP
 the B-NP
 earnings I-NP
-momentum I-NP
+momentum B-NP
 we B-NP
 experienced B-VP
 this B-NP
@@ -24939,8 +24939,8 @@ the B-NP
 move I-NP
 is B-VP
 likely B-ADJP
-to B-VP
-have I-VP
+to B-PP
+have B-VP
 little B-NP
 effect I-NP
 . O
@@ -24967,15 +24967,15 @@ is B-VP
 expected I-VP
 to I-VP
 disclose I-VP
-much B-ADJP
-tamer I-ADJP
+much B-ADVP
+tamer I-ADVP
 inflation B-NP
 . O
 
 Nor O
 is B-VP
 it B-NP
-a B-NP
+a I-NP
 Hungary I-NP
 , O
 where B-ADVP
@@ -25005,7 +25005,7 @@ thought B-VP
 Pepperidge B-NP
 Farm I-NP
 was B-VP
-tasty B-ADJP
+tasty B-INTJ
 and O
 high B-NP
 quality I-NP
@@ -25032,7 +25032,7 @@ through B-PP
 most B-NP
 of B-PP
 1989 B-NP
-, O
+, I-NP
 began B-VP
 to I-VP
 turn I-VP
@@ -25050,7 +25050,7 @@ eased B-VP
 The B-NP
 Street I-NP
 knows B-VP
-all B-NP
+all B-ADJP
 about B-PP
 the B-NP
 predictability I-NP
@@ -25073,7 +25073,7 @@ The B-NP
 administration I-NP
 has B-VP
 reacted I-VP
-to B-PP
+to I-VP
 criticism B-NP
 that B-SBAR
 it B-NP
@@ -25114,14 +25114,14 @@ moderating B-ADJP
 while B-SBAR
 the B-NP
 economy I-NP
-slows I-NP
+slows O
 . O
 
 Sales B-NP
 rose B-VP
 to I-VP
 $ B-NP
-8.19 I-NP
+8.19 B-NP
 billion I-NP
 from B-PP
 $ B-NP
@@ -25143,8 +25143,8 @@ management I-NP
 may B-VP
 follow I-VP
 in B-PP
-addressing I-PP
-significant B-NP
+addressing B-NP
+significant I-NP
 challenges I-NP
 in B-PP
 some B-NP
@@ -25186,10 +25186,10 @@ take I-VP
 measures B-VP
 that B-NP
 are B-VP
-unpopular B-ADJP
+unpopular B-PRT
 . O
 
-Stung B-ADVP
+Stung B-INTJ
 by B-PP
 higher B-NP
 marketing I-NP
@@ -25237,9 +25237,9 @@ earlier B-ADVP
 Spokesmen B-NP
 for B-PP
 Wendy B-NP
-'s B-VP
-and O
-McDonald B-NP
+'s B-NP
+and I-NP
+McDonald I-NP
 's B-VP
 criticized I-VP
 Mr. B-NP
@@ -25261,7 +25261,7 @@ Germany B-NP
 % I-NP
 ; O
 Japan B-NP
-4.875 I-NP
+4.875 B-NP
 % I-NP
 ; O
 Switzerland B-NP
@@ -25273,7 +25273,7 @@ Britain B-NP
 % I-NP
 . O
 
-Nixon O
+Nixon B-VP
 , O
 Hargrave O
 , O
@@ -25296,7 +25296,7 @@ Buffalo O
 , O
 N.Y O
 ... O
-. B-NP
+. O
 
 AMR B-NP
 has B-VP
@@ -25305,15 +25305,15 @@ been I-VP
 , O
 and O
 is B-VP
-not I-VP
+not O
 , O
 for B-PP
 sale B-NP
 . O
 '' O
 
-3:25 B-NP
-a.m I-NP
+3:25 O
+a.m O
 . O
 
 A B-NP
@@ -25324,7 +25324,7 @@ now B-ADVP
 goes B-VP
 for B-PP
 $ B-NP
-19,395 I-NP
+19,395 B-VP
 . O
 
 Chancellor B-NP
@@ -25346,7 +25346,7 @@ helped I-VP
 to I-VP
 prevent I-VP
 a B-NP
-freefall I-NP
+freefall B-VP
 in B-PP
 sterling B-NP
 over B-PP
@@ -25361,8 +25361,8 @@ was B-VP
 fined B-VP
 $ B-NP
 25,000 I-NP
-and O
-suspended B-VP
+and I-NP
+suspended I-NP
 for B-PP
 three B-NP
 years I-NP
@@ -25370,7 +25370,7 @@ years I-NP
 
 The B-NP
 House I-NP
-Energy I-NP
+Energy B-NP
 Committee I-NP
 will B-VP
 debate B-NP
@@ -25384,8 +25384,8 @@ month I-NP
 Ronald B-NP
 I. I-NP
 Mandle I-NP
-, I-NP
-analyst I-NP
+, O
+analyst B-NP
 at B-PP
 Sanford B-NP
 C. I-NP
@@ -25409,7 +25409,7 @@ strong I-NP
 . O
 '' O
 
-ADN O
+ADN B-VP
 said O
 Mr. O
 Honecker O
@@ -25446,7 +25446,7 @@ chief O
 of O
 the O
 military O
-. B-NP
+. O
 
 By B-PP
 buying B-NP
@@ -25470,8 +25470,8 @@ corn I-NP
 that B-SBAR
 they B-NP
 are B-VP
-obligated I-VP
-to I-VP
+obligated B-ADJP
+to B-VP
 deliver I-VP
 . O
 
@@ -25480,7 +25480,7 @@ However B-ADVP
 with B-PP
 airline B-NP
 stocks I-NP
-cratering I-NP
+cratering O
 , O
 he B-NP
 might B-VP
@@ -25509,7 +25509,7 @@ Facilities I-NP
 closed B-VP
 at B-PP
 $ B-NP
-3.625 I-NP
+3.625 B-ADVP
 , O
 unchanged B-ADJP
 . O
@@ -25552,8 +25552,8 @@ portion I-NP
 of B-PP
 its B-NP
 property I-NP
-and O
-casualty B-NP
+and I-NP
+casualty I-NP
 exposure I-NP
 in B-PP
 California B-NP
@@ -25595,17 +25595,17 @@ to B-PP
 1\/2 I-NP
 and O
 Cigna B-NP
-advanced I-NP
-7\/8 I-NP
+advanced B-VP
+7\/8 B-NP
 to B-PP
 62 B-NP
 1\/2 I-NP
 . O
 
 -LRB- O
-Cash B-VP
-flow I-VP
-, I-VP
+Cash B-NP
+flow I-NP
+, B-VP
 basically I-VP
 earnings B-NP
 plus I-NP
@@ -25624,7 +25624,7 @@ health I-NP
 . O
 -RRB- O
 
-Offices B-ADVP
+Offices B-INTJ
 of B-PP
 the B-NP
 city I-NP
@@ -25648,8 +25648,8 @@ Reggie B-NP
 jersey B-NP
 , I-NP
 cap I-NP
-and I-NP
-cards I-NP
+and O
+cards B-NP
 -- O
 his B-NP
 checks I-NP
@@ -25685,16 +25685,16 @@ card I-NP
 show I-NP
 . O
 
-Auto B-NP
-insurance I-NP
+Auto B-PP
+insurance B-NP
 rates I-NP
 are B-VP
 soaring B-NP
 . O
 
 The B-NP
-move I-NP
-followed B-VP
+move B-VP
+followed I-VP
 a B-NP
 round I-NP
 of B-PP
@@ -25729,7 +25729,7 @@ back B-ADVP
 , O
 '' O
 says B-VP
-Leslie I-VP
+Leslie B-SBAR
 Quick B-NP
 Jr. I-NP
 , O
@@ -25764,7 +25764,7 @@ criticism I-NP
 , O
 they B-NP
 're B-VP
-not O
+not B-ADJP
 laughing B-VP
 about B-PP
 their B-NP
@@ -25777,7 +25777,7 @@ Krenz I-NP
 He B-NP
 will B-VP
 continue I-VP
-as B-PP
+as B-ADVP
 a B-NP
 director I-NP
 . O
@@ -25789,7 +25789,7 @@ the B-NP
 blaze I-NP
 were B-VP
 hampered I-VP
-because B-SBAR
+because B-PP
 water B-NP
 mains I-NP
 were B-VP
@@ -25799,11 +25799,11 @@ well I-ADVP
 . O
 
 PPG B-NP
-Industries I-NP
-Inc. I-NP
+Industries O
+Inc. O
 , O
-hurt B-VP
-by B-PP
+hurt O
+by O
 softness O
 in O
 the O
@@ -25845,7 +25845,7 @@ share O
 a O
 year O
 ago O
-. B-NP
+. O
 
 The B-NP
 percent I-NP
@@ -25868,14 +25868,14 @@ forecasts I-NP
 in B-PP
 the B-NP
 past I-NP
-30 I-NP
+30 B-NP
 days I-NP
 . O
 
 He B-NP
 did B-VP
 n't I-VP
-bite B-PRT
+bite B-ADVP
 . O
 
 Yet B-ADVP
@@ -25886,7 +25886,7 @@ retail B-NP
 participation I-NP
 has B-VP
 been I-VP
-more B-ADJP
+more B-NP
 than B-PP
 20 B-NP
 % I-NP
@@ -25913,7 +25913,7 @@ available B-ADJP
 
 He B-NP
 moved B-VP
-quickly B-ADVP
+quickly I-VP
 through B-PP
 the B-NP
 ranks I-NP
@@ -25955,7 +25955,7 @@ employees B-NP
 would B-VP
 keep I-VP
 more B-ADJP
-than B-PP
+than B-SBAR
 50 B-NP
 % I-NP
 . O
@@ -25987,7 +25987,7 @@ going B-VP
 to I-VP
 the B-NP
 Republican I-NP
-gubernatorial I-NP
+gubernatorial B-NP
 candidate I-NP
 and O
 the B-NP
@@ -26011,8 +26011,8 @@ rate I-NP
 
 They B-NP
 note B-VP
-that B-SBAR
-most B-NP
+that B-NP
+most I-NP
 of B-PP
 the B-NP
 new I-NP
@@ -26059,7 +26059,7 @@ buyers B-NP
 can B-VP
 time B-NP
 things I-NP
-so O
+so B-ADJP
 that B-SBAR
 their B-NP
 bonds I-NP
@@ -26077,9 +26077,9 @@ school I-NP
 Life B-NP
 insurers I-NP
 fared B-VP
-similarly B-ADJP
+similarly B-INTJ
 , O
-with B-PP
+with O
 Legal O
 & O
 General O
@@ -26095,7 +26095,7 @@ fell O
 to O
 184 O
 1\/2 O
-. B-NP
+. O
 
 DFC B-NP
 asked B-VP
@@ -26111,7 +26111,7 @@ revised I-NP
 loan-loss I-NP
 provisions I-NP
 to B-VP
-around B-PP
+around B-PRT
 the B-NP
 same I-NP
 level I-NP
@@ -26133,8 +26133,8 @@ million I-NP
 . O
 
 Having B-VP
-said I-VP
-that B-NP
+said B-VP
+that B-SBAR
 , O
 we B-NP
 must B-VP
@@ -26153,7 +26153,7 @@ In B-PP
 the B-NP
 meantime I-NP
 , O
-Russia B-ADVP
+Russia B-INTJ
 gave B-VP
 Nicaragua B-NP
 another B-NP
@@ -26182,8 +26182,8 @@ $ B-ADJP
 547,000 I-ADJP
 ; O
 more B-NP
-than B-PP
-9,000 B-NP
+than I-NP
+9,000 I-NP
 vessels I-NP
 fill B-VP
 what B-NP
@@ -26206,7 +26206,7 @@ about B-PP
 everything B-NP
 else I-NP
 , O
-that B-NP
+that B-SBAR
 remains B-VP
 to I-VP
 be I-VP
@@ -26221,7 +26221,7 @@ yesterday B-NP
 show B-VP
 the B-NP
 firms I-NP
-did B-VP
+did O
 nothing B-NP
 of B-PP
 the B-NP
@@ -26243,7 +26243,7 @@ immediate I-NP
 , O
 short-term B-NP
 requirements I-NP
-, O
+, I-NP
 '' O
 Mr. B-NP
 Fitzwater I-NP
@@ -26274,7 +26274,7 @@ votes I-NP
 to B-VP
 block I-VP
 the B-NP
-GM I-NP
+GM B-NP
 deal I-NP
 . O
 
@@ -26283,7 +26283,7 @@ government I-NP
 bonds I-NP
 , O
 or O
-gilts B-INTJ
+gilts B-LST
 , O
 ended B-VP
 moderately B-ADVP
@@ -26310,7 +26310,7 @@ Baxter B-NP
 closed B-VP
 at B-PP
 $ B-NP
-22.25 B-PP
+22.25 B-SBAR
 a B-NP
 share I-NP
 , O
@@ -26333,8 +26333,8 @@ and I-NP
 gains I-NP
 in B-PP
 state B-NP
-, O
-federal B-NP
+, I-NP
+federal I-NP
 and O
 local B-NP
 employment I-NP
@@ -26352,10 +26352,10 @@ into B-PP
 Panama B-NP
 's B-NP
 first I-NP
-formal I-NP
+formal B-NP
 business I-NP
 arrangement I-NP
-with B-PP
+with O
 Colombian O
 drug O
 bosses O
@@ -26392,20 +26392,20 @@ Panamanian O
 on O
 drug O
 charges O
-. B-NP
+. O
 
-Advancers B-ADVP
+Advancers B-NP
 on B-PP
 the B-NP
 Big I-NP
-Board I-NP
-outpaced B-VP
-decliners B-NP
-by B-PP
+Board O
+outpaced O
+decliners O
+by O
 822 O
 to O
 668 O
-. B-NP
+. O
 
 `` O
 But O
@@ -26415,7 +26415,7 @@ pay I-VP
 a B-NP
 price I-NP
 10 I-NP
-or O
+or B-PP
 20 B-NP
 years I-NP
 in B-PP
@@ -26426,8 +26426,8 @@ future I-NP
 
 At B-PP
 current B-NP
-allocations B-UCP
-, I-UCP
+allocations I-NP
+, O
 that B-NP
 means B-VP
 EPA B-ADJP
@@ -26441,7 +26441,7 @@ on B-PP
 itself B-NP
 . O
 
-`` O
+`` B-NP
 It B-NP
 was B-VP
 a B-NP
@@ -26466,7 +26466,7 @@ old I-NP
 building I-NP
 , O
 and O
-except B-PP
+except O
 for B-PP
 my B-NP
 heart I-NP
@@ -26491,7 +26491,7 @@ gains I-NP
 after B-PP
 initial B-NP
 fears B-VP
-evaporated B-ADJP
+evaporated B-PRT
 that B-SBAR
 the B-NP
 California I-NP
@@ -26515,8 +26515,8 @@ the B-NP
 ownership I-NP
 , O
 management B-NP
-and I-NP
-financial I-NP
+and O
+financial B-NP
 restructuring I-NP
 of B-PP
 shopping B-NP
@@ -26532,7 +26532,7 @@ real I-NP
 estate I-NP
 . O
 
-Both B-NP
+Both B-PP
 Shearson B-NP
 's B-VP
 Mr B-NP
@@ -26592,9 +26592,9 @@ the B-NP
 House I-NP
 on B-PP
 a B-NP
-383-30 B-VP
-roll I-VP
-call I-VP
+383-30 I-NP
+roll I-NP
+call B-VP
 yesterday B-NP
 . O
 
@@ -26608,7 +26608,7 @@ of B-PP
 view B-VP
 we B-NP
 're B-VP
-relieved B-ADJP
+relieved I-VP
 because B-SBAR
 hepatitis B-NP
 A B-NP
@@ -26631,7 +26631,7 @@ director I-NP
 GOP B-NP
 pollster I-NP
 Neil I-NP
-Newhouse I-NP
+Newhouse B-ADVP
 , O
 of B-PP
 the B-NP
@@ -26680,8 +26680,8 @@ those B-NP
 exceptions I-NP
 are B-VP
 enforced I-VP
-so B-ADJP
-loosely I-ADJP
+so B-ADVP
+loosely I-ADVP
 that B-SBAR
 they B-NP
 open I-NP
@@ -26699,8 +26699,8 @@ the B-NP
 biggest I-NP
 winners I-NP
 were B-VP
-brokerage-house B-NP
-stocks I-NP
+brokerage-house I-VP
+stocks B-NP
 , O
 responding B-ADVP
 to B-PP
@@ -26709,9 +26709,9 @@ trading I-NP
 volume I-NP
 . O
 
-Forget B-SBAR
-about B-NP
-Treasury I-NP
+Forget B-INTJ
+about B-PP
+Treasury B-NP
 bills I-NP
 or O
 a B-NP
@@ -26738,8 +26738,8 @@ such B-PP
 a B-NP
 president I-NP
 is B-VP
-also I-VP
-likely B-ADJP
+also B-ADVP
+likely I-ADVP
 to B-VP
 be I-VP
 more B-ADJP
@@ -26779,8 +26779,8 @@ wavering I-PP
 on B-PP
 this B-NP
 issue I-NP
-and O
-abortion B-NP
+and I-NP
+abortion I-NP
 , O
 he B-NP
 has B-VP
@@ -26818,8 +26818,8 @@ on B-PP
 some B-NP
 of B-PP
 the B-NP
-most B-ADVP
-hallowed I-ADVP
+most I-NP
+hallowed I-NP
 -- O
 and O
 slowest B-INTJ
@@ -26850,7 +26850,7 @@ the B-NP
 direction I-NP
 of B-PP
 less B-NP
-and I-NP
+and O
 less B-PP
 animation B-NP
 , O
@@ -26881,7 +26881,7 @@ Co I-NP
 
 In B-PP
 July B-NP
-a B-NP
+a I-NP
 year I-NP
 later B-ADVP
 , O
@@ -26917,12 +26917,12 @@ MGM\/UA B-NP
 . O
 
 The B-NP
-$ I-NP
-125-billion-a-year I-NP
-Bay I-NP
-area I-NP
-economy I-NP
-represents B-VP
+$ B-ADJP
+125-billion-a-year O
+Bay O
+area O
+economy O
+represents O
 one-fourth O
 of O
 the O
@@ -26967,7 +26967,7 @@ Economy O
 in O
 Palo O
 Alto O
-. B-NP
+. O
 
 Confidence B-ADVP
 in B-PP
@@ -26987,7 +26987,7 @@ figures I-NP
 for B-PP
 September B-NP
 , O
-due B-ADJP
+due B-PP
 for B-NP
 release I-NP
 tomorrow B-NP
@@ -27065,13 +27065,13 @@ jury I-NP
 in B-PP
 Los B-NP
 Angeles I-NP
-last I-NP
+last B-NP
 month I-NP
 . O
 
 That B-NP
 could B-VP
-widen I-VP
+widen B-SBAR
 the B-NP
 yield I-NP
 spread I-NP
@@ -27099,8 +27099,8 @@ managers I-NP
 are B-VP
 the B-NP
 ones I-NP
-most B-ADJP
-thrilled I-ADJP
+most I-NP
+thrilled I-NP
 by B-PP
 the B-NP
 contract I-NP
@@ -27111,8 +27111,8 @@ with B-PP
 industrial B-NP
 growth I-NP
 stagnant I-NP
-and O
-inflation B-NP
+and I-NP
+inflation I-NP
 showing B-VP
 signs B-NP
 of B-PP
@@ -27156,7 +27156,7 @@ believe B-VP
 the B-NP
 deck I-NP
 is B-VP
-stacked B-PRT
+stacked I-VP
 against B-PP
 them B-NP
 . O
@@ -27170,7 +27170,7 @@ delayed I-VP
 twice B-ADVP
 , O
 once B-ADVP
-because B-SBAR
+because B-PP
 of B-PP
 a B-NP
 computer I-NP
@@ -27195,7 +27195,7 @@ economy I-NP
 slowdown I-NP
 is B-VP
 due B-ADJP
-only I-ADJP
+only B-ADVP
 partly B-ADVP
 to B-PP
 the B-NP
@@ -27217,7 +27217,7 @@ inflation I-NP
 
 The B-NP
 GOP I-NP
-doubters O
+doubters B-ADVP
 were B-VP
 in B-PP
 Congress B-NP
