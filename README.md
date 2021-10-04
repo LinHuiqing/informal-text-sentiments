@@ -1,4 +1,16 @@
-# 50.007 Machine Learning Project
+# Sequence Labelling Model for Informal Text
+
+_This project was done as part of SUTD's 50.007 Machine Learning course._
+
+## Description
+
+Many start-up companies are interested in developing automated systems for analysing sentiment information associated with social media data. Such sentiment information can be used for making important decisions such as making product recommendations, predicting social stance and forecasting financial market trends.
+
+The idea behind sentiment analysis is to analyse the natural language texts types, shared and read by users through services such as Twitter and Weibo and analyse such texts to infer the users' sentiment information towards certain targets. Such social texts can be different from standard texts that appear, for example on news articles. They are often very informal, and can be very noisy. It is very essential to build machine learning systems that can automatically analyse and comprehend the underlying sentiment information associated with such informal texts.
+
+As such, we designed a sequence labelling model for informal texts using the hidden Markov model (HMM).
+
+## Setup
 
 Before starting, do make sure that your project directory is in the following structure:
 
